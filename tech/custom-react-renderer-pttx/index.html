@@ -1,0 +1,456 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">製作 Custom React renderer - 用 React 寫 ppt | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infocustom-react-renderer-pttx"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="製作 Custom React renderer - 用 React 寫 ppt"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="製作 Custom React renderer - 用 React 寫 ppt"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infocustom-react-renderer-pttx","url":"https://blog.arvinh.infocustom-react-renderer-pttx","name":"製作 Custom React renderer - 用 React 寫 ppt","alternateName":"ArvinHuang Blog","headline":"製作 Custom React renderer - 用 React 寫 ppt","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"02-26-2020","dateModified":"02-26-2020","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-82d7347b7db27513c904.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/custom-react-renderer-pttx/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">製作 Custom React renderer - 用 React 寫 ppt</div><div class="Subline-sc-1j7ecob-0 KMFWk">02-26-2020<!-- --> — <!-- -->16<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>『願你餘生所有的珍惜都不用靠失去來懂得。』</p>
+</blockquote>
+<!-- more -->
+<h1 id="前言" style="position:relative;"><a href="#%E5%89%8D%E8%A8%80" aria-label="前言 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h1>
+<p>最近因為武漢肺炎的關係，公司展開了不知得持續多久的 Work From Home 政策，雖然團隊裡有些人不太喜歡，覺得這樣溝通與開會效率比不上在辦公室面對面，但我個人是還蠻習慣的，並且，這節省下來的通勤時間，剛好讓我可以多看一些影片跟玩玩 side project。這次在補帶 React Conf 2019 的影片時，看到前 React team 的 EM, Sophie Alpert 介紹 <a href="https://www.youtube.com/watch?v=CGpMlWVcHok" target="_blank" rel="nofollow noopener noreferrer">Building a Custom React Renderer</a>，加上 side project 用上了 <a href="https://github.com/vadimdemedes/ink" target="_blank" rel="nofollow noopener noreferrer">ink</a> 這個能用 React 撰寫 command line 工具的套件，讓我決定透過實際操作來了解何謂 Custom React Renderer，以及該如何打造。除了 Sophie Alpert 的影片外，基本上是參考 <a href="https://github.com/nitin42/Making-a-custom-React-renderer" target="_blank" rel="nofollow noopener noreferrer">@nitin42 的這份教學</a>，以 <a href="https://github.com/Ziv-Barber/officegen" target="_blank" rel="nofollow noopener noreferrer">officegen</a> 作為 React Component 的 host environment，讓我們能用撰寫 React 的方式來製作 pptx 投影片！</p>
+<h1 id="react-reconciliation-與-renderer" style="position:relative;"><a href="#react-reconciliation-%E8%88%87-renderer" aria-label="react reconciliation 與 renderer permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React Reconciliation 與 Renderer</h1>
+<p>React 的架構中有兩個主要的重心，<strong>reconciliation</strong> 與 <strong>rendering</strong>。<strong>reconciliation</strong> 是 React 用來找出狀態改變前後，其 UI 樹狀結構差異的演算法，並決定哪一部分的節點是需要被更動的，也就是市面上流傳所謂 <code class="language-text">Virtual DOM</code> 的核心概念。但實際上所謂 <code class="language-text">Virtual DOM</code> 這個名詞有點誤用，因為在 <strong>reconciliation</strong> 的演算法與定義中，完全不涉及 <strong>DOM</strong>，<strong>DOM</strong> 只是 React reconciliation 可以套用的其中一個 <strong>Host Environment</strong>，<strong>rendering</strong> 的過程會依據 <strong>reconiliation</strong> 的結果，搭配所在的 <strong>Host Environment</strong> 來渲染出相對應的畫面，這就是 <strong>Renderer</strong> 所負責的。例如 <code class="language-text">React-Native</code> 就是 <strong>Host Environment</strong> 為 iOS、Android 平台的一種 Renderer，當然 <code class="language-text">react-dom</code> 也是。</p>
+<p>這個架構老早就存在於 React 的核心中，當初 Fiber 架構就是在改善 <strong>reconciliation</strong> 的實作方式（當然也有影響 renderer 的實作），也有許多文章在探討與說明。</p>
+<p>只是較少為人知的是，Rect 其實有一個 <code class="language-text">react-reconciler</code> 的套件可以使用，幫你處理好 reconciliation 的部分，提供一些介面讓你根據想要的 host environment 實作 rendering，而這就是為什麼有人能客製化各種 renderer，讓大家能用 React 撰寫 VR、Command Line 或是 等等（可參考此 <a href="https://github.com/chentsulin/awesome-react-renderer" target="_blank" rel="nofollow noopener noreferrer">awesome list</a>）。</p>
+<p>關於 Fiber 架構的觀念介紹，推薦大家去看 <a href="https://twitter.com/acdlite?lang=en" target="_blank" rel="nofollow noopener noreferrer">Andrew Clark</a> 的<a href="https://github.com/acdlite/react-fiber-architecture" target="_blank" rel="nofollow noopener noreferrer">文章</a>，雖然是很久之前寫的，但我覺得觀念闡述的很清晰易懂。</p>
+<p>簡單來說，所謂的 fiber 是在 reconciliation 中的一個工作單位，一個 fiber 是一個 JavaScript object，包含著一個 Component 的資訊，其輸入與輸出，在接下來的實作中，我們會利用 <code class="language-text">react-reconciler</code> 與 fiber 所提供的 Component 資訊來實作一個客製化 PPTXRenderer。</p>
+<h2 id="最終的結果" style="position:relative;"><a href="#%E6%9C%80%E7%B5%82%E7%9A%84%E7%B5%90%E6%9E%9C" aria-label="最終的結果 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>最終的結果</h2>
+<p>先看一下最終的成品功能，這樣在說明後面的實作時，應該會比較有感受。</p>
+<p>這次範例中所客製化的 PPTXRenderer 可以讓我們使用兩個 Component：<code class="language-text">&lt;Slide></code> 與 <code class="language-text">&lt;Text></code> 來產生投影片。</p>
+<p>例如在 <code class="language-text">App.js</code> 中這樣寫：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Text<span class="token punctuation">,</span> Slide<span class="token punctuation">,</span> render <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../src'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>React<span class="token punctuation">.</span>Fragment<span class="token operator">></span>
+    <span class="token operator">&lt;</span>Slide<span class="token operator">></span>
+      <span class="token operator">&lt;</span>Text<span class="token operator">></span>Slide <span class="token number">1</span> 😁 😁<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Slide<span class="token operator">></span>
+    <span class="token operator">&lt;</span>Slide<span class="token operator">></span>
+      <span class="token operator">&lt;</span>Text<span class="token operator">></span>Slide <span class="token number">2</span> 😍 😍<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Slide<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>React<span class="token punctuation">.</span>Fragment<span class="token operator">></span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>__dirname<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/text.pptx</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>會產生這樣的投影片：</p>
+<p><img src="https://static.coderbridge.com/img/ArvinH/29dd4226b9c0462bb75ef278795ee337.gif" alt="demo"></p>
+<blockquote>
+<p>TL;DR
+篇幅有點長，很多程式碼，若不想看文章，可以直接參考程式碼 <a href="https://github.com/ArvinH/reapptx" target="_blank" rel="nofollow noopener noreferrer">reapptx</a></p>
+</blockquote>
+<h1 id="custom-renderer-基本結構" style="position:relative;"><a href="#custom-renderer-%E5%9F%BA%E6%9C%AC%E7%B5%90%E6%A7%8B" aria-label="custom renderer 基本結構 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom Renderer 基本結構</h1>
+<p><code class="language-text">react-reconciler</code> 提供的函式可以接受一個 <strong>host config object</strong>，並回傳 renderer instance。其中 <strong>host config object</strong> 是我們用來定義與實作在 renderer 的 lifecycle 中所需要的 method，包含 <code class="language-text">update</code>、<code class="language-text">append children</code>、<code class="language-text">remove children</code> 等等，這邊所處理的通通都是 <strong>host environment</strong> 底下的 components，其餘 non-host 的 components 都會由 React 負責管理。</p>
+<p>先看看 <code class="language-text">react-reconciler</code> Readme 內提供的範例：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> Reconciler <span class="token keyword">from</span> <span class="token string">"react-reconciler"</span>
+
+<span class="token keyword">const</span> HostConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// You'll need to implement some methods here.</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> MyRenderer <span class="token operator">=</span> <span class="token function">Reconciler</span><span class="token punctuation">(</span>HostConfig<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> RendererPublicAPI <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">element<span class="token punctuation">,</span> container<span class="token punctuation">,</span> callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> MyRendererContainer <span class="token operator">=</span> MyRenderer<span class="token punctuation">.</span><span class="token function">createContainer</span><span class="token punctuation">(</span>container<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// Call MyRenderer.updateContainer() to schedule changes on the roots.</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> RendererPublicAPI<span class="token punctuation">;</span></code></pre></div>
+<p>還記得你一般開發 react app 時，都會呼叫 <code class="language-text">ReactDOM.render</code> 來將你的 root component 掛載到一個 <code class="language-text">div</code> 上頭嗎？上述程式碼中所 export 的 <code class="language-text">RenderPublicAPI.render</code> 就等同於 <code class="language-text">ReactDOM.render</code>。</p>
+<p>而在 <code class="language-text">render</code> 函式中，由 <code class="language-text">HostConfig</code> 與 <code class="language-text">react-conciler</code> 所建構的 custom renderer 就可以將 React component 應用在不同的 host environment 中。</p>
+<p>至於如何實作 <code class="language-text">HostConfig</code>，這邊有<a href="https://github.com/facebook/react/blob/master/packages/react-reconciler/src/forks/ReactFiberHostConfig.custom.js" target="_blank" rel="nofollow noopener noreferrer">完整的 method 列表</a>，你也可以參考 <a href="https://github.com/facebook/react/blob/master/packages/react-dom/src/client/ReactDOMHostConfig.js" target="_blank" rel="nofollow noopener noreferrer"><code class="language-text">react-dom</code></a> 或 <a href="https://github.com/facebook/react/blob/master/packages/react-native-renderer/src/ReactNativeHostConfig.js" target="_blank" rel="nofollow noopener noreferrer"><code class="language-text">react-native</code> 的 HostConfig</a>。</p>
+<p>不過從列表中洋洋灑灑一堆 interface，到底哪些是重要的呢？</p>
+<p>我們可以利用一個方式來測試，先把原本使用 <code class="language-text">react-dom</code> 的 renderer 換成你自己的：</p>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">import React from "react";
+<span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>// import ReactDOM from "react-dom";
+<span class="token prefix inserted">+</span>import MyRenderer from "./MyRenderer";
+</span>
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+<span class="token deleted-sign deleted"><span class="token prefix deleted">-</span>ReactDOM.render(
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>MyRenderer.render(
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span> &lt;React.StrictMode>
+<span class="token prefix unchanged"> </span>   &lt;App />
+<span class="token prefix unchanged"> </span> &lt;/React.StrictMode>,
+<span class="token prefix unchanged"> </span> rootElement
+</span>);</code></pre></div>
+<p>而在 <code class="language-text">MyRenderer.js</code> 中，將各個函式一個一個放上去，並加上 log，直到你的頁面沒有出現 error：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> Reconciler <span class="token keyword">from</span> <span class="token string">"react-reconciler"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> HostConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function">appendInitialChild</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"appendInitialChild"</span><span class="token punctuation">,</span> <span class="token operator">...</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"createInstance"</span><span class="token punctuation">,</span> <span class="token operator">...</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">createTextInstance</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"createTextInstance"</span><span class="token punctuation">,</span> <span class="token operator">...</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// ... 依此類推將各種 method 都放上去，並加上 log</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> MyRenderer <span class="token operator">=</span> <span class="token function">Reconciler</span><span class="token punctuation">(</span>HostConfig<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> RendererPublicAPI <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">element<span class="token punctuation">,</span> container</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// render function 中的內容則參考 react-conciler 的 readme</span>
+    <span class="token comment">// 將 renderer 的 container 創建出來，並將傳入的 element update 上去。</span>
+    <span class="token keyword">const</span> MyRendererContainer <span class="token operator">=</span> MyRenderer<span class="token punctuation">.</span><span class="token function">createContainer</span><span class="token punctuation">(</span>container<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    MyRenderer<span class="token punctuation">.</span><span class="token function">updateContainer</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span> MyRendererContainer<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> RendererPublicAPI<span class="token punctuation">;</span></code></pre></div>
+<p>這時你的頁面應該會是空白的，因為你所有 renderer 的 method 都尚未實作。但如此一來就能觀察出在你的 <code class="language-text">&lt;App /></code> component 中，renderer 會調用哪些函數、執行順序為何、個別的參數是什麼。</p>
+<p>這邊給大家一個 codesandbox 的例子把玩：</p>
+<iframe
+  src="https://codesandbox.io/embed/youthful-shaw-cinj5?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="custom-react-renderer-check-func-order"
+  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="實際的-host-config" style="position:relative;"><a href="#%E5%AF%A6%E9%9A%9B%E7%9A%84-host-config" aria-label="實際的 host config permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>實際的 Host Config</h2>
+<p>初步了解 Renderer 的結構與需要填入的 Host Config 後，我們可以來實作需要的 method：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> Reconciler <span class="token keyword">from</span> <span class="token string">'react-reconciler'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> hostConfig <span class="token operator">=</span> <span class="token punctuation">{</span>
+	<span class="token function">appendInitialChild</span><span class="token punctuation">(</span><span class="token parameter">parentInstance<span class="token punctuation">,</span> child</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>parentInstance<span class="token punctuation">.</span>appendChild<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      parentInstance<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>child<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">createInstance</span><span class="token punctuation">(</span>
+    <span class="token parameter">type<span class="token punctuation">,</span>
+    props<span class="token punctuation">,</span>
+    rootContainerInstance<span class="token punctuation">,</span>
+    hostContext<span class="token punctuation">,</span>
+    internalInstanceHandle</span>
+  <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token constant">COMPONENTS</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token function-variable function">ROOT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">PPTXDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">TEXT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">SLIDE</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Slide</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token keyword">default</span><span class="token operator">:</span> <span class="token keyword">undefined</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">return</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">.</span>default<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">getRootHostContext</span><span class="token punctuation">(</span><span class="token parameter">instance</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span> 
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">getChildHostContext</span><span class="token punctuation">(</span><span class="token parameter">parentHostContext<span class="token punctuation">,</span> type<span class="token punctuation">,</span> rootContainerInstance</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">shouldSetTextContent</span><span class="token punctuation">(</span><span class="token parameter">type<span class="token punctuation">,</span> props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">createTextInstance</span><span class="token punctuation">(</span>
+    <span class="token parameter">text<span class="token punctuation">,</span>
+    rootContainerInstance<span class="token punctuation">,</span>
+    hostContext<span class="token punctuation">,</span>
+    internalInstanceHandle</span>
+  <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> text<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">finalizeInitialChildren</span><span class="token punctuation">(</span>
+    <span class="token parameter">parentInstance<span class="token punctuation">,</span>
+    type<span class="token punctuation">,</span>
+    props<span class="token punctuation">,</span>
+    rootContainerInstance<span class="token punctuation">,</span>
+    hostContext</span>
+  <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">getPublicInstance</span><span class="token punctuation">(</span><span class="token parameter">inst</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> inst<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">prepareForCommit</span><span class="token punctuation">(</span><span class="token parameter">rootcontainerInfo</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* noop */</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">resetAfterCommit</span><span class="token punctuation">(</span><span class="token parameter">rootcontainerInfo</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* noop */</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">appendChildToContainer</span><span class="token punctuation">(</span><span class="token parameter">container<span class="token punctuation">,</span> child</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* noop */</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function">removeChildFromContainer</span><span class="token punctuation">(</span><span class="token parameter">container<span class="token punctuation">,</span> child</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* noop */</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token function-variable function">now</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  supportsMutation<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> PPTXRenderer <span class="token operator">=</span> <span class="token function">Reconciler</span><span class="token punctuation">(</span>hostConfig<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>有許多 function 是必要但我們的範例中用不著的，所以留空，不過我還是一個一個說明他們各自的功能為何。</p>
+<ul>
+<li><code class="language-text">appendInitialChild(parentInstance, child)</code></li>
+</ul>
+<p>當 renderer 在繪製 component 的時候，會透過此函式將該 component 的 child component append 上去，所以在這個函式中，你必須實作如何將你想要 render 的 component child 加到其 parent component 上頭。以我們的範例為例，是會在每個 component 都實作一個 <code class="language-text">appendChild</code> 函式，在這邊我們就只需要執行 <code class="language-text">parentInstance.appendChild(child);</code> 即可。</p>
+<ul>
+<li><code class="language-text">createInstance(
+type,
+props,
+rootContainerInstance,
+hostContext,
+internalInstanceHandle
+)</code></li>
+</ul>
+<p>看名字就知道是在創建 Component instance 的函式，會傳入當前節點的 type、該節點的 props、根節點的實例、host 環境的 context，以及一個叫做 internalInstanceHandle 的物件。</p>
+<p>其他參數都很好懂，這個 internalInstanceHandle 其實就是對應此節點的 fiber。我們前面有說過，fiber 代表的是整個 reconciler 過程中的一個工作單位，而每個 component 都有對應的兩種 fiber，分別是已經完成工作，可以render 的 flushed fiber 跟尚未處理完的 work in progress fiber，fiber 中包含許多 component 的資訊。基本上這個範例中，前面兩個參數就足夠了。想了解更多 fiber 的內容請參考 <a href="https://github.com/acdlite/react-fiber-architecture" target="_blank" rel="nofollow noopener noreferrer">react-fiber-architecture</a>。</p>
+<p>在這個範例中，我們只需要透過傳入的 type 來決定我們要對應產生哪個 component 的實例，後面會在說明每個 component 的實作：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token constant">COMPONENTS</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">ROOT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">PPTXDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">TEXT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">SLIDE</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Slide</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token keyword">default</span><span class="token operator">:</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	
+<span class="token keyword">return</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">.</span>default<span class="token punctuation">;</span></code></pre></div>
+<ul>
+<li><code class="language-text">getRootHostContext(instance)</code></li>
+</ul>
+<p>這個函式讓你能夠與 Host Config 中的其他 method 共享 context。基本上會傳入 root component instance 當參數。
+在這範例中，並沒有需要 share 任何 context，所以回傳個空物件即可。</p>
+<ul>
+<li><code class="language-text">getChildHostContext(parentHostContext, type, rootContainerInstance)</code></li>
+</ul>
+<p>與上一個函式雷同，讓你能夠分享 context 給當下節點的 children，也能取得 parent 的 context。我們一樣不需要用到，所以回傳空物件。</p>
+<ul>
+<li><code class="language-text">shouldSetTextContent(type, props)</code></li>
+</ul>
+<p>就我的理解，這個函數的目的可以簡單說是讓你有機會判斷是否要將 traversal 停止在當前節點。通常我們的 leaf node 都會是 text node，若在此函式內你回傳 true，則 reconciler 會停止繼續往下 traverse，他會停止在這層，然後接著呼叫 <code class="language-text">createInstance</code> 去創建實例。</p>
+<p>若是設為 false，reconciler 澤會繼續遞迴下去，直到此函式回傳 true，或是真的達到了 leaf text node。若是達到 leaf text node，就會呼叫另個函式 - <code class="language-text">createTextInstance</code>。</p>
+<p>以我們的範例來說，我們不像 <code class="language-text">react-dom</code> 需要考慮 <code class="language-text">textarea</code> 或是 <code class="language-text">dangerouslySetInnerHTML</code> 等情況，都直接回傳 false 即可。</p>
+<ul>
+<li><code class="language-text">createTextInstance(text, rootContainerInstance, hostContext, internalInstanceHandle)</code></li>
+</ul>
+<p>顧名思義就是創建 Text instance，這個 Text 指的是你在 component 中直接撰寫的 string 部分，例如：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token operator">&lt;</span>Text<span class="token operator">></span> Taiwan No<span class="token punctuation">.</span><span class="token number">1</span> <span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span></code></pre></div>
+<p><code class="language-text">Taiwan No.1</code> 就是這邊要處理的 Text instance。在 <code class="language-text">react-dom</code> 中就是要創建一個 <code class="language-text">textNode</code>，而在這邊我們直接回傳 Text 本身，讓他的父節點 <code class="language-text">&lt;Text></code> 來處理。
+除了第一個參數 text 外，ㄧ樣會有 root component instance、host context 跟 internalInstanceHandle(fiber)，ㄧ樣我們只會用到第一個參數 text。</p>
+<ul>
+<li><code class="language-text">finalizeInitialChildren(
+parentInstance,
+type,
+props,
+rootContainerInstance,
+hostContext
+)</code></li>
+</ul>
+<p>這個函式主要目的在於告訴 reconciler 需不需要在當前的 component 上呼叫 <code class="language-text">commitMount()</code>，也就是需不需要等到所有 element 都被 rendered 以後才執行某些事情。例如 input elements 的 autofocus，就需要等 component mount 以後才能被呼叫。
+在我們的範例中，不需要做這些事，所以就回傳 false 即可。若是你回傳 true，那就必須也實作 <code class="language-text">commitMount</code>。</p>
+<ul>
+<li><code class="language-text">getPublicInstance(ins)</code></li>
+</ul>
+<p>只是個公開介面讓你能取得 instance。</p>
+<ul>
+<li><code class="language-text">prepareForCommit(rootcontainerInfo)</code></li>
+</ul>
+<p>當你的節點實例都生成後，即將掛載到根節點時，可以在這個函式內進行一些準備工作，例如統計需要 autofucs 的節點等等，以我們的範例來說不需要做任何事，留空。</p>
+<ul>
+<li><code class="language-text">resetAfterCommit(rootcontainerInfo)</code></li>
+</ul>
+<p>當 reconciliation 結束，inmemory tree 都掛載到 host root element 時，我們可以利用這個函式執行任何後續動作，像是回覆一些 event 狀態等等。</p>
+<ul>
+<li><code class="language-text">appendChildToContainer(container, child)</code></li>
+<li><code class="language-text">removeChildFromContainer(container, child)</code></li>
+<li><code class="language-text">supportsMutation</code></li>
+</ul>
+<p>這幾個可以一起看，<code class="language-text">supportsMutation</code> 代表的是你的 host environment 支不支援一些可以更改結構的 API，像是 DOM 內的 <code class="language-text">appendChild</code>，若有則回傳 true，並實作 <code class="language-text">appendChildToContainer</code> 與 <code class="language-text">removeChildFromContainer</code>，讓 renderer 知道當 host element 執行 mutative api 時該如何處理。
+在我們的範例中我們不需要用到這些，但因為這應該是蠻容易用到的，所以我設為 true 並在這邊說明一下。</p>
+<ul>
+<li><code class="language-text">now()</code></li>
+</ul>
+<p>host config 內最後一個函式 <code class="language-text">now()</code>，是 reconciler 用來計算當前時間的，我們可以留空，或是提供 <code class="language-text">Date.now</code>。</p>
+<h2 id="對應-custom-renderer-的-component" style="position:relative;"><a href="#%E5%B0%8D%E6%87%89-custom-renderer-%E7%9A%84-component" aria-label="對應 custom renderer 的 component permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>對應 Custom Renderer 的 component</h2>
+<p>終於走完一遍 host config，接下來可以看看我們的 component 該怎麼實作。</p>
+<p>在我們的 <code class="language-text">createInstance()</code> 中，我們根據傳入的 fiber type 來決定要實例化哪個 component：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">createInstance</span><span class="token punctuation">(</span><span class="token parameter">type<span class="token punctuation">,</span> props<span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token constant">COMPONENTS</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">ROOT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">PPTXDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">TEXT</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">SLIDE</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">new</span> <span class="token class-name">Slide</span><span class="token punctuation">(</span>rootContainerInstance<span class="token punctuation">,</span> props<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> <span class="token keyword">undefined</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token constant">COMPONENTS</span><span class="token punctuation">.</span>default<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+<h4 id="root-component---pptxdocument" style="position:relative;"><a href="#root-component---pptxdocument" aria-label="root component   pptxdocument permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Root Component - PPTXDocument</h4>
+<p>Root component 在 <code class="language-text">react-dom</code> 內可以說是 <code class="language-text">document</code> 物件，而在我們的 PPTXRenderer 中，該角色就是 <code class="language-text">new officegen('pptx')</code> 物件：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">PPTXDocument</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>pptx <span class="token operator">=</span> <span class="token function">officegen</span><span class="token punctuation">(</span><span class="token string">'pptx'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>而此物件會被當成 <code class="language-text">rootContainerInstance</code> 被傳到其他 host config 的函式中。</p>
+<h4 id="slide-component" style="position:relative;"><a href="#slide-component" aria-label="slide component permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Slide Component</h4>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Slide</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">root<span class="token punctuation">,</span> props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>root <span class="token operator">=</span> root<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>props <span class="token operator">=</span> props<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>slideInstance <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>root<span class="token punctuation">.</span>pptx<span class="token punctuation">.</span><span class="token function">makeNewSlide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token parameter">child</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 依據不同 Host environment 來決定要如何實作</span>
+    <span class="token comment">// 在 react-dom 中，可能就是 document.appendChild(child)</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>child<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">'TEXT'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// render the text node</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>slideInstance<span class="token punctuation">.</span><span class="token function">addText</span><span class="token punctuation">(</span>child<span class="token punctuation">.</span>content<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Slide component 會取得 root instance，並呼叫 <code class="language-text">makeNewSlide()</code> 來創建 slide（這是屬於 <code class="language-text">officegen</code> 的 API）。</p>
+<p>然後我們需要實作 <code class="language-text">appendChild(child)</code>，因為我們希望能透過以下的方式來創建 slides：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token operator">&lt;</span>Slide<span class="token operator">></span>
+  <span class="token operator">&lt;</span>Text<span class="token operator">></span>Slide <span class="token number">1</span> 😁<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>Slide<span class="token operator">></span></code></pre></div>
+<p>能接收一個 <code class="language-text">&lt;Text></code> component 當子節點來 render Text 到 slide 上，我們用 <code class="language-text">officegen</code> 提供的 <code class="language-text">addText</code> 來將 <code class="language-text">child.content</code> 繪製上去。此函式會被 <code class="language-text">appendInitialChild</code> 呼叫。</p>
+<h4 id="text-component" style="position:relative;"><a href="#text-component" aria-label="text component permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Text Component</h4>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Text</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">root<span class="token punctuation">,</span> props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>type <span class="token operator">=</span> <span class="token string">'TEXT'</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>content <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">appendChild</span><span class="token punctuation">(</span><span class="token parameter">child</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> child <span class="token operator">===</span> <span class="token string">'string'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>content <span class="token operator">=</span> child<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>基本結構一樣，只是在 <code class="language-text">appendChild</code> 中，我們不用 append 任何 child，反之，我們需要將 text component 收到的 text child 存入一個 content 變數，讓其 parent(slide component) 可以接收到。</p>
+<h4 id="注意事項" style="position:relative;"><a href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" aria-label="注意事項 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>注意事項</h4>
+<p>雖然我們在這邊都創建了 <code class="language-text">Slide</code> 與 <code class="language-text">Text</code> component，但是在真正使用在 jsx 裡面時（也就是 <code class="language-text">App.js</code>）是不能直接 import 這邊的 component 來使用的，我們可以另外創建一個 string alias 給 <code class="language-text">App.js</code> 使用：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// Aliases for createInstance</span>
+<span class="token keyword">const</span> Text <span class="token operator">=</span> <span class="token string">'TEXT'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> Slide <span class="token operator">=</span> <span class="token string">'SLIDE'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Slide<span class="token operator">></span>
+    <span class="token operator">&lt;</span>Text<span class="token operator">></span>Slide <span class="token number">1</span> 😁 😁<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Slide<span class="token operator">></span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>我們上述所撰寫的 Component 會在 reconciler 的 <code class="language-text">createInstance</code> 中依據這邊的 alias 來創建實例。</p>
+<h4 id="render-function" style="position:relative;"><a href="#render-function" aria-label="render function permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Render function</h4>
+<p>最後我們要實作 render function 來真正取代一般的 <code class="language-text">ReactDOM.render</code>：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// render component</span>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token parameter">component<span class="token punctuation">,</span> filePath</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 創建 Root component instance 當整個 react tree 的 root。 </span>
+  <span class="token keyword">const</span> container <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">PPTXDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 呼叫 create container，該函式會回傳一個 flushed fiber（完成工作的 fiber，代表可以 render）</span>
+  <span class="token keyword">const</span> node <span class="token operator">=</span> PPTXRenderer<span class="token punctuation">.</span><span class="token function">createContainer</span><span class="token punctuation">(</span>container<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 接著透過呼叫 updateContainer 來設定一個從根節點開始的 update，更新整個樹。</span>
+  PPTXRenderer<span class="token punctuation">.</span><span class="token function">updateContainer</span><span class="token punctuation">(</span>component<span class="token punctuation">,</span> node<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// Officegen generates a output stream and not a file</span>
+  <span class="token keyword">const</span> stream <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">createWriteStream</span><span class="token punctuation">(</span>filePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">await</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token comment">// Generate a pptx document</span>
+    container<span class="token punctuation">.</span>pptx<span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span>stream<span class="token punctuation">,</span> <span class="token function">Events</span><span class="token punctuation">(</span>filePath<span class="token punctuation">,</span> resolve<span class="token punctuation">,</span> reject<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>記得我們一般在呼叫 <code class="language-text">ReactDOM.render</code> 時，都會傳入兩個參數嗎？一個是我們的 root component，一個就是要掛載的 dom element，而在我們的範例中，我們一樣傳入 root component，但第二參數給予的是要產生的 ppt 的路徑，而非要掛載的 element，因為我們是要將 react component 寫入 pptx 檔案。</p>
+<p>最後在回傳的 Promise function 中，我們呼叫 <code class="language-text">officegen</code> 的 <code class="language-text">generate</code> 函式來將我們在前面 host config 的 lifecycle method 中所附加到根節點的內容（appendChild 的部分）寫入檔案。</p>
+<p>這樣就完成了我們的 Custom Renderer！</p>
+<p>完整程式碼在此 -> <a href="https://github.com/ArvinH/reapptx" target="_blank" rel="nofollow noopener noreferrer">reapptx</a></p>
+<h2 id="補充說明---update" style="position:relative;"><a href="#%E8%A3%9C%E5%85%85%E8%AA%AA%E6%98%8E---update" aria-label="補充說明   update permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>補充說明 - update</h2>
+<p>這次的範例裡面並沒有需要更新 Component 狀態，如果你需要實作一個能處理 state update 的 custom renderer，在你的 host config 中，除了 <code class="language-text">appendChildToContainer()</code> 和 <code class="language-text">removeChildFromContainer()</code> 外，還需要實作 <code class="language-text">prepareUpdate()</code> 與 <code class="language-text">commitUpdate()</code>。</p>
+<ul>
+<li><code class="language-text">prepareUpdate(instance, type, oldProps, newProps, rootContainerInstance, hostContext)</code></li>
+</ul>
+<p>從他傳入的參數就可以看出，你可以藉由 <code class="language-text">oldProps</code> 與 <code class="language-text">newProps</code> 的比較來決定是否要進行更新，若不需要就回傳 null，要的話就回傳要更新的 payload。</p>
+<ul>
+<li><code class="language-text">commitUpdate(instance, updatePayload, type, oldProps, newProps, internalInstanceHandle)</code></li>
+</ul>
+<p>這個函式就是負責最後將要 <code class="language-text">prepareUpdate</code> 回傳的 update payload 套用到實際 instance 上。</p>
+<p>關於<strong>更新</strong>的實際例子，可以參考 <a href="https://juejin.im/post/5c31b814f265da612b13bf23#heading-3" target="_blank" rel="nofollow noopener noreferrer">react 渲染器了解一下</a> 這篇文章，有實際的例子與詳細程式碼講解。</p>
+<h2 id="結論" style="position:relative;"><a href="#%E7%B5%90%E8%AB%96" aria-label="結論 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結論</h2>
+<p>一不小心洋洋灑灑紀錄了一堆，但透過製作 custom react renderer，一步步把整個流程與其中用到的函式都釐清用途後，對於 react 在進行 reconciliation 與 rendering 的流程多了不少了解，也不再對 React 為什麼能套用在這麼多不同的環境中感到神秘了，算是很不錯的收穫！有耐心看完的讀者若發現錯誤或是不清楚的地方，歡迎留言告知指教。</p>
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=CGpMlWVcHok" target="_blank" rel="nofollow noopener noreferrer">Building a Custom React Renderer</a></li>
+<li><a href="https://github.com/nitin42/Making-a-custom-React-renderer" target="_blank" rel="nofollow noopener noreferrer">Making-a-custom-React-renderer</a></li>
+<li><a href="https://blog.atulr.com/react-custom-renderer-1/" target="_blank" rel="nofollow noopener noreferrer">⚛️👆Beginners guide to React Renderers. How to build your own renderer from scratch?</a></li>
+<li><a href="https://juejin.im/post/5c31b814f265da612b13bf23#heading-3" target="_blank" rel="nofollow noopener noreferrer">react 渲染器了解一下?</a></li>
+<li><a href="https://github.com/facebook/react/tree/60016c448bb7d19fc989acd05dda5aca2e124381/packages/react-reconciler" target="_blank" rel="nofollow noopener noreferrer">facebook/react-reconciler</a></li>
+<li><a href="https://github.com/chentsulin/awesome-react-renderer" target="_blank" rel="nofollow noopener noreferrer">awesome-react-renderer</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/web"><strong>web</strong> <!-- -->, </a><a href="/tags/react"><strong>react</strong> <!-- -->, </a><a href="/tags/renderer"><strong>renderer</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/box-shadow-drawing">利用 box-shadow 畫出任何圖案</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/stenciljs-webcomponent">利用 Stencil 建構 Web Component</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->05-05-2023</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/custom-react-renderer-pttx";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-c0720f3ed297713848ef.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-82d7347b7db27513c904.js" async=""></script></body></html>
