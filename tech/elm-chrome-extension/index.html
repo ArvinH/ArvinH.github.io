@@ -1,0 +1,459 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">利用 Elm 製作 Chrome Extension | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infoelm-chrome-extension"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="利用 Elm 製作 Chrome Extension"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="利用 Elm 製作 Chrome Extension"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infoelm-chrome-extension","url":"https://blog.arvinh.infoelm-chrome-extension","name":"利用 Elm 製作 Chrome Extension","alternateName":"ArvinHuang Blog","headline":"利用 Elm 製作 Chrome Extension","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"04-22-2019","dateModified":"04-22-2019","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-f5383e67068afc3e3873.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/elm-chrome-extension/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">利用 Elm 製作 Chrome Extension</div><div class="Subline-sc-1j7ecob-0 KMFWk">04-22-2019<!-- --> — <!-- -->17<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>『You would never make something great if you are afraid that it's going to suck』
+『It's not a thing if it leads you to your success』
+--- Justin Timberlake</p>
+</blockquote>
+<!-- more -->
+<h2 id="前言" style="position:relative;"><a href="#%E5%89%8D%E8%A8%80" aria-label="前言 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h2>
+<p>直接先來個成果圖：</p>
+<p><img src="/image/elm-extension.gif" alt="result"></p>
+<p>今年二月移轉陣地到日本來工作，搬到一個人生地不熟的地方，初始開銷少不了，除了交通、伙食、房租外，還需要添購許多傢俱。而當然，所有東西都是以日幣標價，就算 Amazon JP 已經非常方便的有簡體版的語系可以切換，價格上還是得以日幣顯示。</p>
+<p>對我來說，還沒有辦法習慣以日幣來衡量物品的價值，像是我能很快知道一千日幣大約三百台幣，但看到一個東西標價兩萬九日幣，我沒辦法很快速的理解這東西是多貴或多便宜，腦袋還是會想把它轉成台幣來衡量。</p>
+<p>所以就造成我在 Amazon JP 或是 Nitori 的網站挑選商品時，常常要複製價格，然後開啟另一個 tab 來搜尋日幣轉換台幣的網站，再填入轉換。</p>
+<p>一次兩次還好，第三次就無法忍受了，引用 "Refactoring — Improving the Design of Existing Code" 這本書中的一句話：<em>"Three strikes, then you refactor."</em></p>
+<p>稍微找了一下 Chrome web store，並沒有看到適合的 extension，所以決定自己打造一個。</p>
+<p>而剛好在前幾週參加了同事主辦的 Meetup，其中有個 Topic 是介紹 Elm 這個語言，以前雖然也聽過介紹，但這次聽到實際用在 Production 的案例後，提高我不少興趣，加上適逢公司的 hackday，索性就利用這機會來練習一下，用 Elm 來製作我想要的 Chrome Extension！</p>
+<p>今天就用這篇文章記錄一下使用 Elm 製作 Chrome Extension 的方法與心得，不過畢竟是 hackday 作品，功能尚需完善就是。</p>
+<h2 id="什麼是-elm" style="position:relative;"><a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-elm" aria-label="什麼是 elm permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>什麼是 Elm？</h2>
+<p><img src="/image/elm-official-site.png" alt="Elm Website"></p>
+<p>不知道有沒有人跟我一樣，之所以知道 Elm，是因為 Redux 的作者說他受其啟發？</p>
+<p>跟 Redux 作者一樣，Elm 的作者 - Evan Czaplicki 也是個年輕奇才，Elm 是他在哈佛的論文，推薦大家看一下他 <a href="https://www.infoq.com/presentations/Elm" target="_blank" rel="nofollow noopener noreferrer">2012 年的演講影片</a>，可以了解他為何創造這門語言，聽聽作者本人親口介紹。</p>
+<p>Elm 是一個強型態的函數式語言，透過編譯，將最終程式碼轉化為 JavaScript，因此執行在任何 Web 平台。主要有以下特點：</p>
+<ul>
+<li>
+<p>No Runtime Exceptions</p>
+<ul>
+<li>在編譯期間，Elm 會利用 Type inference 偵測各種狀態，有任何型別上的錯誤都會被抓出來，更棒的是，Elm 提供的 hint 很人性化，例如：
+<img src="/image/elm-error-hint.png" alt="error hint"></li>
+</ul>
+</li>
+<li>
+<p>Great Performance</p>
+<ul>
+<li>如同 React 一般，Elm 也有自己的 Virtual DOM 實作，根據官網所說，由於 Elm 的所有值都是 immutable，有助於他們能編譯出最佳化的 JavaScript，讓 runtime 變快。
+<img src="/image/elm-benchmark.png" alt="benchmark"> <em>source: <a href="https://elm-lang.org/" target="_blank" rel="nofollow noopener noreferrer">elm-lang.org</a></em></li>
+</ul>
+</li>
+<li>
+<p>Enforced Semantic Versioning</p>
+<ul>
+<li>Elm 強大的 type system 讓他能自動偵測是否有 API 的更動，並根據你 release 時與上一版本的差異，進行 Semantic Versioning，讓你不會不小心因為錯誤的 PATCH release 造成別人的困擾！</li>
+</ul>
+</li>
+<li>
+<p>Small Assets</p>
+<ul>
+<li>Elm 宣稱其 Optimize 的編譯，能產生比 React 16.4 更小的 Assets。<em>source: <a href="https://elm-lang.org/" target="_blank" rel="nofollow noopener noreferrer">elm-lang.org</a></em></li>
+</ul>
+</li>
+<li>
+<p>JavaScript Interop</p>
+<ul>
+<li>如同 React 一樣，你也可以只在一個小小的 div 上掛載 Elm application，藉此來測試 project 中的某一個小部分，採用上可以循序漸進，不會有太大風險，並且由於編譯成 JavaScript，Elm 能方便的與一般的 JavaScript 溝通。（基本上我也是看到這點才有信心 Elm 能拿來製作 Chrome extension 的）</li>
+</ul>
+</li>
+</ul>
+<h2 id="先偷看一下-elm-的程式碼到底長怎樣" style="position:relative;"><a href="#%E5%85%88%E5%81%B7%E7%9C%8B%E4%B8%80%E4%B8%8B-elm-%E7%9A%84%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%88%B0%E5%BA%95%E9%95%B7%E6%80%8E%E6%A8%A3" aria-label="先偷看一下 elm 的程式碼到底長怎樣 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>先偷看一下 Elm 的程式碼到底長怎樣</h2>
+<div class="gatsby-highlight" data-language="elm"><pre class="language-elm"><code class="language-elm"><span class="token hvariable">view</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Html</span> <span class="token constant">Msg</span>
+<span class="token hvariable">view</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token hvariable">Html.div</span>
+        <span class="token punctuation">[</span> <span class="token hvariable">Html.Attributes.class</span> <span class="token string">"Content"</span>
+        <span class="token punctuation">]</span>
+        <span class="token punctuation">[</span>
+          <span class="token hvariable">Html.text</span> <span class="token punctuation">(</span><span class="token string">"Hello Elm!"</span><span class="token punctuation">)</span>
+        <span class="token punctuation">]</span></code></pre></div>
+<p>這是一個簡單的 Elm view，第一行是描述這個 View 所接收的參數型別，以及回傳的參數型別，第二行後才是實際的程式碼。</p>
+<p>看起來非常畸形。</p>
+<p>一開始很難理解，沒關係，我寫完這個 extension 以後也還是覺得很難理解。</p>
+<p>畢竟會需要花不少時間習慣連 HTML 都是函數的概念，裡面的 <code class="language-text">HTML.div</code> 就是一個函數，他接受兩個陣列，一個用來定義 div 的 attribute，一個用來描述其 child。在後面的實作範例內，我們會看到更多類似的語法。</p>
+<h2 id="elm-基本安裝使用" style="position:relative;"><a href="#elm-%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D%E4%BD%BF%E7%94%A8" aria-label="elm 基本安裝使用 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elm 基本安裝使用</h2>
+<p>Elm 的安裝很簡單，官網提供各平台的 <a href="https://guide.elm-lang.org/install.html" target="_blank" rel="nofollow noopener noreferrer">installer</a>，安裝完後就能在你的 Terminal 中使用以下幾個指令：</p>
+<p><strong><code class="language-text">elm repl</code></strong> - 顧名思義， Elm 的 repl：</p>
+<p><img src="/image/elm-repl.png" alt="elm-repl"></p>
+<p><strong><code class="language-text">elm reactor</code></strong> - 類似 react 的 create-react-app，會快速幫你建立一個基礎的 Elm Architecture。</p>
+<p><strong><code class="language-text">elm make</code></strong> - elm 的 compile 指令，將你的 Elm code 編譯成 HTML 或是 JavaScript：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">elm <span class="token function">make</span> Main.elm --output<span class="token operator">=</span>main.js</code></pre></div>
+<p><strong><code class="language-text">elm install</code></strong> - 類似 <code class="language-text">npm install</code>，幫你下載所需的套件。所有的 Elm packages 都在 <a href="https://package.elm-lang.org/" target="_blank" rel="nofollow noopener noreferrer">package.elm-lang.org</a> 中。而你專案中 packages 的 dependencies 會在自動紀錄在 <code class="language-text">elm.json</code> 中。</p>
+<h2 id="elm-architecture" style="position:relative;"><a href="#elm-architecture" aria-label="elm architecture permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elm Architecture</h2>
+<p>現在的前端開發者對於 Elm 的架構應該都會覺得不陌生，因為就很清楚的分為 Model、View、Update：</p>
+<ul>
+<li><strong>Model</strong> - 你的 application 的 state</li>
+<li><strong>Update</strong> - 更新 state 邏輯的部分</li>
+<li><strong>View</strong> - 綁定 State 更新 HTML</li>
+</ul>
+<p>一個基本的 Elm 程式大概就是包含這三大區塊：</p>
+<div class="gatsby-highlight" data-language="elm"><pre class="language-elm"><code class="language-elm"><span class="token import-statement"><span class="token keyword">import</span> Html <span class="token keyword">exposing</span> </span><span class="token punctuation">(</span><span class="token operator">..</span><span class="token punctuation">)</span>
+<span class="token comment">-- MODEL</span>
+<span class="token keyword">type</span> <span class="token keyword">alias</span> <span class="token constant">Model</span> <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+<span class="token comment">-- UPDATE</span>
+<span class="token keyword">type</span> <span class="token constant">Msg</span> <span class="token operator">=</span> <span class="token constant">Reset</span> <span class="token operator">|</span> <span class="token operator">...</span>
+<span class="token hvariable">update</span> <span class="token operator">:</span> <span class="token constant">Msg</span> <span class="token operator">-></span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Model</span>
+<span class="token hvariable">update</span> <span class="token hvariable">msg</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+  <span class="token keyword">case</span> <span class="token hvariable">msg</span> <span class="token keyword">of</span>
+    <span class="token constant">Reset</span> <span class="token operator">-></span> <span class="token operator">...</span>
+    <span class="token operator">...</span>
+<span class="token comment">-- VIEW</span>
+<span class="token hvariable">view</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Html</span> <span class="token constant">Msg</span>
+<span class="token hvariable">view</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+  <span class="token operator">...</span></code></pre></div>
+<p>在接下來的範例內，也是遵循這樣的方式撰寫。</p>
+<h2 id="學習資源" style="position:relative;"><a href="#%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90" aria-label="學習資源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>學習資源</h2>
+<p>既然語法這麼困難，要學習的話，勢必要有完善的 Docs 或是範例參考，但可惜的是，雖然 Elm 從 2012 出來到現在也將近七年了，使用人數還是小眾，要找尋範例或是教學都蠻困難的，推薦的方式是先去<a href="https://guide.elm-lang.org" target="_blank" rel="nofollow noopener noreferrer">官網閱讀 guide line</a>，理解基本概念與最新版本的 API，並大致瀏覽一下語法，接著到 <a href="https://elmprogramming.com/" target="_blank" rel="nofollow noopener noreferrer">Beginning Elm</a> 釐清一下不懂的部分，因為這網站將蠻多觀念以圖像化的方式說明，我覺得會比官方網站的 guide 好懂。</p>
+<p>不過要注意的一點是，<a href="https://elmprogramming.com/" target="_blank" rel="nofollow noopener noreferrer">Beginning Elm</a> 的內容基本上是 Elm 0.18 的版本，並非現在最新的 0.19，所以在語法與一些 core lib 的用法上會不一樣，但觀念的理解還是共通的，所以能交互參照。</p>
+<p>這也是我在實作 Elm 遇到的一個阻礙，網路上大多的教學集中在 2017，當時還是 0.18 版本，因此許多範例現在都沒辦法正常運作，除非你降版。</p>
+<h2 id="開始實作" style="position:relative;"><a href="#%E9%96%8B%E5%A7%8B%E5%AF%A6%E4%BD%9C" aria-label="開始實作 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>開始實作！</h2>
+<p>無論如何，頭洗下去了還是得繼續實作。</p>
+<p>有實作過 Chrome extension 的人應該都知道，基本的三大元素就是：<code class="language-text">background.js</code>、<code class="language-text">content.js</code> 與 <code class="language-text">popup.html</code>，其彼此之間環境互相獨立，透過 <code class="language-text">postMessage</code> 來溝通。</p>
+<p>而既然 Elm 能編譯成 JavaScript，我就想我應該可以分別撰寫 Elm application 然後 compile 成 <code class="language-text">background.js</code>，<code class="language-text">content.js</code>，這做法可能會有點奇怪，既然要用 Elm，你又寫 JavaScript？</p>
+<p>但我覺得這樣反而比較能在漸進式的學習 Elm，一些較困難理解的部分就還是交由 JavaScript 處理。</p>
+<p>有了想法後開始搜尋範例，雖然新版的範例不多，但好在還是能從舊版中找到符合我心中所想的範例，只是得花點時間 upgrade 成新版。</p>
+<p><a href="https://github.com/danneu/elm-chrome-extension" target="_blank" rel="nofollow noopener noreferrer">elm-chrome-extension</a> 是我找到最符合我預期的範例。</p>
+<p>而這是我翻新成 0.19 後的版本 <a href="https://github.com/ArvinH/elm-chrome-extension" target="_blank" rel="nofollow noopener noreferrer">elm-chrome-extension 0.19 版</a>。</p>
+<h3 id="基本架構" style="position:relative;"><a href="#%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%A7%8B" aria-label="基本架構 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>基本架構</h3>
+<p><img src="/image/elm-ext-structure.png" alt="structure"></p>
+<p>我們這邊將 <code class="language-text">background.js</code> 與 <code class="language-text">content.js</code> 當作不同的 Elm application 來撰寫，彼此之間再透過 Elm 特殊的 JavaScript Interop 來溝通（後面會講到）。</p>
+<p>由於個別當作一個 application，就用各自的 webpack 來幫忙 compile 跟打包。</p>
+<p><code class="language-text">Model.elm</code> 則是單純用來定義我們整個 Extension 的 <strong>State</strong>。</p>
+<p>最後三個 Elm application 編億完的結果都會放入 <code class="language-text">dist</code> 中，也就是我們最後的成品。</p>
+<p>另外前面沒有提到的一個資料夾 <code class="language-text">elm-stuff</code>，其功用就像 <code class="language-text">node_modules</code> 一樣，當你 <code class="language-text">elm install</code> 完後，Elm 會將 packages 放入其中。</p>
+<p>而 <code class="language-text">elm.json</code> 則是類似 <code class="language-text">package.json</code> 加上 <code class="language-text">package-lock.json</code> 的存在：</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"application"</span><span class="token punctuation">,</span>
+    <span class="token property">"source-directories"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"./background"</span><span class="token punctuation">,</span>
+        <span class="token string">"./content"</span><span class="token punctuation">,</span>
+        <span class="token string">"./common"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"elm-version"</span><span class="token operator">:</span> <span class="token string">"0.19.0"</span><span class="token punctuation">,</span>
+    <span class="token property">"dependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"direct"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"elm/browser"</span><span class="token operator">:</span> <span class="token string">"1.0.1"</span><span class="token punctuation">,</span>
+            <span class="token property">"elm/core"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+            <span class="token property">"elm/html"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+            <span class="token property">"elm/json"</span><span class="token operator">:</span> <span class="token string">"1.1.3"</span><span class="token punctuation">,</span>
+            <span class="token property">"myrho/elm-round"</span><span class="token operator">:</span> <span class="token string">"1.0.4"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"indirect"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"elm/time"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+            <span class="token property">"elm/url"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span>
+            <span class="token property">"elm/virtual-dom"</span><span class="token operator">:</span> <span class="token string">"1.0.2"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"test-dependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"direct"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"indirect"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>可以看到 Elm 是用 exact versions，可以保證 reliable builds。而 dependencies 中的 direct 就是所有你能直接在 Elm code 中 import 的 package，而那些 package 所各自引用的其他 lib 則會自動被載入到 indirect 中。</p>
+<p>值得注意的是，雖然我們整個 project 用了三個 Elm application，但我們是共用同一個 elm.json 來管理 packages，因此在 <code class="language-text">source-directories</code> 的地方我們羅列三個 source 來源。</p>
+<h3 id="專案實作方式概略" style="position:relative;"><a href="#%E5%B0%88%E6%A1%88%E5%AF%A6%E4%BD%9C%E6%96%B9%E5%BC%8F%E6%A6%82%E7%95%A5" aria-label="專案實作方式概略 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>專案實作方式概略</h3>
+<p>這個 Extension 的功能很單純，流程如下：</p>
+<p>使用者 Select 了某段數字後，就會由 <code class="language-text">Content.js</code> 將選取的數字傳遞給 <code class="language-text">Background.js</code> 去處理，而 <code class="language-text">Background.js</code> 就會負責拉取匯率 API，並將使用者選取的數字進行換算，接著將結果更新到 <code class="language-text">Model</code> 上，再經由 <code class="language-text">Model</code> 的變動去觸發 <code class="language-text">Content.js</code> 進行 <code class="language-text">View</code> 的更新。</p>
+<p>我們一步一步來看，主要會 Focus 在如何更新 Model，以及如何讓 Elm(計算邏輯) 與 JavaScript(頁面 Dom 與 Chrome API) 互相溝通。</p>
+<h4 id="model" style="position:relative;"><a href="#model" aria-label="model permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Model</h4>
+<p>首先，我們先從最簡單的 Model 看起：</p>
+<div class="gatsby-highlight" data-language="elm"><pre class="language-elm"><code class="language-elm"><span class="token keyword">module</span> <span class="token constant">Model</span> <span class="token keyword">exposing</span> <span class="token punctuation">(</span><span class="token constant">Model</span><span class="token punctuation">)</span>
+<span class="token comment">-- This is the model in common among all of our apps</span>
+<span class="token keyword">type</span> <span class="token keyword">alias</span> <span class="token constant">Model</span> <span class="token operator">=</span>
+    <span class="token punctuation">{</span> <span class="token hvariable">result</span><span class="token operator">:</span> <span class="token constant">Float</span><span class="token punctuation">,</span> <span class="token hvariable">selectedContent</span><span class="token operator">:</span> <span class="token constant">Int</span><span class="token punctuation">,</span> <span class="token hvariable">exrateTWD</span><span class="token operator">:</span> <span class="token constant">Float</span><span class="token punctuation">,</span> <span class="token hvariable">exrateJPY</span><span class="token operator">:</span> <span class="token constant">Float</span> <span class="token punctuation">}</span></code></pre></div>
+<p>line 1 就是 Elm 中載入 package 的方式，而在我們的 application 中，Model 內容很單純，主要是記錄型別為 Float 的結果（result)、Int 的 selectContent、Float 的 exrateTWD 與 exrateJPY。</p>
+<p>然後透過 webpack loader 來幫忙編譯：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  module<span class="token operator">:</span> <span class="token punctuation">{</span>
+    rules<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.elm$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
+        exclude<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">elm-stuff</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">node_modules</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        use<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'elm-hot-webpack-loader'</span><span class="token punctuation">,</span> <span class="token string">'elm-webpack-loader?verbose=true'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="mainelm-in-backgroundjs" style="position:relative;"><a href="#mainelm-in-backgroundjs" aria-label="mainelm in backgroundjs permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Main.elm in Background.js</h3>
+<p>在 Background 資料夾中，我們有一個 <code class="language-text">index.js</code> 與 <code class="language-text">Main.elm</code>，<code class="language-text">index.js</code> 負責與 <code class="language-text">content.js</code> 溝通和處理 chrome api 相關的 JavaScript；<code class="language-text">Main.elm</code> 則是負責計算匯率以及更新 Model。</p>
+<p>index.js 會與 Main.elm 互相溝通，Webpack 會將兩者打包成 <code class="language-text">background.js</code>。</p>
+<p>但 JavaScript 怎麼與 Elm 溝通呢？容許我從 <a href="https://elmprogramming.com/sending-data-to-javascript.html" target="_blank" rel="nofollow noopener noreferrer">Beginning Elm</a> 中借張圖：</p>
+<p><img src="/image/elm-js-interpo.png" alt="How JS interact with Elm"></p>
+<p>從這張圖可以很清楚看到 Elm runtime 是怎麼跟外部溝通，又是怎麼與我們程式邏輯互動。</p>
+<p>透過 <code class="language-text">Command</code> 我們可以對 Elm runtime 下達指令去執行 side effect，像是 HTTP request 等等；Elm runtime 則藉由 <code class="language-text">Subscription</code> 與 <code class="language-text">Message</code> 將 side effect 結果傳遞回 application 本身。</p>
+<p>透過 <code class="language-text">Message</code>，Elm runtime 與我們的 application 可以知道要執行甚麼動作，包含 Update State（Model）或是更新 View。</p>
+<p>而若是需要與外部 JavaScript 溝通，則有 <code class="language-text">Ports</code> 提供橋樑，在 JavaScript 中，能使用類似 <code class="language-text">postMessage</code> 的方式傳遞資料。</p>
+<p>來看看 background 中的 Main.elm：</p>
+<div class="gatsby-highlight" data-language="elm"><pre class="language-elm"><code class="language-elm"><span class="token comment">-- ... 省略 import packages</span>
+<span class="token comment">-- PORTS FROM JAVASCRIPT</span>
+<span class="token hvariable">port</span> <span class="token hvariable">selected</span> <span class="token operator">:</span> <span class="token punctuation">(</span><span class="token constant">Model</span> <span class="token operator">-></span> <span class="token hvariable">msg</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token constant">Sub</span> <span class="token hvariable">msg</span>
+<span class="token comment">-- PORTS TO JAVASCRIPT</span>
+<span class="token hvariable">port</span> <span class="token hvariable">broadcast</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Cmd</span> <span class="token hvariable">msg</span>
+<span class="token comment">-- MODEL</span>
+<span class="token hvariable">init</span> <span class="token operator">:</span> <span class="token constant">Flags</span> <span class="token operator">-></span> <span class="token punctuation">(</span> <span class="token constant">Model</span><span class="token punctuation">,</span> <span class="token constant">Cmd</span> <span class="token constant">Msg</span> <span class="token punctuation">)</span>
+<span class="token hvariable">init</span> <span class="token hvariable">flags</span> <span class="token operator">=</span>
+    <span class="token punctuation">(</span> <span class="token punctuation">{</span>
+        <span class="token hvariable">selectedContent</span> <span class="token operator">=</span> <span class="token hvariable">flags</span><span class="token punctuation">.</span><span class="token hvariable">selectedContent</span><span class="token punctuation">,</span>
+        <span class="token hvariable">exrateTWD</span> <span class="token operator">=</span> <span class="token hvariable">flags</span><span class="token punctuation">.</span><span class="token hvariable">exrateTWD</span><span class="token punctuation">,</span>
+        <span class="token hvariable">exrateJPY</span> <span class="token operator">=</span> <span class="token hvariable">flags</span><span class="token punctuation">.</span><span class="token hvariable">exrateJPY</span><span class="token punctuation">,</span>
+        <span class="token hvariable">result</span> <span class="token operator">=</span> <span class="token hvariable">flags</span><span class="token punctuation">.</span><span class="token hvariable">result</span>
+     <span class="token punctuation">}</span>
+    <span class="token punctuation">,</span> <span class="token hvariable">Cmd.none</span>
+    <span class="token punctuation">)</span>
+<span class="token keyword">type</span> <span class="token constant">Msg</span>
+    <span class="token operator">=</span> <span class="token constant">NoOp</span>
+    <span class="token operator">|</span> <span class="token constant">Select</span> <span class="token constant">Model</span>
+<span class="token hvariable">update</span> <span class="token operator">:</span> <span class="token constant">Msg</span> <span class="token operator">-></span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token punctuation">(</span> <span class="token constant">Model</span><span class="token punctuation">,</span> <span class="token constant">Cmd</span> <span class="token constant">Msg</span> <span class="token punctuation">)</span>
+<span class="token hvariable">update</span> <span class="token hvariable">msg</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token keyword">case</span> <span class="token hvariable">msg</span> <span class="token keyword">of</span>
+        <span class="token constant">NoOp</span> <span class="token operator">-></span>
+            <span class="token punctuation">(</span> <span class="token hvariable">model</span><span class="token punctuation">,</span> <span class="token hvariable">Cmd.none</span> <span class="token punctuation">)</span>
+        <span class="token constant">Select</span> <span class="token hvariable">data</span> <span class="token operator">-></span>
+            <span class="token keyword">let</span>
+                <span class="token hvariable">nextModel</span> <span class="token operator">=</span>
+                    <span class="token punctuation">{</span> <span class="token hvariable">model</span> <span class="token operator">|</span> <span class="token hvariable">result</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token builtin">toFloat</span> <span class="token hvariable">data</span><span class="token punctuation">.</span><span class="token hvariable">selectedContent</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token hvariable">data</span><span class="token punctuation">.</span><span class="token hvariable">exrateTWD</span> <span class="token operator">/</span> <span class="token hvariable">data</span><span class="token punctuation">.</span><span class="token hvariable">exrateJPY</span><span class="token punctuation">)</span> <span class="token punctuation">}</span>
+            <span class="token keyword">in</span>
+            <span class="token punctuation">(</span> <span class="token hvariable">nextModel</span><span class="token punctuation">,</span> <span class="token hvariable">broadcast</span> <span class="token hvariable">nextModel</span> <span class="token punctuation">)</span>
+<span class="token hvariable">subscriptions</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Sub</span> <span class="token constant">Msg</span>
+<span class="token hvariable">subscriptions</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token hvariable">selected</span> <span class="token punctuation">(</span>\<span class="token hvariable">newModels</span> <span class="token operator">-></span> <span class="token constant">Select</span> <span class="token hvariable">newModels</span><span class="token punctuation">)</span>
+<span class="token keyword">type</span> <span class="token keyword">alias</span> <span class="token constant">Flags</span> <span class="token operator">=</span>
+    <span class="token punctuation">{</span>
+      <span class="token hvariable">selectedContent</span><span class="token operator">:</span> <span class="token constant">Int</span><span class="token punctuation">,</span>
+      <span class="token hvariable">exrateTWD</span><span class="token operator">:</span> <span class="token constant">Float</span><span class="token punctuation">,</span>
+      <span class="token hvariable">exrateJPY</span><span class="token operator">:</span> <span class="token constant">Float</span><span class="token punctuation">,</span>
+      <span class="token hvariable">result</span><span class="token operator">:</span> <span class="token constant">Float</span>
+    <span class="token punctuation">}</span>
+<span class="token hvariable">main</span> <span class="token operator">:</span> <span class="token constant">Program</span> <span class="token constant">Flags</span> <span class="token constant">Model</span> <span class="token constant">Msg</span>
+<span class="token hvariable">main</span> <span class="token operator">=</span>
+    <span class="token hvariable">Platform.worker</span>
+        <span class="token punctuation">{</span> <span class="token hvariable">init</span> <span class="token operator">=</span> <span class="token hvariable">init</span>
+        <span class="token punctuation">,</span> <span class="token hvariable">update</span> <span class="token operator">=</span> <span class="token hvariable">update</span>
+        <span class="token punctuation">,</span> <span class="token hvariable">subscriptions</span> <span class="token operator">=</span> <span class="token hvariable">subscriptions</span>
+        <span class="token punctuation">}</span></code></pre></div>
+<p>background 的 Main.elm 中，主要有幾個區塊：</p>
+<ul>
+<li><code class="language-text">port</code> keyword：定義用來給外部 JavaScript 呼叫的函數，以及 Elm 要傳遞資料給 JavaScript 時呼叫的函數</li>
+<li><code class="language-text">init</code> 函數：我們定義 init 函數，初始化 application 的 Model (State），<code class="language-text">Flags</code> 是 Elm 中特殊的型別，外部 JavaScript 可以透過 Flags 在 Elm 的 init 階段傳遞初始 State 資料。如同上面範例中，init 函數接收一個 <code class="language-text">Flags</code> 參數，並將其 assign 到新的物件當中，並且回傳，而這物件就是（也必須是）Model。</li>
+<li><code class="language-text">subscriptions</code>：當外部 JavaScript 呼叫我們在 port 中定義的函數時，Elm 會透過 subscriptions 來處理回應，基本上都會是呼叫一個函數，而該函數會 Trigger <code class="language-text">update</code>，丟入 一個 Message 去更新 Model，以上面例子來說，JavaScript 會傳進新的 Model，而 Elm subscriptions 將新的 Model 以及我們指定的 Message 傳遞給 <code class="language-text">update</code> 去真正的將 Model 更新。</li>
+<li><code class="language-text">update</code>：update 相對單純一點，接收 Message 與 Model 型別的物件，根據 Message 的內容去判斷要進行什麼更新。在上面例子中，我們接收到 <code class="language-text">Select</code> 這個 message，代表收到 JavaScript 傳來的新 Model（也就是使用者選取的數字），而 Model 中有要轉換的金額，以及台日幣的匯率差，我們在這邊進行主要的邏輯運算，將結果產生成新的 Model，透過呼叫 <code class="language-text">broadcast</code> 這個 定義在 port 中的 Command，將其回傳回 JavaScript。</li>
+<li><code class="language-text">main</code>：是 Main.elm 這個程式的主要進入點，這隻 Elm 程式並沒有參與到 View 的部分，因此我們使用 <code class="language-text">Platform.worker</code> 函數實作，將定義好的 <code class="language-text">init</code>, <code class="language-text">update</code> 與 <code class="language-text">subscriptions</code> 傳入。</li>
+</ul>
+<p>篇幅有限實在無法將每個 API 都詳細介紹，建議參照<a href="https://guide.elm-lang.org/" target="_blank" rel="nofollow noopener noreferrer">官網 Guide</a> 了解其詳細內容。</p>
+<h3 id="indexjs-in-backgroundjs" style="position:relative;"><a href="#indexjs-in-backgroundjs" aria-label="indexjs in backgroundjs permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>index.js in Background.js</h3>
+<p>JavaScript 的部分就簡單一些，重點在於初始化 State：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Elm <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./Main.elm'</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> currState <span class="token operator">=</span> <span class="token punctuation">{</span>
+  selectedContent<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  exrateTWD<span class="token operator">:</span> <span class="token number">0.0</span><span class="token punctuation">,</span>
+  exrateJPY<span class="token operator">:</span> <span class="token number">0.0</span><span class="token punctuation">,</span>
+  result<span class="token operator">:</span> <span class="token number">0.0</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> Elm<span class="token punctuation">.</span>Main<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  flags<span class="token operator">:</span> currState
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>在 <code class="language-text">index.js</code> 我們載入 <code class="language-text">Main.elm</code>，並呼叫其 <code class="language-text">Main.init</code> 函數，傳入 flags 物件來初始化 state。</p>
+<p>接著，subscribe Elm 的 ports <code class="language-text">broadcast</code>，當 Elm 傳遞訊息過來時，我們透過 chrome 的 <code class="language-text">postMessage</code> 傳遞給 <code class="language-text">content.js</code>。（這邊的 port 是 <code class="language-text">chrome.runtime.onConnect</code> 的 port，細節請看 <a href="https://github.com/ArvinH/Elm-ChromeExt/blob/master/background/src/index.js#L15-L41" target="_blank" rel="nofollow noopener noreferrer">source code</a> ）</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">broadcast</span><span class="token punctuation">(</span><span class="token parameter">state</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  currState <span class="token operator">=</span> state
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> port <span class="token keyword">of</span> listeners<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    port<span class="token punctuation">.</span><span class="token function">postMessage</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+app<span class="token punctuation">.</span>ports<span class="token punctuation">.</span>broadcast<span class="token punctuation">.</span><span class="token function">subscribe</span><span class="token punctuation">(</span><span class="token parameter">state</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">broadcast</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p>最後這邊我有點偷吃步，由於透過 Elm 發送 HTTP request 後的結果與我目前的 model 之間要如何整合，我在一天的 hackday 中實在沒有研究出來，所以省去那段，讓 fetch 匯率資料的部分由 JS 完成，最後再透過 <code class="language-text">port</code> 的 <code class="language-text">selected</code> 將 API result <code class="language-text">send</code> 給 Elm：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">chrome<span class="token punctuation">.</span>runtime<span class="token punctuation">.</span>onMessage<span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">request<span class="token punctuation">,</span> sender</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>request<span class="token punctuation">.</span>kind <span class="token operator">===</span> <span class="token string">'selected'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> selectNum <span class="token operator">=</span> request<span class="token punctuation">.</span>selectedContent<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token string">','</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'https://tw.rter.info/capi.php'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> response<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">myJson</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> <span class="token punctuation">{</span>
+          <span class="token constant">USDJPY</span><span class="token operator">:</span> <span class="token punctuation">{</span> Exrate<span class="token operator">:</span> ExrateJPY <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token constant">USDTWD</span><span class="token operator">:</span> <span class="token punctuation">{</span> Exrate<span class="token operator">:</span> ExrateTWD <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span> <span class="token operator">=</span> myJson
+        app<span class="token punctuation">.</span>ports<span class="token punctuation">.</span>selected<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span> result<span class="token operator">:</span> <span class="token number">0.0</span><span class="token punctuation">,</span> exrateTWD<span class="token operator">:</span> ExrateTWD<span class="token punctuation">,</span> exrateJPY<span class="token operator">:</span> ExrateJPY<span class="token punctuation">,</span> selectedContent<span class="token operator">:</span> <span class="token operator">+</span>selectNum<span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<h3 id="mainelm-in-contentjs" style="position:relative;"><a href="#mainelm-in-contentjs" aria-label="mainelm in contentjs permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Main.elm in Content.js</h3>
+<p>處理好 Background.js，接著就是 Content.js。</p>
+<p>Content 中的 <code class="language-text">Main.elm</code> 主要負責接收到更新的 Model，然後將其更新到 DOM 上：</p>
+<div class="gatsby-highlight" data-language="elm"><pre class="language-elm"><code class="language-elm"><span class="token comment">-- 省略 import packages</span>
+<span class="token comment">-- PORTS FROM JAVASCRIPT</span>
+<span class="token hvariable">port</span> <span class="token hvariable">onState</span> <span class="token operator">:</span> <span class="token punctuation">(</span><span class="token constant">Model</span> <span class="token operator">-></span> <span class="token hvariable">msg</span><span class="token punctuation">)</span> <span class="token operator">-></span> <span class="token constant">Sub</span> <span class="token hvariable">msg</span>
+<span class="token hvariable">init</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token punctuation">(</span> <span class="token constant">Model</span><span class="token punctuation">,</span> <span class="token constant">Cmd</span> <span class="token constant">Msg</span> <span class="token punctuation">)</span>
+<span class="token hvariable">init</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token punctuation">(</span> <span class="token hvariable">model</span>
+    <span class="token punctuation">,</span> <span class="token hvariable">Cmd.none</span>
+    <span class="token punctuation">)</span>
+<span class="token keyword">type</span> <span class="token constant">Msg</span>
+    <span class="token operator">=</span> <span class="token constant">NoOp</span>
+    <span class="token operator">|</span> <span class="token constant">NewState</span> <span class="token constant">Model</span>
+<span class="token hvariable">update</span> <span class="token operator">:</span> <span class="token constant">Msg</span> <span class="token operator">-></span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token punctuation">(</span> <span class="token constant">Model</span><span class="token punctuation">,</span> <span class="token constant">Cmd</span> <span class="token constant">Msg</span> <span class="token punctuation">)</span>
+<span class="token hvariable">update</span> <span class="token hvariable">msg</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token keyword">case</span> <span class="token hvariable">msg</span> <span class="token keyword">of</span>
+        <span class="token constant">NoOp</span> <span class="token operator">-></span>
+            <span class="token punctuation">(</span> <span class="token hvariable">model</span><span class="token punctuation">,</span> <span class="token hvariable">Cmd.none</span> <span class="token punctuation">)</span>
+
+        <span class="token constant">NewState</span> <span class="token hvariable">newModel</span> <span class="token operator">-></span>
+            <span class="token punctuation">(</span> <span class="token hvariable">newModel</span><span class="token punctuation">,</span> <span class="token hvariable">Cmd.none</span> <span class="token punctuation">)</span>
+<span class="token hvariable">view</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Html</span> <span class="token constant">Msg</span>
+<span class="token hvariable">view</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token hvariable">Html.div</span>
+        <span class="token punctuation">[</span> <span class="token hvariable">Html.Attributes.class</span> <span class="token string">"Content"</span>
+        <span class="token punctuation">]</span>
+        <span class="token punctuation">[</span>
+          <span class="token hvariable">Html.text</span> <span class="token punctuation">(</span><span class="token string">"It's "</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token hvariable">Html.div</span>
+            <span class="token punctuation">[</span> <span class="token hvariable">Html.Attributes.class</span> <span class="token string">"InnerContent"</span>
+            <span class="token punctuation">]</span>
+            <span class="token punctuation">[</span>
+                <span class="token hvariable">Html.div</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span>
+                    <span class="token hvariable">Html.text</span> <span class="token punctuation">(</span><span class="token builtin">round</span> <span class="token number">2</span> <span class="token hvariable">model</span><span class="token punctuation">.</span><span class="token hvariable">result</span><span class="token punctuation">)</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token hvariable">Html.div</span>
+                    <span class="token punctuation">[</span> <span class="token hvariable">Html.Attributes.class</span> <span class="token string">"units"</span>
+                    <span class="token punctuation">]</span>
+                    <span class="token punctuation">[</span>
+                        <span class="token hvariable">Html.text</span> <span class="token punctuation">(</span><span class="token string">" TWD"</span><span class="token punctuation">)</span>
+                    <span class="token punctuation">]</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">]</span>
+<span class="token hvariable">subscriptions</span> <span class="token operator">:</span> <span class="token constant">Model</span> <span class="token operator">-></span> <span class="token constant">Sub</span> <span class="token constant">Msg</span>
+<span class="token hvariable">subscriptions</span> <span class="token hvariable">model</span> <span class="token operator">=</span>
+    <span class="token hvariable">onState</span> <span class="token constant">NewState</span>
+<span class="token hvariable">main</span> <span class="token operator">:</span> <span class="token constant">Program</span> <span class="token constant">Model</span> <span class="token constant">Model</span> <span class="token constant">Msg</span>
+<span class="token hvariable">main</span> <span class="token operator">=</span>
+    <span class="token hvariable">Browser.element</span>
+        <span class="token punctuation">{</span> <span class="token hvariable">init</span> <span class="token operator">=</span> <span class="token hvariable">init</span>
+        <span class="token punctuation">,</span> <span class="token hvariable">update</span> <span class="token operator">=</span> <span class="token hvariable">update</span>
+        <span class="token punctuation">,</span> <span class="token hvariable">view</span> <span class="token operator">=</span> <span class="token hvariable">view</span>
+        <span class="token punctuation">,</span> <span class="token hvariable">subscriptions</span> <span class="token operator">=</span> <span class="token hvariable">subscriptions</span>
+        <span class="token punctuation">}</span></code></pre></div>
+<p>聰明的讀者看到這段 code 應該會發現，這邊的 <code class="language-text">port</code>, <code class="language-text">init</code> 與 <code class="language-text">subscriptions</code> 基本上形式與 Background 的一樣，只是更簡單一點，當 subscription 收到 JavaScript 呼叫的 <code class="language-text">onState</code> 函數時，我們傳遞 <code class="language-text">NewState</code> Message 給 <code class="language-text">update</code>，而 <code class="language-text">update</code> 就只是單純的回傳新的 Model。</p>
+<p>唯一差別在於 <code class="language-text">view</code> 與 <code class="language-text">main</code>。</p>
+<p>在 Elm 中，view 會接受 Model 為參數，並回傳 HTML DOM，在範例中，我們產生了三層的 div，第三層有兩個 div 並行，分別呈現轉換後的匯率數字，以及單位，這邊我還用了一個 elm 的 package 來 <code class="language-text">round</code> 數字到小數點後兩位。</p>
+<p>而由於 Content 的 <code class="language-text">Main.elm</code> 有跟 Browser 互動（產生 HTML），所以需要的不是 <code class="language-text">Platform.worker</code> 而是 <code class="language-text">Browser.element</code>，他會將 View 也綁定進去。（一樣，詳情請參照<a href="https://guide.elm-lang.org/" target="_blank" rel="nofollow noopener noreferrer">官網 Guide</a> ）</p>
+<h3 id="indexjs-in-contentjs" style="position:relative;"><a href="#indexjs-in-contentjs" aria-label="indexjs in contentjs permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>index.js in Content.js</h3>
+<p>Content 中的 JavaScript 就更單純了，基本上就是 <code class="language-text">createElement</code> 出一個 div，並且設定 <code class="language-text">mouseup</code> listener，讓使用者選取文字後，能夠 <code class="language-text">sendMessage</code> 給 background.js，並且設定好 Elm DOM 要掛載的 Real Dom 位置與 style (index.css)：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./index.css'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> mountNode <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>mountNode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Elm <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./Main.elm'</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> app<span class="token punctuation">;</span>
+document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'mouseup'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// 利用 window.getSelection() 抓取使用者選取的數字</span>
+  <span class="token keyword">const</span> selectedObj <span class="token operator">=</span> window<span class="token punctuation">.</span><span class="token function">getSelection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> selectedContent <span class="token operator">=</span> selectedObj<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">//...</span>
+  <span class="token comment">// 這邊忽略的 code 主要在是：</span>
+  <span class="token comment">// 計算 Elm 產生的 DOM 該插入到頁面中的哪個位置</span>
+  <span class="token comment">// 判斷何時該讓 DOM 消失</span>
+  <span class="token comment">//...</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>selectedContent <span class="token operator">&amp;&amp;</span> selectedContent<span class="token operator">!==</span> <span class="token string">''</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    chrome<span class="token punctuation">.</span>runtime<span class="token punctuation">.</span><span class="token function">sendMessage</span><span class="token punctuation">(</span><span class="token punctuation">{</span> kind<span class="token operator">:</span> <span class="token string">'selected'</span><span class="token punctuation">,</span> selectedContent <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> port <span class="token operator">=</span> chrome<span class="token punctuation">.</span>runtime<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span><span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'broadcast'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+port<span class="token punctuation">.</span>onMessage<span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token parameter">state</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>app<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    app <span class="token operator">=</span> Elm<span class="token punctuation">.</span>Main<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      node<span class="token operator">:</span> mountNode<span class="token punctuation">,</span>
+      flags<span class="token operator">:</span> state
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  app<span class="token punctuation">.</span>ports<span class="token punctuation">.</span>onState<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p>在 <code class="language-text">port.onMessage</code> 的 listener 中，我們會監聽到由 Background.js 傳遞來的初始 State，然後才 init Content 這邊的 Elm application，並將 Background.js 傳來的 state 一起傳入，若後續有更新 state，則透過 <code class="language-text">port</code> 的 <code class="language-text">onState</code> 來更新。</p>
+<p>基本上這樣一來，整個 Extension 的工作就完成了，但省略了不少細節，完整程式碼與其他細節只好請大家直接看原始碼會更清楚一點： <a href="https://github.com/ArvinH/Elm-ChromeExt" target="_blank" rel="nofollow noopener noreferrer">source code</a></p>
+<h3 id="如何-debug" style="position:relative;"><a href="#%E5%A6%82%E4%BD%95-debug" aria-label="如何 debug permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何 Debug</h3>
+<p>在用 Elm 製作 Chrome extension 的過程中，Debug 的方式其實跟一般用 JS 開發一樣，都是透過 inspect 從 browser 中到 <code class="language-text">background.js</code> 與 <code class="language-text">content.js</code> 下中斷點，但是麻煩的是，在這邊的 <code class="language-text">background.js</code> 與 <code class="language-text">content.js</code> 都有一大部分是 Elm compile 出來的 JS，是沒有類似 source map 的東西能讓你直接在 Elm code 內 Debug 的，所以除錯起來真的不是很方便，之後若有研究到方法再來更新。也歡迎大家給予指導！</p>
+<h2 id="結論與心得" style="position:relative;"><a href="#%E7%B5%90%E8%AB%96%E8%88%87%E5%BF%83%E5%BE%97" aria-label="結論與心得 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結論與心得</h2>
+<p>Elm 的確是蠻優雅的語言，但不是能在短時間內完美駕馭的...尤其是 Debug 的難度以及文件範例的相對稀少，都讓人容易退卻，但我還是蠻開心能利用這次機會親手玩玩 Elm，並且製作了一個我用得上的工具，當然還有一些需要改善的部分，但已經堪用了。希望之後還能有時間繼續研究！有興趣的讀者或許能一起加入他們的 <a href="https://elm-lang.org/community" target="_blank" rel="nofollow noopener noreferrer">Community</a> 討論！</p>
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="https://elm-lang.org" target="_blank" rel="nofollow noopener noreferrer">elm-lang</a></li>
+<li><a href="https://elmprogramming.com" target="_blank" rel="nofollow noopener noreferrer">Beginning Elm</a></li>
+<li><a href="https://github.com/elm" target="_blank" rel="nofollow noopener noreferrer">elm github</a></li>
+<li><a href="https://www.infoq.com/presentations/Elm" target="_blank" rel="nofollow noopener noreferrer">Elm 作者 ｀2012 年的演講影片</a></li>
+<li><a href="https://shenlvmeng.github.io/blog/2017/06/19/elm-introduction/" target="_blank" rel="nofollow noopener noreferrer">Elm——函数式前端框架介绍</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/elm"><strong>Elm</strong> <!-- -->, </a><a href="/tags/chrome-extension"><strong>Chrome extension</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/typescript-design-pattern-command">用 TypeScript 輕鬆學 Design pattern - Command Pattern</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/pure-css-tic-tac-toe-analyze">解析：純 CSS 的圈圈叉叉</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->09-08-2024</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/elm-chrome-extension";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-a7634cfa007275822093.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-f5383e67068afc3e3873.js" async=""></script></body></html>

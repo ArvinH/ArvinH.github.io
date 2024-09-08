@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖 | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infod-3-workshop-map"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infod-3-workshop-map","url":"https://blog.arvinh.infod-3-workshop-map","name":"D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖","alternateName":"ArvinHuang Blog","headline":"D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"07-21-2017","dateModified":"07-21-2017","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-f5383e67068afc3e3873.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/d-3-workshop-map/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖</div><div class="Subline-sc-1j7ecob-0 KMFWk">07-21-2017<!-- --> — <!-- -->14<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>~ $ What's the funny thing about UDP jokes?
+~ $ I don't care if you get them.</p>
+</blockquote>
+<!-- more -->
+<h2 id="前言" style="position:relative;"><a href="#%E5%89%8D%E8%A8%80" aria-label="前言 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h2>
+<p>以前在做一些跟地圖有關的應用時，第一個出現在腦海的不外乎是 Google Map 和 OpenStreetMap，然後搭配 Leaflet 與 Mapbox 等工具來對 map tile 做各種加工渲染，然而到了工作上需要時就會發現這些工具在不付費、遵守授權的狀況下，就出現了各種限制，像是需要自己架設 tile server 來轉換 OpenStreetMap 的圖資，或是 request 的次數限制等等。</p>
+<p>想了想發現最好的替代方案就是直接用 svg 來繪製，雖然沒有辦法像 Google Map 那般詳細，但在某些應用上來說就非常足夠，效果也很好，因此今天就來紀錄一下該如何使用 D3.js 與 svg 來繪製出有動態路線功能的地圖，讓大家可以做出類似中央氣象局的颱風路線預覽圖的作品！</p>
+<p>先看一下成品：(P.S. 最近發現 <a href="https://codesandbox.io" target="_blank" rel="nofollow noopener noreferrer">codesandbox</a> 這個服務，比起在 jsbin 或是 jsfiddle 上寫 React 來說好用一些，缺點是 mobile 體驗較差)</p>
+<iframe src="https://codesandbox.io/embed/Wv9kBrJW?hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="地圖資料搜集" style="position:relative;"><a href="#%E5%9C%B0%E5%9C%96%E8%B3%87%E6%96%99%E6%90%9C%E9%9B%86" aria-label="地圖資料搜集 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>地圖資料搜集</h2>
+<p>要自己畫地圖，當然就必須自己準備好圖資，看你想要台灣地圖或是世界地圖，基本上在網路上都能找得到，但是在使用網路資料的時候都需要小心授權條款，以世界地圖為例，目前我看到最能自由運用的就是 <a href="http://www.naturalearthdata.com/" target="_blank" rel="nofollow noopener noreferrer">Natural Earth</a> 的資料了，基本上有分三種比例的圖資，1:10m、1:50m 與 1:100m:</p>
+<p><img src="/image/naturalearth.png" alt="Natural Earth Dataset"></p>
+<p>從 Natural Earth 載下來的會是 Vector data，無法直接使用在 D3.js 上，好在 D3.js 的作者 Mike Bostock 製作的另一套工具 <a href="ttps://github.com/topojson" target="_blank" rel="nofollow noopener noreferrer">topojson</a> 中已經有 parse 過後的 TopoJSON 檔案，可以直接透過 <code class="language-text">https://unpkg.com/world-atlas@1/world/110m.json</code> 取得，<code class="language-text">50m</code> 的也有，就換一下後面的檔名即可。</p>
+<p>如果你想要其他 Natural Earth 上的資料，其實也可以修改 <a href="https://github.com/topojson/world-atlas" target="_blank" rel="nofollow noopener noreferrer">world-atlas</a> 裡面的 script 來自己轉換成 TopoJSON，可以參考我 fork 過來修改的這份檔案 <a href="https://github.com/ArvinH/world-atlas/blob/master/prepublish-populor-place.sh" target="_blank" rel="nofollow noopener noreferrer">prepublish-populor-place.sh</a>，用來 parse Natural Earth 上的 popular_place data。</p>
+<h2 id="繪製基本的-svg-地圖" style="position:relative;"><a href="#%E7%B9%AA%E8%A3%BD%E5%9F%BA%E6%9C%AC%E7%9A%84-svg-%E5%9C%B0%E5%9C%96" aria-label="繪製基本的 svg 地圖 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>繪製基本的 svg 地圖</h2>
+<p>已經有了資料來源，就可以開始動手將地圖繪製出來了！</p>
+<p>首先，React component 的起手式先準備好：</p>
+<div class="gatsby-highlight" data-language="jsworldmap.jsx"><pre class="language-jsworldmap.jsx"><code class="language-jsworldmap.jsx">import React, { Component } from &#39;react&#39;;
+import { render } from &#39;react-dom&#39;;
+
+class WorldMap extends Component {
+  constructor() {
+    super()
+    this.state = {
+      worlddata: [],
+      typhoonPath: [],
+      marker: {},
+      graticule: geoGraticule10(),
+    }
+  }
+  
+  componentDidMount() {
+     fetch(&quot;https://unpkg.com/world-atlas@1/world/50m.json&quot;)
+      .then(response =&gt; {
+        if (response.status !== 200) {
+          console.log(`There was a problem: ${response.status}`)
+          return;
+        }
+        response.json().then(worlddata =&gt; {
+          this.setState({
+            worlddata: feature(worlddata, worlddata.objects.countries).features,
+          });
+        })
+      });
+  }
+
+  render() {
+    return (
+      &lt;svg className=&quot;map-svg&quot; width={ 800 } height={ 600 } viewBox=&quot;0 0 800 600&quot;&gt;
+      &lt;/svg&gt;
+    )
+  }
+}
+
+render(&lt;WorldMap /&gt;, document.getElementById(&#39;root&#39;));</code></pre></div>
+<p>我在 <code class="language-text">componentDidMount</code> 的時候去抓取地圖資料，接著才 <code class="language-text">setState()</code>，但實際上你的專案可以先把資料存起來，這樣一來在 render 的地方就可以直接先 render 出 svg 地圖，這對於採用 Server-side rendering 的專案來說會方便很多，因為如果全部用 D3.js 的話，會需要先 select 到 DOM object 才能進行繪製，會麻煩一些。</p>
+<h3 id="利用-svg-path-繪製世界地圖" style="position:relative;"><a href="#%E5%88%A9%E7%94%A8-svg-path-%E7%B9%AA%E8%A3%BD%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9C%96" aria-label="利用 svg path 繪製世界地圖 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>利用 svg path 繪製世界地圖</h3>
+<p>在 svg 底下 append 一個 group，然後 iterate state 中的世界地圖資料，加上每個區塊的 svg path：</p>
+<div class="gatsby-highlight" data-language="jsworld_map_path.js"><pre class="language-jsworld_map_path.js"><code class="language-jsworld_map_path.js">&lt;g className=&quot;countries&quot;&gt;
+    {
+    this.state.worlddata.map((d,i) =&gt; (
+        &lt;path
+        key={ `path-${ i }` }
+        d={ geoPath().projection(this.projection())(d) }
+        className=&quot;country&quot;
+        fill={ `rgba(219, 163, 43,${ 1 / this.state.worlddata.length * i})` }
+        stroke=&quot;#FFFFFF&quot;
+        strokeWidth={ 0.5 }
+        /&gt;
+    ))
+    }
+&lt;/g&gt;</code></pre></div>
+<p>這邊先看一下我們 state 中的 worlddata 到底是什麼東西：</p>
+<p><img src="/image/worldtopojson.png" alt="World Map topojson"></p>
+<p>這是一個 TopoJSON 的格式，TopoJSON 簡單來說可以當作效能更好的 GeoJSON，詳細介紹可以看 <a href="https://github.com/topojson/topojson" target="_blank" rel="nofollow noopener noreferrer">這裡</a>。Array 裡面的每一個 object 都是 type 為 Feature 的物件，其中的 geometry 包含了實際的地理資訊，可能是一個 Polygon，以及此 Polygon 每個點的座標。</p>
+<p>接著我們需要使用 <code class="language-text">d3-geo</code> 中的 <code class="language-text">geoPath</code>，其中有 <code class="language-text">projection()</code> method 能讓我們把剛剛的座標投影（project）到我們繪製的地圖上。</p>
+<p>投影在地圖的繪製中扮演著極為重要的角色，透過投影，我們才能將真實世界的經緯度映射到我們網頁上小小的 svg 中。</p>
+<p><code class="language-text">d3-geo</code> 中的 <code class="language-text">geoPath.projection()</code> 會回傳一個 function，讓你傳地理資訊進去，接著回傳映射過後的 svg path，基本上就是一連串的 svg mini language，就是下列程式碼中的 <code class="language-text">d</code> 的內容：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token operator">&lt;</span>path d<span class="token operator">=</span>"<span class="token constant">M</span> <span class="token number">10</span> <span class="token number">25</span>
+         <span class="token constant">L</span> <span class="token number">10</span> <span class="token number">75</span>
+         <span class="token constant">L</span> <span class="token number">60</span> <span class="token number">75</span>
+         <span class="token constant">L</span> <span class="token number">10</span> <span class="token number">25</span>"</code></pre></div>
+<p>M 代表將 筆 移動到 (10, 25)，接著 L 畫一條線到 (10, 75)，以此類推。詳細介紹可看 <a href="https://www.dashingd3js.com/svg-paths-and-d3js" target="_blank" rel="nofollow noopener noreferrer">這裡</a>。</p>
+<p>當然，你必須傳入一個參數，告訴 <code class="language-text">geoPath.projection()</code> 你想要映射的範圍為何，也就是 <code class="language-text">world_map_path.js</code> 中 <code class="language-text">#L6</code> 所傳入的 <code class="language-text">this.projection()</code>：</p>
+<div class="gatsby-highlight" data-language="jsprojection"><pre class="language-jsprojection"><code class="language-jsprojection">projection() {
+    return geoMercator()
+        .scale(1000)
+        .center([125.9605, 26.6978]);
+}</code></pre></div>
+<p>也是回傳一個 Function，利用到 <code class="language-text">d3-geo</code> 的 <code class="language-text">geoMercator</code>，可以定義好你要映射的 scale 是多大，中心位置在哪。</p>
+<p>最後為了讓每個國家的區塊有明顯區分，我們在 <code class="language-text">fill</code> 的地方，隨機給他不同的顏色，<code class="language-text">fill={ rgba(219, 163, 43,${ 1 / this.state.worlddata.length * i}) }</code></p>
+<p>到這個步驟你已經可以畫出下面這樣的地圖了：</p>
+<iframe src="https://codesandbox.io/embed/0RKnYZMAL?hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="繪製動態路線---資料準備" style="position:relative;"><a href="#%E7%B9%AA%E8%A3%BD%E5%8B%95%E6%85%8B%E8%B7%AF%E7%B7%9A---%E8%B3%87%E6%96%99%E6%BA%96%E5%82%99" aria-label="繪製動態路線   資料準備 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>繪製動態路線 - 資料準備</h2>
+<p>接著進行重頭戲，我們要在地圖上繪製出動態的路徑圖。</p>
+<p>第一個步驟也是先準備好資料，以文章開頭的成品來說，是我修改某年的颱風路徑資料而成的，如果想要串接目前的颱風路徑圖，可以到 <a href="http://opendata.cwb.gov.tw/" target="_blank" rel="nofollow noopener noreferrer">氣象資料開放平臺</a> 申請會員，就可以拿到 API Key 去索取資料，格式會是 xml。</p>
+<p>API 範例：<code class="language-text">http://opendata.cwb.gov.tw/opendataapi?dataid=W-C0034-004&amp;authorizationkey={你的 API key}</code>
+其中 <code class="language-text">W-C0034-004</code> 是颱風路徑圖資料的 data id。</p>
+<p>資料中會有三個個主要部分，分別是過去的路徑資料 (past)、現在的位置 (curr) 與 未來預測的位置 (fcst)，簡單的 parser 可以參考我的 <a href="https://gist.github.com/ArvinH/66d1f9cedfc96deb956031502362202b" target="_blank" rel="nofollow noopener noreferrer">gist</a></p>
+<p>出來的結果格式如下，主要包含經緯度座標與颱風半徑：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token punctuation">{</span>
+    <span class="token string">"pastData"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"status"</span><span class="token operator">:</span> <span class="token string">"past"</span><span class="token punctuation">,</span>
+            <span class="token string">"time"</span><span class="token operator">:</span> <span class="token string">"2017-07-02T08:00:00+08:00"</span><span class="token punctuation">,</span>
+            <span class="token string">"coordinates"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token number">126.8</span><span class="token punctuation">,</span>
+                <span class="token number">20.9</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"radius"</span><span class="token operator">:</span> <span class="token number">80</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token comment">// ... 過往資料通常很多</span>
+    <span class="token punctuation">]</span>
+    <span class="token string">"currData"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"status"</span><span class="token operator">:</span> <span class="token string">"curr"</span><span class="token punctuation">,</span>
+            <span class="token string">"time"</span><span class="token operator">:</span> <span class="token string">"2017-07-05T02:00:00+08:00"</span><span class="token punctuation">,</span>
+            <span class="token string">"coordinates"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token number">142.5</span><span class="token punctuation">,</span>
+                <span class="token number">35.1</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"radius"</span><span class="token operator">:</span> <span class="token number">120</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">"fcstData"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token string">"status"</span><span class="token operator">:</span> <span class="token string">"fcst"</span><span class="token punctuation">,</span>
+            <span class="token string">"time"</span><span class="token operator">:</span> <span class="token string">"2017-07-05T14:00:00+08:00"</span><span class="token punctuation">,</span>
+            <span class="token string">"coordinates"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token number">150.5</span><span class="token punctuation">,</span>
+                <span class="token number">36.7</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"radius"</span><span class="token operator">:</span> <span class="token number">120</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2 id="繪製動態路線---路徑繪製" style="position:relative;"><a href="#%E7%B9%AA%E8%A3%BD%E5%8B%95%E6%85%8B%E8%B7%AF%E7%B7%9A---%E8%B7%AF%E5%BE%91%E7%B9%AA%E8%A3%BD" aria-label="繪製動態路線   路徑繪製 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>繪製動態路線 - 路徑繪製</h2>
+<p>資料產生後，記得先放到 state 當中：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"> <span class="token keyword">const</span> <span class="token punctuation">{</span> pastData<span class="token punctuation">,</span> currData<span class="token punctuation">,</span> fcstData <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./parsedWeatherData.json'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token comment">//...</span>
+ <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+      worlddata<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      typhoonPath<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span>pastData<span class="token punctuation">,</span> <span class="token operator">...</span>currData<span class="token punctuation">,</span> <span class="token operator">...</span>fcstData<span class="token punctuation">]</span><span class="token punctuation">,</span>
+      marker<span class="token operator">:</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">"201701"</span><span class="token punctuation">,</span> coordinates<span class="token operator">:</span> pastData<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>coordinates <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span></code></pre></div>
+<p>順便加上一個 marker，用來代表颱風本體，以路徑圖的第一個位置為其座標起始點。</p>
+<p>接著我們另外寫一個 <code class="language-text">renderLine()</code> function 來處理路徑繪製的部分，因為待會還會需要加上動畫效果，會複雜一些：</p>
+<div class="gatsby-highlight" data-language="jsrenderline"><pre class="language-jsrenderline"><code class="language-jsrenderline">renderLine() {
+    // 座標映射
+    const pathCoordinates = [];
+    this.state.typhoonPath.forEach((path, i) =&gt; {
+      pathCoordinates.push({
+        x: this.projection()(path.coordinates)[0],
+        y: this.projection()(path.coordinates)[1]
+      });
+    });
+    
+    // 線段繪製函數
+    const lineFunction = d3Line()
+      .x((d) =&gt; d.x)
+      .y((d) =&gt; d.y)
+      .curve(curveCatmullRom);
+
+    // 增加 svg 元素
+    // add path
+    d3Select(&#39;svg&#39;)
+      .append(&#39;g&#39;)
+      .append(&#39;path&#39;)
+      .attr(&#39;class&#39;, &#39;typhoonPath&#39;)
+      .attr(&#39;d&#39;, lineFunction(pathCoordinates))
+      .attr(&#39;fill&#39;, &#39;none&#39;)
+      .attr(&#39;stroke&#39;, &#39;red&#39;)
+      .attr(&#39;stroke-width&#39;, &#39;5px&#39;);
+
+    // add marker
+    d3Select(&#39;svg&#39;)
+      .append(&#39;g&#39;)
+      .append(&#39;circle&#39;)
+        .attr(&quot;transform&quot;, () =&gt; {
+            const x = this.projection()(this.state.marker.coordinates)[0]
+            const y = this.projection()(this.state.marker.coordinates)[1]
+            return `translate(${x}, ${y})`;
+        })
+        .attr(&#39;r&#39;, 10)
+        .attr(&#39;fill&#39;, &#39;yellow&#39;)
+        .attr(&#39;opacity&#39;, 0.7)
+        .attr(&#39;class&#39;, &#39;typhoonMarker&#39;);
+
+    const linePath = d3SelectAll(&#39;path.typhoonPath&#39;);
+    
+  }</code></pre></div>
+<p>繪製路線的 <code class="language-text">renderLine()</code> 可以拆成三部分來說明：</p>
+<ol>
+<li>座標映射：
+由於我們自己 parse 的路徑資料並非 TopoJSON，而且還區分成不同時間的資料，所以我們先個別將路徑映射好座標點，再串接到一個 Array 中，方便後續繪製。
+我們先前提到的 <code class="language-text">projection()</code> 非常好用，只要傳入一個含有 x, y 經緯度的物件，就能幫我們在設定的 scale 中映射出對應位置：<code class="language-text">this.projection()(path.coordinates)</code>，會回還一個 Array，分別為經度和緯度。</li>
+<li>線段繪製函數：
+在 D3.js 中，attribute 可以傳入 function，這邊我們利用 <code class="language-text">d3-shape</code> 中的 <code class="language-text">line</code>（ code 裡面的 d3Line 是我 import 後的變數名稱)來幫忙將映射後的座標 x, y 轉換成 svg path 的 d value。
+其中 <code class="language-text">curve</code> 是 <code class="language-text">d3-shape.line</code> 的補間函數，簡單來說就是決定線段中，每個 <strong>點</strong> 與 <strong>點</strong> 之間該怎麼 <strong>連接</strong>，看過這個對照應該會比較能了解：
+<a href="https://bl.ocks.org/d3noob/ced1b9b18bd8192d2c898884033b5529" target="_blank" rel="nofollow noopener noreferrer">v4 curve interpolation comparison</a>
+<img src="/image/linecurve-comparsion.png" alt="curve interpolation comparison"></li>
+<li>增加 svg 元素：
+這就是最基本的步驟囉，<code class="language-text">d3-select</code> 出 svg 後，再 append 上我們要的 line path 與 marker，有寫過 D3.js 的勢必不陌生。</li>
+</ol>
+<p>在 <code class="language-text">componentDidMount()</code> 的地方加上 <code class="language-text">renderLine()</code> 函數，就可以看到如下結果：</p>
+<iframe src="https://codesandbox.io/embed/ERPYl4q94?hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="繪製動態路線---加上動態路徑效果" style="position:relative;"><a href="#%E7%B9%AA%E8%A3%BD%E5%8B%95%E6%85%8B%E8%B7%AF%E7%B7%9A---%E5%8A%A0%E4%B8%8A%E5%8B%95%E6%85%8B%E8%B7%AF%E5%BE%91%E6%95%88%E6%9E%9C" aria-label="繪製動態路線   加上動態路徑效果 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>繪製動態路線 - 加上動態路徑效果</h2>
+<p>接著我們要讓這個路徑 <strong>活起來</strong>！</p>
+<p>要讓 svg 線段有動畫般的效果其實很簡單，利用 svg 的 <code class="language-text">stroke-dasharray</code> 這個屬性即可，詳細的實作原理可以看 css-tricks 上的這篇文章 <a href="https://css-tricks.com/svg-line-animation-works/" target="_blank" rel="nofollow noopener noreferrer">How SVG Line Animation Works</a>，解釋的非常清楚，只是裡面說的做法是透過 CSS 的 animation，跟我們這邊有些微差異，但是原理是相同的。</p>
+<span style="color: red">
+重點就在於，將原始的 **直線** 轉換為 **虛線**，透過改變該虛線的 **dasharray** 區間，來做出動態的效果。
+</span>
+<p>stroke-dasharray 的參數是 ( dash 的長度, gap 的長度 ))，我們只要固定 gap 的長度為線段長，然後讓 dash 的長度從零慢慢轉換成線段長即可達到動畫效果！</p>
+<p>所以我們加上一個 <code class="language-text">transition</code> 函數：</p>
+<div class="gatsby-highlight" data-language="jstransition"><pre class="language-jstransition"><code class="language-jstransition">transition(linePath) {
+    const self = this;
+    linePath.transition()
+      .duration(15000)
+      .attrTween(&quot;stroke-dasharray&quot;, this.translateFn.bind(this, linePath))
+      .on(&#39;end&#39;, () =&gt; {
+        setTimeout(() =&gt; {
+           d3Select(this).call(self.transition.bind(self, linePath)); // infinite loop
+        }, 1500);
+      });
+}</code></pre></div>
+<p><code class="language-text">linePath</code> 是 <code class="language-text">d3-select</code> 到的路徑 path 元件。透過 <code class="language-text">transition()</code> 與 <code class="language-text">attrTween()</code> 來動態調整 <code class="language-text">stroke-dasharray</code> 的值，並且在最後監聽一個 <code class="language-text">end</code> 事件，也就是當每次動畫結束以後，我們隔個 1.5 秒再重新呼叫一次 <code class="language-text">transition()</code>，進行 loop。</p>
+<p><strong>[Note]</strong>
+這邊要注意的是，<code class="language-text">linePath</code> 雖然是透過 <code class="language-text">d3-select</code> 取得的元件，要呼叫他的 <code class="language-text">transition()</code> 函式的話，會需要額外加入 <code class="language-text">d3-transition</code> 的 lib 才行，他會將 <code class="language-text">transition</code> bind 到元件中：
+<code class="language-text">import { transition as d3Transition } from 'd3-transition';</code></p>
+<p><code class="language-text">attrTween</code> 會將 <code class="language-text">transition</code> 過程中的<strong>時間</strong>當作參數丟進去給它的 <strong>value</strong>，而該 <strong>value</strong> 扮演著處理 <strong>補間動畫</strong> 的角色，是一個 input 為時間的補間函式，我們這邊執行一個<code class="language-text">translateFn()</code>，用來處理我們補間動畫過程中需要做的事情，以及定義補間動畫函式的內容：</p>
+<div class="gatsby-highlight" data-language="jstranslatefn"><pre class="language-jstranslatefn"><code class="language-jstranslatefn">translateFn(linePath) {
+    const self = this;
+    // 回傳 input 為 time 的補間函式
+    return (t) =&gt; {
+        const l = linePath.node().getTotalLength();
+        const p = linePath.node().getPointAtLength(t * l);
+        const marker = d3Select(&#39;.typhoonMarker&#39;);
+        marker.attr(&quot;transform&quot;, `translate(${p.x}, ${p.y})`);
+        marker.style(&quot;transition&quot;, &#39;r 1.5s&#39;);
+        marker.attr(&quot;r&quot;, 10);
+        const interpolate = d3Interpolate(`0,${l}`, `${l},${l}`);
+
+        return interpolate(t);
+    }
+}</code></pre></div>
+<p>如同先前提到的，我們要改變 <code class="language-text">stroke-dasharray</code> 的區間，也就是要讓第一個參數，dash 的長度遞增為線段長，線段長度可以從 <code class="language-text">linePath.node().getTotalLength()</code> 取得，透過 <code class="language-text">d3-interpolate</code> 幫助我們產生一個補間函式 <code class="language-text">interpolate(t)</code>，補完 <code class="language-text">0, 線段長</code> -> <code class="language-text">線段長, 線段長</code> 這段參數的變化，並且回傳出去給 <code class="language-text">attrTween</code>。</p>
+<p><code class="language-text">d3</code> 的文件都顯得蠻詳細的，<a href="https://github.com/d3/d3-interpolate#interpolate" target="_blank" rel="nofollow noopener noreferrer">d3-interpolate</a> 這邊有說明不同的 input type 會採用不同的補間函式來處理，例如字串、時間、數字等等。</p>
+<p>加上了這個 <code class="language-text">tranlsateFn</code> 後，線段就活起來了！</p>
+<iframe src="https://codesandbox.io/embed/Q1KBD2WLZ?hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<p>在剛剛的 <code class="language-text">translateFn</code> 中我們其實還做了一件事情，就是讓 Marker 跟著線段移動，透過 <code class="language-text">const p = linePath.node().getPointAtLength(t * l);</code> 取得線段在該時間的 point 位置，並 transform 過去。</p>
+<p>但這樣還不夠，既然是想要有颱風路徑的效果，怎麼可以缺少了暴風半徑的資訊呢？</p>
+<p>記得我們原本 parse 出來的資料中有個 <code class="language-text">radius</code> 的值嗎？我們可以在 <code class="language-text">translateFn</code> 中抓出目前資料的半徑值，然後放到 marker 的 <code class="language-text">r</code> attribute 中：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">self<span class="token punctuation">.</span>state<span class="token punctuation">.</span>typhoonPath<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">path</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> pixelLocSource <span class="token operator">=</span> self<span class="token punctuation">.</span><span class="token function">projection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span>coordinates<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>p<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token operator">===</span> Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>pixelLocSource<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">const</span> radius <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">distanceCalculate</span><span class="token punctuation">(</span>pixelLocSource<span class="token punctuation">,</span> path<span class="token punctuation">.</span>coordinates<span class="token punctuation">,</span> path<span class="token punctuation">.</span>radius<span class="token punctuation">)</span><span class="token punctuation">;</span>
+          marker<span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"r"</span><span class="token punctuation">,</span> radius<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>但這邊還有個小問題，資料中，半徑的單位是 km，我要怎麼讓它轉換成 svg 中的距離呢？！我們之前的投影函式 <code class="language-text">projection()</code> 只能接受座標參數，沒辦法直接轉換距離啊！</p>
+<p>別慌張，那我們就先計算出中心點到這段半徑後的座標，在轉換成地圖上的點，接著利用國高中數學計算出距離即可！</p>
+<div class="gatsby-highlight" data-language="jsdistancecalculate"><pre class="language-jsdistancecalculate"><code class="language-jsdistancecalculate">distanceCalculate(pixelLocSource, [longitude, latitude], distance){	
+    // Latitude: 1 deg = 110.574 km
+    // Longitude: 1 deg = 111.320*cos(latitude) km
+    const lat_diff = distance / 110.574;
+    const lon_distance = 111.320 * Math.cos(latitude * Math.PI / 180);
+    const lon_diff = distance / lon_distance;
+  
+    const E = longitude + Math.abs(lon_diff);
+    const pixelLoc = this.projection()([E, latitude]);
+    // distance calculate
+    return Math.sqrt(Math.pow(pixelLocSource[0] - pixelLoc[0], 2) + Math.pow(pixelLocSource[1] - pixelLoc[1], 2));
+}</code></pre></div>
+<p>取巧的點是，利用已知的經緯度距離來做運算：
+Latitude: 1 deg = 110.574 km
+Longitude: 1 deg = 111.320*cos(latitude) km</p>
+<p><code class="language-text">pixelLocSource</code> 是映射過後的中心點位置，<code class="language-text">[longitude, latitude]</code> 則是中心點的原始經緯度，而 <code class="language-text">distance</code> 就是我們要算的暴風半徑。
+由於我們並不需要算出真正半徑內每個點的經緯度，所以這邊我只抓該緯度上的精度來做投影計算，找出該半徑後的精度，再套用普通的兩點距離公式。</p>
+<p>（其實這是我想出來比較暴力的解法啦，歡迎知道有更簡單更好的方式映射距離的朋友告知我！非常感謝）</p>
+<p>最後的成果（將 scale 調大比較看得出來半徑變化）：</p>
+<iframe src="https://codesandbox.io/embed/Xo0gjl6qA?hidenavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<p>結論：</p>
+<p>要讓路徑在地圖上動起來並不困難，而且透過 D3.js 的補間函式也能讓你在補間過程中偷做許多手腳，像是我最一開始的範例中還有多判斷資料的時間，針對不同時間留下颱風半徑範圍圖等等。
+本篇的重點在於如何單純透過 D3.js v4 與 svg 的操作來製作出地圖上的動態線段，其他像是基本的經緯度線段 (graticule) 礙於篇幅關係就不細談，相信大家可以從我最一開始的範例中看出是如何製作的。希望本文能對想用 svg 繪製動態路線圖的讀者有所幫助，若文中有任何錯誤也歡迎指正！</p>
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="http://www.naturalearthdata.com/" target="_blank" rel="nofollow noopener noreferrer">Natural Earth</a></li>
+<li><a href="ttps://github.com/topojson" target="_blank" rel="nofollow noopener noreferrer">topojson</a></li>
+<li><a href="https://css-tricks.com/svg-line-animation-works/" target="_blank" rel="nofollow noopener noreferrer">How SVG Line Animation Works</a></li>
+<li><a href="https://www.dashingd3js.com/svg-paths-and-d3js" target="_blank" rel="nofollow noopener noreferrer">SVG Paths and D3.js</a></li>
+<li><a href="http://andyshora.com/tweening-shapes-paths-d3-js.html" target="_blank" rel="nofollow noopener noreferrer">TWEENING CUSTOM SHAPES AND PATHS IN D3.JS</a></li>
+<li><a href="http://www.oxxostudio.tw/articles/201411/svg-d3-02-line.html" target="_blank" rel="nofollow noopener noreferrer">SVG D3.js - 繪製線段</a></li>
+<li><a href="https://bl.ocks.org/dimitardanailov/6f0a451d4457b9fa7bf6e0dddcd0f468" target="_blank" rel="nofollow noopener noreferrer">D3.js Path Data Generator Line Example</a></li>
+<li><a href="https://bl.ocks.org/d3noob/ced1b9b18bd8192d2c898884033b5529" target="_blank" rel="nofollow noopener noreferrer">v4 curve interpolation comparison</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/d-3"><strong>d3</strong> <!-- -->, </a><a href="/tags/react"><strong>react</strong> <!-- -->, </a><a href="/tags/svg"><strong>svg</strong> <!-- -->, </a><a href="/tags/d-3-v-4"><strong>d3v4</strong> <!-- -->, </a><a href="/tags/data-visualization"><strong>data visualization</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/webassembly-js-future">[筆記] 了解 WebAssembly 的基礎使用方法</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/canvas-path-map">D3v4 &amp; Canvas 工作坊 - D3 + Canvas 繪製動態路線圖</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->09-08-2024</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/d-3-workshop-map";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-a7634cfa007275822093.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-f5383e67068afc3e3873.js" async=""></script></body></html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">D3v4 &amp; Canvas 工作坊 - D3 + Canvas 繪製動態路線圖 | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infocanvas-path-map"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="D3v4 &amp; Canvas 工作坊 - D3 + Canvas 繪製動態路線圖"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="D3v4 &amp; Canvas 工作坊 - D3 + Canvas 繪製動態路線圖"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infocanvas-path-map","url":"https://blog.arvinh.infocanvas-path-map","name":"D3v4 & Canvas 工作坊 - D3 + Canvas 繪製動態路線圖","alternateName":"ArvinHuang Blog","headline":"D3v4 & Canvas 工作坊 - D3 + Canvas 繪製動態路線圖","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"08-18-2017","dateModified":"08-18-2017","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-f5383e67068afc3e3873.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/canvas-path-map/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">D3v4 &amp; Canvas 工作坊 - D3 + Canvas 繪製動態路線圖</div><div class="Subline-sc-1j7ecob-0 KMFWk">08-18-2017<!-- --> — <!-- -->17<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>『In theory, there is no difference between theory and practice. But, in practice, there is.』- Jan LA van de Snepscheut</p>
+</blockquote>
+<!-- more -->
+<h2 id="前言" style="position:relative;"><a href="#%E5%89%8D%E8%A8%80" aria-label="前言 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h2>
+<p>HTML 5 的 Canvas 是許多人做動畫、做遊戲常常會用到的工具，此外，如果是進行資料視覺化，在繪製大量的圖形與動畫時，Canvas 可以為你的 performance 帶來很大的改善，從 <a href="http://blog.infographics.tw/2015/07/optimize-d3-with-canvas/" target="_blank" rel="nofollow noopener noreferrer">D3.js 實戰 － Canvas 把我的視覺化變「快」了！</a> 中最後的範例就可以看得出來差異。</p>
+<p>總之，身為前端工程師的我卻沒有實作做過 Canvas 相關應用，在羞愧之餘也得奮發向上扳回劣勢才可以，所以決定把上次用 d3 與 svg 繪製的颱風路徑圖重新用 Canvas 重寫一遍，也透過這篇文章做個紀錄。</p>
+<h2 id="canvas-基礎概念---繪圖" style="position:relative;"><a href="#canvas-%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5---%E7%B9%AA%E5%9C%96" aria-label="canvas 基礎概念   繪圖 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Canvas 基礎概念 - 繪圖</h2>
+<p>Canvas 顧名思義就是一塊畫布，只不過是生存在你的 HTML DOM tree 中，讓你透過 Javascript 在上面揮灑創意。</p>
+<p>Canvas 就像一般的 DOM 元素一樣，有 <code class="language-text">width</code> 與 <code class="language-text">height</code> 等屬性可以設定，也能透過 CSS 來操作他的樣式，而這些樣式並不會影響到你在上面所進行的任何繪製功能。
+不過要注意一下，如果你是透過 CSS 去更改寬度與高度，他會放大 Canvas 元素本身，而不會放大 Canvas 內的像素，因此你在 Canvas 內繪製的圖形可能會變形。</p>
+<p><code class="language-text">&lt;canvas id="worldMapCanvas" width="1000" height="600"> Your browser is too old... &lt;/canvas></code></p>
+<p>有了 Canvas 元素後，我們要取得他的 <strong>渲染環境（rendering context）</strong>，之後必須要透過這個 Context 才能進行繪圖：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'worldMapCanvas'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> ctx <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>接下來的一切繪圖操作就會跟著你取得的 context 進行，透過一連串 Canvas API，你可以繪製出如下的圖案：</p>
+<p data-height="374" data-theme-id="29194" data-slug-hash="brLmqX" data-default-tab="js,result" data-user="arvin0731" data-embed-version="2" data-pen-title="First demo - define graph" class="codepen">See the Pen <a href="https://codepen.io/arvin0731/pen/brLmqX/">First demo - define graph</a> by Arvin (<a href="https://codepen.io/arvin0731">@arvin0731</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p>在 <code class="language-text">ball.draw()</code> 這個函數當中，我用了五個最基本的 Canvas API 來進行繪製：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">    ctx<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>x<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>y<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>radius<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">closePath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>color<span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">ctx.beginPath()</code>:
+<a href="https://developer.mozilla.org/zh-TW/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes" target="_blank" rel="nofollow noopener noreferrer">MDN</a> 上的說明是：產生一個新路徑，產生後再使用繪圖指令來設定路徑。
+白話一點就是告訴 Canvas 說你現在要開始繪製線段了喔！請幫我開啟一個新的次路徑清單（sub-path），幫忙紀錄接下來我繪製的路線。
+基本上在你每次繪製新的圖形或線段的時候，都需要呼叫一次 <code class="language-text">beginPath()</code>，否則 Canvas 會將你先前的繪製的部分與後續你想繪製的新圖型當作同一個連續的圖。
+來個範例（沒有使用 beginPath() 就直接想繪製新圖形時）：</p>
+<p data-height="300" data-theme-id="29194" data-slug-hash="LjQgqg" data-default-tab="js,result" data-user="arvin0731" data-embed-version="2" data-pen-title="First demo - beginPath" class="codepen">See the Pen <a href="https://codepen.io/arvin0731/pen/LjQgqg/">First demo - beginPath</a> by Arvin (<a href="https://codepen.io/arvin0731">@arvin0731</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p>可以發現我明明在 <code class="language-text">lineTo()</code> 後有設定不同的 <code class="language-text">strokeStyle</code>，但最後都被 <span style="color:#B90CB3">#B90CB3</span> 給取代了，這就是因為沒有呼叫 beginPath 來對線段做區隔。</p>
+<p>加上 <code class="language-text">beginPath()</code> 後，結果就會是我們想要的了：</p>
+<p data-height="300" data-theme-id="29194" data-slug-hash="ayqRMG" data-default-tab="js,result" data-user="arvin0731" data-embed-version="2" data-pen-title="First demo - addBeginPath" class="codepen">See the Pen <a href="https://codepen.io/arvin0731/pen/ayqRMG/">First demo - addBeginPath</a> by Arvin (<a href="https://codepen.io/arvin0731">@arvin0731</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</li>
+<li>
+<p><code class="language-text">ctx.arc(x,y,raidus,startAngle,endAngle,counterclockwise)</code>:
+就是畫出一個弧線，前兩個參數設定中心點的位置，接著設定半徑、起始點（起始角度）、結束點（結束角度）與方向（順時針或逆時針：</p>
+<p><img src="/image/canvasarc.png" alt="Canvas arc"></p>
+</li>
+<li>
+<p><code class="language-text">ctx.beginPath()</code> 的範例中還有用到 <code class="language-text">moveTo()</code>, <code class="language-text">lineTo()</code> 與 <code class="language-text">stroke()</code>，也都是很常用的 API，但從字面上就很好理解:</p>
+<ul>
+<li>moveTo(x, y): 移動畫筆到 point x,y</li>
+<li>lineTo(x, y): 從現在畫筆位置畫一條直線到 point x,y（但光呼叫 <code class="language-text">lineTo()</code> 還不會畫出線段，需透過 <code class="language-text">stroke()</code> 等相似 API）</li>
+<li>stroke(): 實際下筆繪畫的 API</li>
+</ul>
+</li>
+<li><code class="language-text">ctx.closePath()</code>:
+closePath 其實在這邊不需要，他主要用途是在於幫你把你在 beginPath 後創建的 sub-path 做連接的動作，像是把第一條 path 的頭與最後一條 path 的尾巴接起來，但你也可以自己再多畫一條線將區域圍起來，只是稍嫌麻煩。
+從字面上來看，<code class="language-text">closePath()</code> 很像是呼叫後就能幫你斷開路徑的連續性，保持後續繪製圖型的獨立性，但實際上沒有這個功用，你需要透過 <code class="language-text">beginPath()</code> 來完成。</li>
+</ul>
+<p>還有很多 canvas API 的介紹都可以在 MDN 上查詢到，有的教學附有中文呦！<a href="https://developer.mozilla.org/zh-TW/docs/Web/API/Canvas_API/Tutorial" target="_blank" rel="nofollow noopener noreferrer">MDN Canvas tutorial</a></p>
+<h2 id="canvas-基礎概念---動畫" style="position:relative;"><a href="#canvas-%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5---%E5%8B%95%E7%95%AB" aria-label="canvas 基礎概念   動畫 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Canvas 基礎概念 - 動畫</h2>
+<p>先前利用 D3 與 svg 做動畫時，是使用 <code class="language-text">d3.timer</code> 來控制時間，並且更改 svg 元素的 attribute 來移動物件，進而達到動畫效果，但是在 Canvas 的世界中，沒有移動的這種概念，你如果想要讓一個在 Canvas 上的物件移動，你需要的是重新繪製在不同位置的物件，在快速的 frame update 下，人眼看到的就會是一連串動畫了。這原理就跟一般的影片與動畫相同，都是透過每一次 frame 的更新，來呈現出連續畫面。</p>
+<p>那要如何不斷地去更新 Canvas 呢？你可以透過 <code class="language-text">setInterval</code> 也能夠用現在較為人知的 <code class="language-text">requestAnimationFrame</code> 來處理，使用 <code class="language-text">setInterval</code> 你可以直接控制動畫的更新速率，然而在效能上還是採用 <code class="language-text">requestAnimationFrame</code> 較好，是以網頁頁面的更新速度為基準。</p>
+<p>一個採用 <code class="language-text">requestAnimationFrame</code> 的簡單動畫如下：</p>
+<p data-height="300" data-theme-id="29194" data-slug-hash="yoovpx" data-default-tab="js,result" data-user="arvin0731" data-embed-version="2" data-pen-title="First demo" class="codepen">See the Pen <a href="https://codepen.io/arvin0731/pen/yoovpx/">First demo</a> by Arvin (<a href="https://codepen.io/arvin0731">@arvin0731</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<div class="gatsby-highlight" data-language="jsdraw"><pre class="language-jsdraw"><code class="language-jsdraw">    ctx.clearRect(0,0, canvas.width, canvas.height);
+    ball.draw();
+    // ... calculate position
+
+    raf = window.requestAnimationFrame(draw);</code></pre></div>
+<p>關鍵只有兩個地方：</p>
+<ul>
+<li>在每次 requestAnimationFrame 執行時，你都要清空現在的 Canvas 畫面重新繪製 <code class="language-text">ctx.clearRect(0,0, canvas.width, canvas.height);</code>。</li>
+<li>requestAnimationFrame 是必須自己去呼叫的，所以在我們的 <code class="language-text">draw()</code> 函式中，最後要自己呼叫 raf 來重新 trigger 自己的 draw function。
+你可以像一般的 setInterval 一樣記錄他回傳的 reference，並在適當時間 <code class="language-text">cancelAnimationFrame</code>。</li>
+</ul>
+<h2 id="瞭解了-canvas-的基礎知識後可以開始動手今天的主題了" style="position:relative;"><a href="#%E7%9E%AD%E8%A7%A3%E4%BA%86-canvas-%E7%9A%84%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E5%BE%8C%E5%8F%AF%E4%BB%A5%E9%96%8B%E5%A7%8B%E5%8B%95%E6%89%8B%E4%BB%8A%E5%A4%A9%E7%9A%84%E4%B8%BB%E9%A1%8C%E4%BA%86" aria-label="瞭解了 canvas 的基礎知識後可以開始動手今天的主題了 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>瞭解了 Canvas 的基礎知識後，可以開始動手今天的主題了！</h2>
+<p>由於範例是修改自 <a href="https://blog.arvinh.info/2017/07/21/d3-workshop-map/" target="_blank" rel="nofollow noopener noreferrer">D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖</a>，所以關於資料的取得與格式請參考該篇或是下面 Demo 的程式碼。</p>
+<h2 id="地圖" style="position:relative;"><a href="#%E5%9C%B0%E5%9C%96" aria-label="地圖 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>地圖</h2>
+<p>在上一篇 <a href="https://blog.arvinh.info/2017/07/21/d3-workshop-map/" target="_blank" rel="nofollow noopener noreferrer">D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖</a> 中，我們利用 svg path 元素搭配 <code class="language-text">d3.geoPath()</code> 與 <code class="language-text">d3.geo</code> 中的 <code class="language-text">geoMercator()</code> 來繪製世界地圖，那 d3 有辦法幫助我們在 Canvas 上繪製世界圖嗎?</p>
+<p>當然可以！</p>
+<p><code class="language-text">d3.geoPath()</code> 有提供一個 <code class="language-text">context()</code> API，讓你綁定 Canvas 的 context，然後就能傳入路徑資料繪製到 Canvas 上頭：</p>
+<div class="gatsby-highlight" data-language="jsrendermap"><pre class="language-jsrendermap"><code class="language-jsrendermap">function renderMap() {
+  const self = this;
+  const canvasNode = d3Select(&#39;#mapCanvas&#39;).node();
+  const context = canvasNode.getContext(&#39;2d&#39;);
+  // 傳入 canvas context 給 geoPath()
+  const path = geoPath().context(context);
+  context.beginPath();
+  // 記得一樣要放入你的映射函數
+  path.projection(this.projection());
+  this.state.worlddata.features.forEach((d, i) =&gt; {
+      context.fillStyle = 
+        &#39;rgba(38,50,56,&#39;+ 1 / this.state.worlddata.features.length * i + &#39;)&#39;
+      context.beginPath();
+      // 綁定 Canvas context 的 path 就能將傳入的資料繪製在 Canvas 上頭
+      path(d);
+      context.fill();
+  });
+
+  // add graticules path
+  context.beginPath();
+  path.projection(this.projection());
+  path(this.state.graticule);
+  context.fillStyle = &#39;none&#39;;
+  context.strokeStyle = &#39;#79A09E&#39;;
+  context.stroke();
+  }</code></pre></div>
+<p>Demo: （可以切換模式看 code，或是到<a href="https://blog.arvinh.info/2017/07/21/d3-workshop-map/" target="_blank" rel="nofollow noopener noreferrer">上一篇</a>看，有許多重複的運算函式）</p>
+<iframe src="https://codesandbox.io/embed/w2lp7ml9vw?autoresize=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="路徑" style="position:relative;"><a href="#%E8%B7%AF%E5%BE%91" aria-label="路徑 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>路徑</h2>
+<p>接著重頭戲是要畫上路徑，這邊會複雜許多，我盡力說明，但直接看 code 會清楚一點。</p>
+<p>這邊說明在 Canvas 上繪製動態路線的原理與步驟：</p>
+<h3 id="線段動畫原理" style="position:relative;"><a href="#%E7%B7%9A%E6%AE%B5%E5%8B%95%E7%95%AB%E5%8E%9F%E7%90%86" aria-label="線段動畫原理 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>線段動畫原理：</h3>
+<span style="color: red">
+跟 svg 要製作動態路線一樣的原理，我們都是先將線畫好後，利用線段的 **line dash** 與 **dash offset** 來製作出路徑的動畫效果。（可參考 [上一篇](https://blog.arvinh.info/2017/07/21/d3-workshop-map/)）
+</span>
+<p>因此在繪製上的步驟也差不多，只是實作的細節不同罷了：</p>
+<ul>
+<li>Step 1. 繪製線段的入口點：</li>
+</ul>
+<p>既然一樣是利用 <strong>line dash</strong> 與 <strong>dash offset</strong>，那我們也就需要取得路徑的長度，才能夠設定 <code class="language-text">lineDash</code> 麻，但是你如果在前面的範例中有打開過 devTool，就知道根本看不到 Canvas 上面你繪製的物件，每個線段也都是用各點的 x, y 值去連接，這樣要怎麼知道整個線段長呢？！</p>
+<p>難道要每一段每一段的線長度加總起來嗎？或許是個方法，但太麻煩了！</p>
+<p>我們可以直接利用 D3 創建一個 <code class="language-text">invisiablePath</code>，然後透過 <code class="language-text">getTotalLength()</code> 來取得線段長度，並利用在 Canvas 上頭！</p>
+<p><code class="language-text">renderLine()</code> 是一切的起點，我們在這邊創建隱藏的 svg path 好計算長度，並呼叫 <code class="language-text">requestAnimationFrame</code> 進行 loop，傳入 <code class="language-text">updateLine</code> 函式來產生動畫。</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">renderLine</span><span class="token punctuation">(</span><span class="token parameter">canvasCtx<span class="token punctuation">,</span> typhoonPath<span class="token punctuation">,</span> marker<span class="token punctuation">,</span> typhoonId</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> pathCoordinates <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    typhoonPath<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">path</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        pathCoordinates<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            x<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">projection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span>coordinates<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            y<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">projection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span>coordinates<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> lineFunction <span class="token operator">=</span> <span class="token function">d3Line</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">x</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">d</span><span class="token punctuation">)</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>x<span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">y</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">d</span><span class="token punctuation">)</span> <span class="token operator">=></span> d<span class="token punctuation">.</span>y<span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">curve</span><span class="token punctuation">(</span>curveCatmullRom<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// use svg path to get length</span>
+    <span class="token keyword">const</span> invisiblePath <span class="token operator">=</span> <span class="token function">d3Select</span><span class="token punctuation">(</span><span class="token string">'svg'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">'g'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'d'</span><span class="token punctuation">,</span> <span class="token function">lineFunction</span><span class="token punctuation">(</span>pathCoordinates<span class="token punctuation">)</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'fill'</span><span class="token punctuation">,</span> <span class="token string">'none'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'stroke'</span><span class="token punctuation">,</span> <span class="token string">'none'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'class'</span><span class="token punctuation">,</span> <span class="token string">'invisiblePath'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>invisibleSVGPath<span class="token punctuation">[</span>typhoonId<span class="token punctuation">]</span> <span class="token operator">=</span> invisiblePath<span class="token punctuation">.</span><span class="token function">node</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> length <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>invisibleSVGPath<span class="token punctuation">[</span>typhoonId<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">getTotalLength</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// this clears itself once the line is drawn</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>lineInterval<span class="token punctuation">[</span>typhoonId<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">updateLine</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> canvasCtx<span class="token punctuation">,</span> typhoonPath<span class="token punctuation">,</span> length<span class="token punctuation">,</span> marker<span class="token punctuation">,</span> typhoonId<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span></code></pre></div>
+<ul>
+<li>Step 3. 更新線段的函式：</li>
+</ul>
+<p>在每一次 requestAnimationFrame trigger 的時候，我們都會呼叫 <code class="language-text">updateLine()</code> 來重新 render canvas，主要進行幾個步驟：</p>
+<ol>
+<li><code class="language-text">defineLine()</code>，定義線段，每一次的 loop 都需要重新繪製線段。<a href="#step4"> 跳至 Step 4 看詳細實作</a></li>
+<li>計算目前 <code class="language-text">progress</code>，也就是目前 line offset 要調整到何處，我們是定義一個變數 <code class="language-text">this.speed</code> 與 <code class="language-text">this.dir</code> 來控制線段繪製的方向與速度。每一次的 loop 都會增加 <code class="language-text">this.progress</code> 的值，然後丟入 <code class="language-text">this.moveDash()</code> 中來繪製線段的 line dash 與 line dash offset。<a href="#step5"> 跳至 Step 5 看詳細實作</a></li>
+<li>最後，每一次呼叫 <code class="language-text">updateLine</code> 時，我們都會檢查 <code class="language-text">this.progress</code> 是否已經與線段長度相同，代表已經走完一次路線，需要重新開始，這時候我們就需要先將 canvas 清空：<code class="language-text">canvasCtx.clearRect(0,0,1000,600)</code>，表示將 canvasCtx 所持有的渲染環境從位置 (0,0) 開始對寬 1000 與高 600 的 canvas 清空。最後可以利用 <code class="language-text">setTimoue()</code> 來延長一下路徑走完後的時間，讓他不要馬上就清空 canvas 重繪。</li>
+</ol>
+<div class="gatsby-highlight" data-language="jsupdateline"><pre class="language-jsupdateline"><code class="language-jsupdateline">updateLine(canvasCtx, typhoonPath, length, marker, typhoonId) {
+    // define the line
+    this.defineLine(canvasCtx, typhoonPath, marker, typhoonId);
+    this.progress[typhoonId] = this.progress[typhoonId] || 0;
+    if (this.progress[typhoonId] &lt; length) {
+      this.progress[typhoonId] += this.speed;
+      this.moveDash(canvasCtx, typhoonId, typhoonPath, length, marker, this.progress[typhoonId], this.dir);
+      requestAnimationFrame(this.updateLine.bind(this, canvasCtx, typhoonPath, length, marker, typhoonId));
+    } else {
+    
+      canvasCtx.clearRect(0, 0, 1000, 600);
+      this.progress[typhoonId] = 0;
+      setTimeout(() =&gt; requestAnimationFrame(this.updateLine.bind(this, canvasCtx, typhoonPath, 500, marker, typhoonId)), 1000);
+    }
+  }</code></pre></div>
+<ul>
+<li><span id="step4" style="">Step 4. 定義線段的函式：</span></li>
+</ul>
+<div class="gatsby-highlight" data-language="jsdefineline"><pre class="language-jsdefineline"><code class="language-jsdefineline">defineLine(canvasCtx, typhoonPath, marker, typhoonId) {
+  // define path
+  canvasCtx.beginPath();
+  // start point
+  const startPoint = {
+    x: this.projection()(marker.coordinates)[0],
+    y: this.projection()(marker.coordinates)[1],
+  };
+  // 移動畫筆到起始點
+  canvasCtx.moveTo(startPoint.x, startPoint.y);
+
+  // 將路徑中的每個點與點之間用 lineTo() 連接起來
+  typhoonPath.forEach((path) =&gt; {
+      const x = this.projection()(path.coordinates)[0];
+      const y = this.projection()(path.coordinates)[1];
+      canvasCtx.lineTo(x, y);
+  });
+  // 設定 style
+  canvasCtx.lineWidth = 2;
+  canvasCtx.strokeStyle = &#39;rgba(53, 247, 14,0.7)&#39;;
+}</code></pre></div>
+<ul>
+<li><span id="step5" style="">Step 5. 實作更新 LineDash 的函式：</span></li>
+</ul>
+<p>單純的 moveDash 很簡單，只要透過 <code class="language-text">setLineDash()</code>，將線段長度傳入，定義好你的 line dash 要多長，接著我們利用 Step 3 中提到的 <code class="language-text">this.speed</code> 與 <code class="language-text">this.dir</code> 來計算出現在要將 <code class="language-text">lineDashOffset</code> 設為多少。</p>
+<p>這邊有個有趣的 API，<code class="language-text">globalCompositeOperation</code>，它可以用來決定你目前的 canvas context 渲染環境中，每個新繪製的物件與其他舊有的物件之間的階層關係，像是我這邊設置的 <code class="language-text">destination-over</code> 就代表 <strong>新繪製的圖形會被壓在舊的圖形下方</strong>，至於為什麼我這邊要設置這個參數呢？待會介紹颱風圈實作時你就知道了！更多關於 <code class="language-text">globalCompositionOperation</code> 的介紹可以看 <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation" target="_blank" rel="nofollow noopener noreferrer">MDN globalCompositeOperation</a></p>
+<div class="gatsby-highlight" data-language="jsmovedash"><pre class="language-jsmovedash"><code class="language-jsmovedash">moveDash = (canvasCtx, typhoonId, typhoonPath, length, marker, frac, dir = -1) =&gt; {
+  // default direction right-&gt;left
+  // 設定 line dash 為線段長
+  canvasCtx.setLineDash([length]);
+  // 利用 `this.progress (frac)` 來慢慢增加 line-dash offset，製作出線段動態
+  canvasCtx.lineDashOffset = dir * (frac + length);
+  canvasCtx.globalCompositeOperation = &#39;destination-over&#39;;
+  canvasCtx.stroke();
+}</code></pre></div>
+<p>到這裡為止，你已經創建出與上次相同的動態路線地圖，只是是採用 Canvas 實作，Demo：</p>
+<iframe src="https://codesandbox.io/embed/4j3r5yv74w?view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="暴風圈" style="position:relative;"><a href="#%E6%9A%B4%E9%A2%A8%E5%9C%88" aria-label="暴風圈 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>暴風圈</h2>
+<p>當然不能單純只有線段，還是需要有個跟著線段跑的颱風才比較有 fu。</p>
+<p>你可以會想說，那就每次 <code class="language-text">moveDash()</code> 執行的時候，順便也繪製上一個圓形的暴風圈不就好了嗎？</p>
+<p>接著就這麼做了：</p>
+<div class="gatsby-highlight" data-language="jsmovedash"><pre class="language-jsmovedash"><code class="language-jsmovedash">moveDash = (canvasCtx, typhoonId, typhoonPath, length, marker, frac, dir = -1) =&gt; {
+  // default direction right-&gt;left
+  /* 原本繪製線段的部分 ... */
+  // ...
+  // ..
+  // Move typhoon marker
+  canvasCtx.beginPath();
+  canvasCtx.setLineDash([0]);
+  canvasCtx.lineDashOffset = 0;
+  canvasCtx.lineWidth = 1;
+  canvasCtx.strokeStyle = &#39;rgba(53, 247, 14,0.8)&#39;;
+  canvasCtx.arc(p.x, p.y, 10, 0, Math.PI * 2, true);
+  canvasCtx.closePath();
+  canvasCtx.stroke();
+}</code></pre></div>
+<p>然後就看到下面這個悲劇：</p>
+<iframe src="https://codesandbox.io/embed/xjz4n92yq4?view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<p>其實也沒有錯，你的確是畫上圈圈了，但是每一次的 moveDash() 都會畫上一個圈圈，並且會持續留在 Canvas 上，而實際上我們應該每一步都要將前一個圈圈刪除。</p>
+<p>但如果你在這邊加上 <code class="language-text">canvasCtx.clearRect(0, 0, 1000, 600);</code>，就會發現圈圈會正常移動了，但線段不見了...因為 <code class="language-text">moveDash()</code> 並沒有重新繪製線段，只有更改 context 的 line dash。</p>
+<p><img src="/image/typhooncircleonly.gif" alt="只剩下圈圈了..."></p>
+<h3 id="解法" style="position:relative;"><a href="#%E8%A7%A3%E6%B3%95" aria-label="解法 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>解法</h3>
+<p>那就多畫一層 Canvas 吧！</p>
+<p>沒有人說過 Canvas 只能有一層，你可以疊加一層 Canvas 上去，讓跟著線段移動的暴風圈獨自一個圖層，這樣一來就不會互相影響了！</p>
+<div class="gatsby-highlight" data-language="jsmovedash-multilayer"><pre class="language-jsmovedash-multilayer"><code class="language-jsmovedash-multilayer">moveDash = (canvasCtx, canvasTyphoonMarkerCtx, typhoonId, typhoonPath, length, marker, frac, dir = -1) =&gt; {
+  // default direction right-&gt;left
+  canvasCtx.setLineDash([length]);
+  canvasCtx.lineDashOffset = dir * (frac + length);
+  canvasCtx.globalCompositeOperation = &#39;destination-over&#39;;
+  canvasCtx.stroke();
+  const p = this.invisibleSVGPath[typhoonId].getPointAtLength(frac);
+  canvasCtx.save();
+  // Move typhoon marker
+  canvasTyphoonMarkerCtx.clearRect(0, 0, 1000, 600);
+  canvasTyphoonMarkerCtx.beginPath();
+  canvasTyphoonMarkerCtx.setLineDash([0]);
+  canvasTyphoonMarkerCtx.lineDashOffset = 0;
+  canvasTyphoonMarkerCtx.lineWidth = 1;
+  canvasTyphoonMarkerCtx.strokeStyle = &#39;rgba(53, 247, 14,0.8)&#39;;
+  canvasTyphoonMarkerCtx.arc(p.x, p.y, 10, 0, Math.PI * 2, true);
+  canvasTyphoonMarkerCtx.closePath();
+  canvasTyphoonMarkerCtx.stroke();
+}</code></pre></div>
+<p><code class="language-text">const p = this.invisibleSVGPath[typhoonId].getPointAtLength(frac);</code> 這邊我們先前創立的 <code class="language-text">invisibleSVGPath</code> 又登場了，用來取得目前的線段點資料。</p>
+<p>Demo: 利用兩層 Canvas 來實作跟著線段移動的暴風圈：</p>
+<iframe src="https://codesandbox.io/embed/0xoy5yn4rp?view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<h2 id="最後-demo---加上時間判斷顏色區別多個颱風的情況" style="position:relative;"><a href="#%E6%9C%80%E5%BE%8C-demo---%E5%8A%A0%E4%B8%8A%E6%99%82%E9%96%93%E5%88%A4%E6%96%B7%E9%A1%8F%E8%89%B2%E5%8D%80%E5%88%A5%E5%A4%9A%E5%80%8B%E9%A2%B1%E9%A2%A8%E7%9A%84%E6%83%85%E6%B3%81" aria-label="最後 demo   加上時間判斷顏色區別多個颱風的情況 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>最後 Demo - 加上時間判斷、顏色區別、多個颱風的情況：</h2>
+<iframe src="https://codesandbox.io/embed/98816jkovr?view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<p>這邊還要注意一下，稍早提到的 <code class="language-text">globalCompositeOperation</code>，如果你設為 <code class="language-text">source-over</code>，也就是新繪製出的物件蓋在舊的上面的話，你就會發現颱風圈都被壓在線段下了！</p>
+<p><img src="/image/circleunderline.png" alt="source-over"></p>
+<p>因為在 moveDash 中，線段是一直在重新繪製的，而你留下的颱風圈相對就是舊的物件，所以記得要改成 <code class="language-text">destinatioin-over</code> 才能有比較好的效果！</p>
+<h2 id="根據時間留下暴風圈" style="position:relative;"><a href="#%E6%A0%B9%E6%93%9A%E6%99%82%E9%96%93%E7%95%99%E4%B8%8B%E6%9A%B4%E9%A2%A8%E5%9C%88" aria-label="根據時間留下暴風圈 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>根據時間留下暴風圈</h2>
+<p>這實作方法很簡單，就是在 moveDash 中判斷該點的時間，若符合要求就繪製上一個圖案即可，有興趣的讀者可以直接從 code 中看到。</p>
+<h2 id="如何讓所有動畫都結束後才一起重播" style="position:relative;"><a href="#%E5%A6%82%E4%BD%95%E8%AE%93%E6%89%80%E6%9C%89%E5%8B%95%E7%95%AB%E9%83%BD%E7%B5%90%E6%9D%9F%E5%BE%8C%E6%89%8D%E4%B8%80%E8%B5%B7%E9%87%8D%E6%92%AD" aria-label="如何讓所有動畫都結束後才一起重播 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何讓所有動畫都結束後才一起重播？</h2>
+<p>在我最後一個 Demo 中，一個颱風的路徑較短，一個較長，但卻能同時重播，我採用的方法其實蠻愚蠢的，暫時還沒想到更好的解法，歡迎大家提供。</p>
+<p>我的方法是，用一個共有變數 <code class="language-text">this.allDone</code> 來記錄每條路徑是否已經播完動畫（走完整條 path），接著在 <code class="language-text">updateLine()</code> 中，當自己跑完 path 時，就會多檢查一下 <code class="language-text">this.allDone</code> 中的結果，如果還有人在跑，那自己就繼續呼叫 requestAnimationFrame，但不將 Canvas 清空，所以會一直 loop 檢查 <code class="language-text">this.allDone</code>，直到大家都跑完才清空 Canvas 並重新 loop。</p>
+<div class="gatsby-highlight" data-language="jsupdateline-multiple"><pre class="language-jsupdateline-multiple"><code class="language-jsupdateline-multiple">if (this.progress[typhoonId] &lt; length) {
+   // 正常執行 defineLine 與 moveDash
+} else {
+  // 不斷檢查是否每條 path 都跑完了
+  this.allDone[typhoonId] = true;
+  let keepWaiting;
+  Object.keys(this.allDone).forEach((allDoneTyphoonId) =&gt; {
+    if (!this.allDone[allDoneTyphoonId]) {
+        keepWaiting = true;
+    }
+    return keepWaiting;
+  });
+  if (keepWaiting) {
+    requestAnimationFrame(this.updateLine.bind(this, canvasCtx, canvasTyphoonMarkerCtx, typhoonPath, 500, marker, typhoonId));
+  } else {
+    // 清空 canvas 並重新 loop
+  }
+}</code></pre></div>
+<h2 id="結論" style="position:relative;"><a href="#%E7%B5%90%E8%AB%96" aria-label="結論 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結論</h2>
+<p>利用 Canvas 繪製動畫實際上比用 D3 + svg 煩瑣多了，但是當你的動畫有大量的物件時，Canvas 能為你帶來大幅的 performance 改進，畢竟 svg 的操作會直接影響到 DOM tree。
+另外，實際上要將這些東西應用到 Production 的話，其實還有非常多細節要調整，包含各種 Browser 與 Device 的呈現、Map Scale 的彈性等等，還有很長的路要走啊...
+這篇文章算是我的一個筆記，寫得有點雜亂，歡迎（有看完的或是看不下去的）讀者給予任何建議！
+(PS. 我本來路徑跟暴風圈的顏色是想弄得像 EVA 風格，結果有點慘XD  但我懶得修了就給大家笑笑～)</p>
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="https://css-tricks.com/svg-line-animation-works/" target="_blank" rel="nofollow noopener noreferrer">How SVG Line Animation Works</a></li>
+<li><a href="http://blog.infographics.tw/2015/07/optimize-d3-with-canvas/" target="_blank" rel="nofollow noopener noreferrer">D3.js 實戰 － Canvas 把我的視覺化變「快」了！</a></li>
+<li><a href="https://developer.mozilla.org/zh-TW/docs/Web/API/Canvas_API/Tutorial" target="_blank" rel="nofollow noopener noreferrer">MDN Canvas tutorial</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation" target="_blank" rel="nofollow noopener noreferrer">MDN globalCompositeOperation</a></li>
+<li><a href="https://bl.ocks.org/mbostock/3783604" target="_blank" rel="nofollow noopener noreferrer">mbostock d3.geoPath + Canvas</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/javascript"><strong>javascript</strong> <!-- -->, </a><a href="/tags/d-3"><strong>d3</strong> <!-- -->, </a><a href="/tags/d-3-v-4"><strong>d3v4</strong> <!-- -->, </a><a href="/tags/canvas"><strong>canvas</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/d-3-workshop-map">D3v4 工作坊 - React + D3 繪製 svg 動態路線地圖</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/webvr-d-3">D3v4 工作坊 - WebVR 與資料視覺化</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->09-08-2024</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/canvas-path-map";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-a7634cfa007275822093.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-f5383e67068afc3e3873.js" async=""></script></body></html>

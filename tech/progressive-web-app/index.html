@@ -1,0 +1,418 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">Progressive Web App 會是未來趨勢嗎？ | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infoprogressive-web-app"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="Progressive Web App 會是未來趨勢嗎？"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="Progressive Web App 會是未來趨勢嗎？"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infoprogressive-web-app","url":"https://blog.arvinh.infoprogressive-web-app","name":"Progressive Web App 會是未來趨勢嗎？","alternateName":"ArvinHuang Blog","headline":"Progressive Web App 會是未來趨勢嗎？","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"07-18-2016","dateModified":"07-18-2016","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-f5383e67068afc3e3873.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/progressive-web-app/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">Progressive Web App 會是未來趨勢嗎？</div><div class="Subline-sc-1j7ecob-0 KMFWk">07-18-2016<!-- --> — <!-- -->16<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>"所以你是說...我手機上會有我上傳到平台的資料？"
+"是的"
+"可是它顯示 0kb 呀？！"</p>
+</blockquote>
+<!-- more -->
+<p>距離今年 Google I/O 2016 轉眼間也過了兩個多月，議程中提及的 Progressive Web App (PWA) 似乎討論不多，我當時隨便掃過 Google Developers 上的資料後的念頭是：“怎麼有點像當年 Firefox OS 上跑 web app的長相？”</p>
+<p>其實我覺得是蠻雷同的，差別在於 Progressive Web App 是想能夠直接利用目前的 Browser 來支援其運作。實際上 Mozilla 一樣有在推動相關標準的建立。</p>
+<p>這也是我初次接觸 Progressive Web App，因此就照著 Google Developers 上的教學走一遍，並紀錄分享在此。</p>
+<h2 id="何謂-progressive-web-app-pwa" style="position:relative;"><a href="#%E4%BD%95%E8%AC%82-progressive-web-app-pwa" aria-label="何謂 progressive web app pwa permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>何謂 Progressive Web App (PWA)</h2>
+<p>先講結論，Progressive Web App 是希望能夠讓 Web application 盡可能的在各種環境（網路環境、手機作業系統等）下都能順暢且不減功能性的運作，並讓你的 Web App 可以：</p>
+<ol>
+<li>直接被使用者安裝到桌面</li>
+<li>offline 使用</li>
+<li>擁有推播功能</li>
+<li>開啟時看不到 URL Bar（類 Native app 的使用經驗）</li>
+<li>開啟時有 Splash Screen</li>
+</ol>
+<p>而要做到這些事情，整個 PWA 的設計要點就會包含以下特性：</p>
+<ul>
+<li><strong><span style="color: #c11b1b">Progressive - 漸進增強：在越完善的環境下，能執行更加完整的服務，若環境不許可，能夠優雅降級，運行最基本的功能。</span></strong></li>
+<li>Responsive - 響應式介面：能夠在各種螢幕尺寸下顯示、能夠因應多種輸入方式與設備回饋（震動、音頻等）。</li>
+<li><strong><span style="color: #c11b1b">App-like - 類原生程式的操作模式與使用者介面：採用原生平台（Native App）的 Style 與資料更新方式（利用 service worker 存取快取資源）。</span></strong></li>
+<li><strong><span style="color: #c11b1b">Fresh - 持續更新：使用 Service worker API 來自動更新應用程式（無需透過 App store, Google Play 等）。</span></strong></li>
+<li>Safe - 應全面採用 HTTPS 提供最基本的安全防護。</li>
+<li>Discoverable - 透過設置 manifest 檔案，一樣能進行 SEO 優化，讓搜尋引擎找得到你的 APP。</li>
+<li><strong><span style="color: #c11b1b">Re-engageable - 透過推播，能主動與使用者互動。</span></strong></li>
+<li><strong><span style="color: #c11b1b">Installable - 可安裝：透過 Add To Home 等方式，將 Web App 放在手機桌面，並且能在應用程式中單獨列出與切換，就像一般的 App 一樣，但完全不用透過應用程式商店下載。</span></strong></li>
+<li>Linkable - 透過 URL 可以隨時分享你的 App。</li>
+</ul>
+<p>上面是官網所列出的，而紅色是我認為較為重點的特徵，而在這些重點特徵下，最大要點就是 Service worker。有了 Service worker 的幫助，你可以實作出離線可用的 Web App，讓 User 操作起來有更佳的使用體驗。</p>
+<!-- 簡介 service worker -->
+<h2 id="service-worker" style="position:relative;"><a href="#service-worker" aria-label="service worker permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service Worker</h2>
+<p>Service worker 是一個運行在瀏覽器背後的腳本，有其自己的生命週期，並獨立於網頁頁面。
+其特性如下：</p>
+<ul>
+<li><strong><span style="color: #071684">Javascript worker，無法直接操作頁面 DOM，但可透過 <code class="language-text">postMessage</code> 與頁面溝通，讓該頁面自行操作 DOM。</span></strong></li>
+<li><strong><span style="color: #071684">Service worker 可以讓你截取並掌控頁面發出的 network request。(這點很重要！要記住！！)</span></strong></li>
+<li><strong><span style="color: #071684">當 Service worker 不需要被使用時，會進入 Terminated 生命週期，等待下一次的需求進來。因此你在 onfetch 或是 onmessage 的 event handler 中若想要儲存全域變數，必須使用 <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" target="_blank" rel="nofollow noopener noreferrer">IndexedDB</a> API 來輔助儲存。</span></strong></li>
+<li><strong><span style="color: #071684">使用 Promise (這對一般開發者來說應該已經不算難事)</span></strong></li>
+</ul>
+<p>待會進行 PWA 實作的時候，我們就會運用到 service worker，透過 intercept 以及 handle network requests 來幫忙處理 Cache 的議題。</p>
+<p>今天重點擺在 PWA，Service Worker 的相關介紹可以看這裡：
+<a href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/" target="_blank" rel="nofollow noopener noreferrer">source: html5rocks</a>
+<img src="/image/sw-lifecycle.png" alt="Service Worker LifeCycle" style="width: 500px;"/></p>
+<!-- 動手做第一個 pwa -->
+<p>看太多文字會想睡覺，所以開始動手做我們的第一個 Progressive Web App 吧！</p>
+<h1 id="progressive-web-app" style="position:relative;"><a href="#progressive-web-app" aria-label="progressive web app permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Progressive Web App</h1>
+<p>為求快速，我們跟著 Google developers 上的範例程式走一遍，才能專注在 PWA 的部分，不用去管其他細節。code 可以在此下載 <a href="https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/pwa-weather.zip" target="_blank" rel="nofollow noopener noreferrer">google developers pwa example</a>，後續步驟會需要這份 code 來做對應比較方便理解。</p>
+<p>範例是一個天氣卡，可以顯示所選區域的天氣狀況，大致上會長這樣：</p>
+<img src="/image/pwa-weather-example-final.png" alt="pwa-weather" style="width: 200px;"/>
+<h2 id="app-shell-architecture" style="position:relative;"><a href="#app-shell-architecture" aria-label="app shell architecture permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>App Shell Architecture</h2>
+<p>當你用瀏覽器打開一個網頁時，通常都需要等該頁面載完需要的 javascript, css 等等檔案後，你才能看到一個完整的頁面，在 SPA 當道的現今更是如此（姑且先不談 server-side render）</p>
+<p>但還記得先前提過，Progressive Web App 的目標是想要能夠 <strong><span style="color: #c11b1b">讓 Web application 盡可能的在各種環境（網路環境、手機作業系統等）下都能順暢且不減功能性的運作。</span></strong></p>
+<p>因此 PWA 提出了一個 <strong>App Shell Architecture</strong></p>
+<p>App shell architecture 將應用程式的基礎設施（infrastructure）、UI 與資料做分離，並利用 service worker 將 infra 與 UI 做 Cache，如此一來，當你重複打開 Web App 時，需要遠端載入的就只剩下資料，因為其他部分都已經先快取在本地端了（也可以把部分資料先快取起來）。</p>
+<p>由上述說明應該不難看出 app shell 的設計會非常重要，他決定了你的 User 進到你的 App 後的第一印象。所以在設計 App shell architecture 時，有幾個要點必須考量清楚：</p>
+<ul>
+<li>當 Web App 開啟時，哪些東西需要立即呈現在螢幕上?</li>
+<li>有哪些是重要的 UI components？</li>
+<li>此 app shell 是否需要 styles, javascript 等等資源？</li>
+</ul>
+<p>以今天的範例來說，我們會預期一開啟 App 時，要能馬上看到最上方的 Header 以及中間至少一張天氣預測卡，因此這兩個元件就會是我們必須設計進 App shell architecture 的 component。</p>
+<p>稍稍整理一下，我們的 App shell 將會擁有：</p>
+<ul>
+<li>顯示 App 名稱、更新與新增按鈕的 Header Bar</li>
+<li>Header 下方放置天氣卡的 Container</li>
+<li>天氣卡模板</li>
+<li>加入地區天氣時的對話筐</li>
+<li>載入狀態的 loader</li>
+</ul>
+<h2 id="app-shell-architecture-implementation" style="position:relative;"><a href="#app-shell-architecture-implementation" aria-label="app shell architecture implementation permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>App shell architecture implementation</h2>
+<p>根據上方列出的需求，身為 web developer 一定很快就會把 HTML、CSS 刻好，甚至將可能需要的 JS 都先準備好，但實際上 Progressive web app 的重點其實在於如何將元件與資料做 cache ，以及 app-like 的顯示模式，因此我們跳過這些跟基礎 web 開發相關的步驟，直接到剛剛下載的範例檔案中，打開 step-04 資料夾，裡面就有了最 default 的元件 layout（<code class="language-text">index.html</code>, <code class="language-text">inline.cs</code>），以及資料 fetch 相關的 javascript 檔案（<code class="language-text">app.js</code>）：</p>
+<img src="/image/step-04-foldr.png" alt="step-04 folder" style="width: 200px;"/>
+<p><strong><span style="color: #c11b1b">[!NOTICE] 需要將程式碼內的一些相關路徑修改一下才能正常運作喔！</span></strong></p>
+<p>開啟以後正常會看到如下畫面：</p>
+<p><img src="/image/step-04.gif" alt="step-04" title="step-04"></p>
+<p>會先閃過 loading 圈圈，接著利用 <code class="language-text">initialWeatherForecast</code> 做第一次資料繪製，這邊是先寫死一個假資料，但實務上應該要根據 user 當下 ip location 去抓取資料並更新。</p>
+<p>但不管是假資料與否，重點在於，當處理完第一次資料 fetch 後，要能夠 cache 起來，才能應付 slow connection 或是 offline 的狀況。也就是待會 service-worker 要負責的事情。</p>
+<p>此外，此 Wep app的功能中，要<strong>讓 user 能夠選擇想要的區域</strong>，我們總不能要 user 每次進來都重選，因此要能儲存這部分資訊，實務上可以用 <code class="language-text">IndexDB</code> 來儲存，Google 推薦的 lib 為 <a href="https://www.npmjs.com/package/idb" target="_blank" rel="nofollow noopener noreferrer">idb</a>，而這邊我們簡單用 LocalStorage API 來處理即可。</p>
+<p>相關設定在 <code class="language-text">app.js</code> 當中：</p>
+<div class="gatsby-highlight" data-language="jsapp.js"><pre class="language-jsapp.js"><code class="language-jsapp.js"> // Iterate all of the cards and attempt to get the latest forecast data
+  app.updateForecasts = function() {
+    var keys = Object.keys(app.visibleCards);
+    keys.forEach(function(key) {
+      app.getForecast(key);
+    });
+  };
+
+  // Save list of cities to localStorage, see note below about localStorage.
+  app.saveSelectedCities = function() {
+    var selectedCities = JSON.stringify(app.selectedCities);
+    // IMPORTANT: See notes about use of localStorage.
+    localStorage.selectedCities = selectedCities;
+  };
+
+  app.selectedCities = localStorage.selectedCities;
+  if (app.selectedCities) {
+    app.selectedCities = JSON.parse(app.selectedCities);
+    app.selectedCities.forEach(function(city) {
+      app.getForecast(city.key, city.label);
+    });
+  } else {
+    app.updateForecastCard(initialWeatherForecast);
+    app.selectedCities = [
+      {key: initialWeatherForecast.key, label: initialWeatherForecast.label}
+    ];
+    app.saveSelectedCities();
+  }</code></pre></div>
+<p>如此一來，你可以新增想要的城市，在當你重新載入時，就會看到剛剛所選的城市依然會出現了。</p>
+<p><img src="/image/localstorage.gif" alt="localstorage" title="local storage test"></p>
+<h2 id="use-service-worker-to-pre-cache-the-app-shell" style="position:relative;"><a href="#use-service-worker-to-pre-cache-the-app-shell" aria-label="use service worker to pre cache the app shell permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Use Service Worker to Pre-cache the App Shell</h2>
+<h3 id="前情提要" style="position:relative;"><a href="#%E5%89%8D%E6%83%85%E6%8F%90%E8%A6%81" aria-label="前情提要 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前情提要</h3>
+<p><strong><span style="color: #c11b1b">Service worker 的功能只能在 localhost 或是 HTTPS 的環境下，並且目前的瀏覽器有支援的不多，至少要 Chrome 47 以上。不過相信會越來越多瀏覽器加入此支援的。</span></strong></p>
+<h3 id="step-1-註冊-service-worker" style="position:relative;"><a href="#step-1-%E8%A8%BB%E5%86%8A-service-worker" aria-label="step 1 註冊 service worker permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step 1. 註冊 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="nofollow noopener noreferrer">service worker</a></h3>
+<p>在我們的 <code class="language-text">app.js</code> 中，需要先檢查是否有 service worker 存在，若無，則透過 <code class="language-text">navigator.serviceWorker</code> 去註冊。</p>
+<div class="gatsby-highlight" data-language="jsapp.js"><pre class="language-jsapp.js"><code class="language-jsapp.js">if(&#39;serviceWorker&#39; in navigator) {  
+  navigator.serviceWorker  
+           .register(&#39;/service-worker.js&#39;)  
+           .then(function() { console.log(&#39;Service Worker Registered&#39;); });  
+}</code></pre></div>
+<p>當然，我們也要創建好我們的 <code class="language-text">service-worker.js</code>。 Service worker 的檔案要放在<strong>根目錄</strong>底下，因為 service worker 的 js scope 是包含其所在之目錄。</p>
+<h3 id="step-2-pre-cache-assets" style="position:relative;"><a href="#step-2-pre-cache-assets" aria-label="step 2 pre cache assets permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step 2. Pre-cache assets</h3>
+<p>當 service worker 被註冊好後，當使用者初次開啟我們的 web app，會觸發一個 <code class="language-text">install</code> event，而我們可以在這個 event handler 中 cache 住我們需要的 assets。</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">self.addEventListener(&#39;install&#39;, function(e) {
+  console.log(&#39;[ServiceWorker] Install&#39;);
+  e.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      console.log(&#39;[ServiceWorker] Caching App Shell&#39;);
+      return cache.addAll(filesToCache);
+    })
+  );
+});</code></pre></div>
+<p><strong>其中的 caches 是 Service Worker API 中的 <code class="language-text">CacheStorage</code>，可以到 <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/open" target="_blank" rel="nofollow noopener noreferrer">MDN</a> 瞭解一下。</strong></p>
+<p>此外，<code class="language-text">chacheName</code> 的設定也是蠻重要的，可以依此來分開你的資料與 App shell 的快取。</p>
+<p>當你 <code class="language-text">caches.open</code>後，裡面的 callback 可以呼叫 <code class="language-text">cache.addAll()</code> 來將 assets 放入快取，<code class="language-text">cache.addAll()</code> 接受 <code class="language-text">URL</code> list，像是這樣的格式：</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">var filesToCache = [  
+  &#39;/&#39;,  
+  &#39;/index.html&#39;,  
+  &#39;/scripts/app.js&#39;,  
+  &#39;/styles/inline.css&#39;,  
+  &#39;/images/clear.png&#39;,  
+  &#39;/images/cloudy-scattered-showers.png&#39;,  
+  &#39;/images/cloudy.png&#39;,  
+  &#39;/images/fog.png&#39;,  
+  &#39;/images/ic\_add\_white\_24px.svg&#39;,  
+  &#39;/images/ic\_refresh\_white\_24px.svg&#39;,  
+  &#39;/images/partly-cloudy.png&#39;,  
+  &#39;/images/rain.png&#39;,  
+  &#39;/images/scattered-showers.png&#39;,  
+  &#39;/images/sleet.png&#39;,  
+  &#39;/images/snow.png&#39;,  
+  &#39;/images/thunderstorm.png&#39;,  
+  &#39;/images/wind.png&#39;  
+];</code></pre></div>
+<p>建議你加入版號來設置你的 <code class="language-text">cachName</code>，這樣才能確保每次更新都能拿到最新資料。不過要記得將過期的 cache 清空！
+我們可以在 <code class="language-text">activate</code> 這個 event 的 handler 來做這件事情。</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">self.addEventListener(&#39;activate&#39;, function(e) {  
+  console.log(&#39;[ServiceWorker] Activate&#39;);  
+  e.waitUntil(  
+    caches.keys().then(function(keyList) {  
+      return Promise.all(keyList.map(function(key) {  
+        console.log(&#39;[ServiceWorker] Removing old cache&#39;, key);  
+        if (key !== cacheName) {  
+          return caches.delete(key);  
+        }  
+      }));  
+    })  
+  );  
+});</code></pre></div>
+<h3 id="step-3-fetch-assets-from-cache-or-not" style="position:relative;"><a href="#step-3-fetch-assets-from-cache-or-not" aria-label="step 3 fetch assets from cache or not permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step 3. Fetch assets from cache or not</h3>
+<p>到目前為止，我們知道了怎麼把 assets 存進 cache 裡面，但要怎麼拿出來呢？
+我們註冊一個 <code class="language-text">fetch</code> event handler，用來擷取 web app 發出的 request，當 request 有 match 到我們剛剛存入的那些 assets 時，我們就從中取出並回傳，若並沒有 match 到，則利用 <code class="language-text">fetch</code> api 去真的打 request。 [ fetch api 也是目前實驗中的 web api，介紹可看 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank" rel="nofollow noopener noreferrer">Fetch api</a> ]</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">self.addEventListener(&#39;fetch&#39;, function(e) {  
+  console.log(&#39;[ServiceWorker] Fetch&#39;, e.request.url);  
+  e.respondWith(  
+    caches.match(e.request).then(function(response) {  
+      return response || fetch(e.request);  
+    })  
+  );  
+});</code></pre></div>
+<h3 id="beware-of-the-edge-cases" style="position:relative;"><a href="#beware-of-the-edge-cases" aria-label="beware of the edge cases permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Beware of the edge cases</h3>
+<p>目前範例中的 code 實際上並不適合運用在 production 上頭，因為有許多 edge cases 沒有被考慮與處理到：</p>
+<ol>
+<li>剛剛提過的，當你的 content 有變動時，cache key 要更新（範例內我們需要手動更新）。</li>
+<li>只要你的檔案有一點點更動，小至 typo，大至 code refactor，都會造成 cache invalidated，需要重新下載，效率不好。</li>
+<li>必須確保 service-worker 中的 <code class="language-text">install handler</code> 所發出的 https request 不會被 Brower cache 影響，否則會無法 update。</li>
+<li>最重要的一點，範例採用 cache-first 的策略，任何 request 只要有 cache 在就會先拿 cache，若 service worker 相關的註冊與設定也被 cache 時，更新會變得很困難。</li>
+</ol>
+<p>Google 提出一套 lib <a href="https://github.com/GoogleChrome/sw-precache" target="_blank" rel="nofollow noopener noreferrer">sw-precache</a> 來幫助你避免上述的 edge cases，這超出此篇的範疇，但若要製作 Productoin 版本的 PWA 時，務必研究一下。</p>
+<p>此外，在開發中，也可以透過 <code class="language-text">chrome://serviceworker-internals</code> 來 stop、un-register 現存的 service workers 以及 fresh start service worker。</p>
+<h3 id="test-service-worker" style="position:relative;"><a href="#test-service-worker" aria-label="test service worker permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test Service worker</h3>
+<p>現在我們可以來試試看剛剛的 service worker 到底能不能幫我們把 assets cache 起來，你可以像 Google 教學中 deploy 到 <a href="https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/step-08?hl=en" target="_blank" rel="nofollow noopener noreferrer">firebase</a>，也可以學我直接用 express 來 host。</p>
+<p>用 express 來 host 範例需要更動幾個地方：</p>
+<ol>
+<li>把範例的 index.html, inline.css, app.js 和一些 images 放入 express 中的相對路徑。</li>
+<li>修改 service-worker.js 中的 <code class="language-text">filesToCache</code> 相對路徑，主要是 app.js 與 inline.css</li>
+</ol>
+<div class="gatsby-highlight" data-language="jsservice-worker-in-express.js"><pre class="language-jsservice-worker-in-express.js"><code class="language-jsservice-worker-in-express.js">var filesToCache = [
+  &#39;/&#39;,
+  &#39;/javascripts/app.js&#39;,
+  &#39;/stylesheets/inline.css&#39;,
+  &#39;...&#39;,
+  &#39;..&#39;</code></pre></div>
+<p>啟動server 後，開啟 Chrome devTool 的 resources tab，應該可以看到如下畫面，就代表你的 service worker 有成功幫你 cache 住 assets：</p>
+<p><img src="/image/cache-example.png" alt="service-worker cache" title="service-worker cache"></p>
+<h3 id="step-4-cache-data" style="position:relative;"><a href="#step-4-cache-data" aria-label="step 4 cache data permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>step 4. Cache Data</h3>
+<p>接下來我們要 cache 住資料！</p>
+<p>策略上分兩種：</p>
+<ol>
+<li>cache first then network：一次發兩種 request，先抓 cache 資料，等 network request 回來後更新 cache。</li>
+<li>network first then cache：先發 network request，若 timeout 再撈 cache 資料。</li>
+</ol>
+<p>這邊我們採用 cache-first，才能因應快速 response 與 offline 使用的需求。</p>
+<p>首先我們得在 service-worker 中加入一個 <code class="language-text">dataCacheName</code>，用以區分資料與 app shell 的 cache。</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">var dataCacheName = &#39;weatherData-v1&#39;;</code></pre></div>
+<p>接著在 <code class="language-text">fetch</code> event handler 中，我們將抓取資料的API request 與其他 request 分開。</p>
+<div class="gatsby-highlight" data-language="jsservice-worker.js"><pre class="language-jsservice-worker.js"><code class="language-jsservice-worker.js">self.addEventListener(&#39;fetch&#39;, function(e) {  
+  console.log(&#39;[ServiceWorker] Fetch&#39;, e.request.url);  
+  var dataUrl = &#39;https://publicdata-weather.firebaseio.com/&#39;;  
+  if (e.request.url.indexOf(dataUrl) === 0) {  
+    // Put data handler code here  
+  } else {  
+    e.respondWith(  
+      caches.match(e.request).then(function(response) {  
+        return response || fetch(e.request);  
+      })  
+    );  
+  }  
+});</code></pre></div>
+<p>上面的 code 中，service-worker 會擷取頁面發出的 request，如果包含 dataUrl，我們就另外處理：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">e<span class="token punctuation">.</span><span class="token function">respondWith</span><span class="token punctuation">(</span>  
+  <span class="token function">fetch</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>request<span class="token punctuation">)</span>  
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+      <span class="token keyword">return</span> caches<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span>dataCacheName<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">cache</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+        cache<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>e<span class="token punctuation">.</span>request<span class="token punctuation">.</span>url<span class="token punctuation">,</span> response<span class="token punctuation">.</span><span class="token function">clone</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'[ServiceWorker] Fetched&amp;Cached Data'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token keyword">return</span> response<span class="token punctuation">;</span>  
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>  
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>利用 <code class="language-text">fetch API</code> 發送 request，送回來的 response 再傳回去之前，會先 clone 一份到 cache 當中。</p>
+<p>到這邊為止我們 cache 住資料了，但還是不能 offline 運作！因為還少了一個步驟，先前提到我們要同步發送 <strong>兩個</strong> request，一個抓 cache，一個真的送資料。</p>
+<p>在 <code class="language-text">app.js</code> 中的 <code class="language-text">app.getForecast</code>裡加入這段：</p>
+<div class="gatsby-highlight" data-language="jsapp.js"><pre class="language-jsapp.js"><code class="language-jsapp.js">if (&#39;caches&#39; in window) {
+  caches.match(url).then(function(response) {
+    if (response) {
+      response.json().then(function(json) {
+        // Only update if the XHR is still pending, otherwise the XHR
+        // has already returned and provided the latest data.
+        if (app.hasRequestPending) {
+          console.log(&#39;[App] Forecast Updated From Cache&#39;);
+          json.key = key;
+          json.label = label;
+          app.updateForecastCard(json);
+        }
+      });
+    }
+  });
+}</code></pre></div>
+<p>先檢查 <code class="language-text">window</code> 有無支援 <code class="language-text">caches</code> object，接著從 caches 中拿出資料，這時要確認一下同時發送出去的 network request 是否已經 response 回來了，我們這邊用個 flag <code class="language-text">app.hasRequestPending</code> 來控制。只有在 network response 還沒回來前我們會使用 caches 內的資料。</p>
+<p>而在發送原本的 <code class="language-text">XMLHttpRequest</code> 之前，記得加上 <code class="language-text">app.hasRequestPending = true;</code>，並在 <code class="language-text">app.updateForecastCard(response)</code>之前，將 <code class="language-text">app.hasRequestPending</code> 設為 false。</p>
+<h3 id="test-offline-function" style="position:relative;"><a href="#test-offline-function" aria-label="test offline function permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Test Offline function</h3>
+<p>到目前為止我們的 Web app 已經可以在 offline 使用了，即便遠端 host 掛掉，我們能從 cache 中抓到我們的 App Shell，並且透過 service worker 幫我們去跟 <code class="language-text">https://publicdata-weather.firebaseio.com/</code> 要資料；若是連網路都沒有，至少會有 cache 的資料可以顯示！</p>
+<p><img src="/image/offline-1.gif" alt="offline test I- without host server" title="offline test"></p>
+<p><img src="/image/offlinetest-2.gif" alt="offline test II - without network connection" title="offline test"></p>
+<h2 id="support-native-integration" style="position:relative;"><a href="#support-native-integration" aria-label="support native integration permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Support Native Integration</h2>
+<p>Progressive Web App 的最後一哩路，我們要加入 Add-to-Homescreen。</p>
+<p>要有 Add to Homescreen 的功能不難，只要加入一個 manifest.json 即可，透過這方式打開的 Web App 不會顯示出 URL bar，看起來就像一般的 App！你也可以再加入 Web app install banners，這邊就不討論，可以看這篇的教學 - <a href="https://developers.google.com/web/fundamentals/engage-and-retain/app-install-banners/" target="_blank" rel="nofollow noopener noreferrer">Web app install banners</a></p>
+<h3 id="web-app-manifest" style="position:relative;"><a href="#web-app-manifest" aria-label="web app manifest permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web App Manifest</h3>
+<p>透過 web app manifest，你可以：</p>
+<ul>
+<li>像 App 一般有個漂亮 icon 顯現在 Android 的 Homescreen 上。</li>
+<li>開啟時可以進入全螢幕畫面，不顯示 URL bar！</li>
+<li>控制 screen orientation。</li>
+<li>設定 <code class="language-text">splash screen</code>，以前是為了降低 User 等待載入時間，但現在通常都用來宣傳你的網站品牌等等（有些人是不推薦使用...）</li>
+<li>追蹤你的 App 是從 homescreen 還是 url 開啟。</li>
+</ul>
+<div class="gatsby-highlight" data-language="jsonmanifets.json"><pre class="language-jsonmanifets.json"><code class="language-jsonmanifets.json">{
+  &quot;name&quot;: &quot;Weather&quot;,
+  &quot;short_name&quot;: &quot;Weather&quot;,
+  &quot;icons&quot;: [{
+    &quot;src&quot;: &quot;images/icons/icon-128x128.png&quot;,
+      &quot;sizes&quot;: &quot;128x128&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }, {
+      &quot;src&quot;: &quot;images/icons/icon-144x144.png&quot;,
+      &quot;sizes&quot;: &quot;144x144&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }, {
+      &quot;src&quot;: &quot;images/icons/icon-152x152.png&quot;,
+      &quot;sizes&quot;: &quot;152x152&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }, {
+      &quot;src&quot;: &quot;images/touch/icon-192x192.png&quot;,
+      &quot;sizes&quot;: &quot;192x192&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }, {
+      &quot;src&quot;: &quot;images/touch/icon-256x256.png&quot;,
+      &quot;sizes&quot;: &quot;256x256&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }],
+  &quot;start_url&quot;: &quot;/&quot;,
+  &quot;display&quot;: &quot;standalone&quot;,
+  &quot;background_color&quot;: &quot;#3E4EB8&quot;,
+  &quot;theme_color&quot;: &quot;#2F3BA2&quot;
+}</code></pre></div>
+<p>[小技巧] 可以透過在 <code class="language-text">start_url</code> 設置 query string 的參數來追蹤開啟來源。</p>
+<p>manifest 檔案設定好後記得回到你的 <code class="language-text">index.html</code> 的 <code class="language-text">&lt;head></code> 加上 <code class="language-text">&lt;link rel="manifest" href="/manifest.json"></code></p>
+<h3 id="for-safari-in-ios" style="position:relative;"><a href="#for-safari-in-ios" aria-label="for safari in ios permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>for safari in ios</h3>
+<p>如果要用在 ios 上的 safari 還需要額外設定</p>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Add to home screen for Safari on iOS --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-mobile-web-app-capable<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-mobile-web-app-status-bar-style<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>black<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-mobile-web-app-title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Weather App<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/icons/icon-152x152.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre></div>
+<h3 id="best-practices" style="position:relative;"><a href="#best-practices" aria-label="best practices permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Best practices</h3>
+<ul>
+<li>在你網站的每個 page 都可放入 manifest.json，這樣不管 user 是從哪頁進去，Chrome都能偵測到</li>
+<li><code class="language-text">short_name</code> 盡量都要設置，優先權高於 <code class="language-text">name</code> 這個 field。</li>
+<li>icon 的大小要盡可能符合多種 device。</li>
+<li>icon 也要考量到是否符合 slash screen，並記得設置 <code class="language-text">background_color</code></li>
+</ul>
+<h2 id="final" style="position:relative;"><a href="#final" aria-label="final permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Final</h2>
+<p>最終到你手機上的呈現就會像這樣：</p>
+<p>IOS 版本 (ISO 版本看不到 splash screen，不確定原因，可能版本不支援）：</p>
+<img src="/image/iphoneDemo_1.gif" alt="iphone demo" style="width: 400px;">
+<p>Android 版本（主要是看得到 splash screen..）：</p>
+<img src="/image/android-1.jpg" alt="android demo" style="width: 300px;"/>
+<h2 id="結論" style="position:relative;"><a href="#%E7%B5%90%E8%AB%96" aria-label="結論 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結論</h2>
+<p>看了今年 Google I/O 與 Apple WWDC 後，Apple 感覺想把 App 更融入他們的系統，以後或許不會再有 App 的概念，就是 Apple。而 Google 則持續推廣 Progressive Web App，希望讓 Web 能夠更行動化，似乎都希望能夠弭平一些隔閡。</p>
+<p>我個人是蠻希望 Progressive Web App 的方式能普及，可惜現在的瀏覽器支援度還很差，需要更多時間，但大家應該有看過這張圖：</p>
+<img src="/image/appinstall.png" alt="source: https://www.youtube.com/watch?v=MyQ8mtR9WxI" style="width: 300px;"/>
+<p>App 從下載到安裝使用的人數差了四分之一，如果 Progressive Web App 可以起來的話，相信對使用者與開發者來說都是雙贏的局面（更多人使用、又不會佔手機空間、又不用到 app store 更新），但大廠怎麼想就不知道了...</p>
+<p>但至少 Progressive web app 會帶給使用者更好的 web 瀏覽體驗是無庸置疑的！</p>
+<!-- 資料來源 -->
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/?hl=zh-tw" target="_blank" rel="nofollow noopener noreferrer">Google developer web fundamentals</a></li>
+<li><a href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/" target="_blank" rel="nofollow noopener noreferrer">html5rocks: service-worker</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/engage-and-retain/app-install-banners/" target="_blank" rel="nofollow noopener noreferrer">Google developer web app install banner</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/pwa"><strong>pwa</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/chat-bot-wit-ai">利用 Wit.ai 讓你的 Messenger Bot 更聰明！</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/css-typing-animation">快速實作 CSS3 打字動畫</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->09-08-2024</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/progressive-web-app";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-a7634cfa007275822093.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-f5383e67068afc3e3873.js" async=""></script></body></html>

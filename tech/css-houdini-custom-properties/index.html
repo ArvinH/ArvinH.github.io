@@ -1,0 +1,381 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><script src="https://unpkg.com/claps-button@1.1.9/dist/claps-button/claps-button.js" defer=""></script><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.66 'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'huninn, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace, Open Sans',sans-serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;color:inherit;font-family:'huninn',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}ul{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.66rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:0.85rem;line-height:1.66rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;font-size:1rem;line-height:1.66rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}blockquote{margin-left:1.66rem;margin-right:1.66rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.66rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.66rem;}b{font-weight:bold;}strong{font-weight:bold;}dt{font-weight:bold;}th{font-weight:bold;}li{margin-bottom:calc(1.66rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}li > ul{margin-left:1.66rem;margin-bottom:calc(1.66rem / 2);margin-top:calc(1.66rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.66rem / 2);}code{font-size:0.85rem;line-height:1.66rem;}kbd{font-size:0.85rem;line-height:1.66rem;}samp{font-size:0.85rem;line-height:1.66rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.10667rem;padding-right:1.10667rem;padding-top:0.83rem;padding-bottom:calc(0.83rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}</style><style data-href="/styles.0b66d3bb015bd0f3a317.css" id="gatsby-global-css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:break-word;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;color:#dc143c;background-color:#f7f7f9;border:1px solid #e1e1e8;border-radius:4px}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.32.13"/><title data-react-helmet="true">CSS 魔術師 Houdini API 介紹 | Well in Time</title><meta data-react-helmet="true" name="description"/><meta data-react-helmet="true" name="image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="og:locale" content="en_US"/><meta data-react-helmet="true" property="og:site_name" content="shouhan.huang"/><meta data-react-helmet="true" property="og:url" content="https://blog.arvinh.infocss-houdini-custom-properties"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="CSS 魔術師 Houdini API 介紹"/><meta data-react-helmet="true" property="og:description"/><meta data-react-helmet="true" property="og:image" content="https://blog.arvinh.info/assets/banner.jpg"/><meta data-react-helmet="true" property="fb:app_id" content=""/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="@ArvinHv"/><meta data-react-helmet="true" name="twitter:title" content="CSS 魔術師 Houdini API 介紹"/><meta data-react-helmet="true" name="twitter:url" content="https://blog.arvinh.info"/><meta data-react-helmet="true" name="twitter:description"/><meta data-react-helmet="true" name="twitter:image" content="https://blog.arvinh.info/assets/banner.jpg"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"BlogPosting","@id":"https://blog.arvinh.infocss-houdini-custom-properties","url":"https://blog.arvinh.infocss-houdini-custom-properties","name":"CSS 魔術師 Houdini API 介紹","alternateName":"ArvinHuang Blog","headline":"CSS 魔術師 Houdini API 介紹","image":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/banner.jpg"},"description":"Blog by Arvin Huang","datePublished":"05-23-2017","dateModified":"05-23-2017","author":{"@type":"Person","name":"Arvin Huang"},"publisher":{"@type":"Organization","name":"Arvin Huang","logo":{"@type":"ImageObject","url":"https://blog.arvinh.info/assets/the-flash.png"}},"isPartOf":"https://blog.arvinh.info/","mainEntityOfPage":{"@type":"WebSite","@id":"https://blog.arvinh.info/"}}]</script><style data-styled="djgdom ftpFlP fKPmXx KMFWk hPuMhU hxtxEj gkQvdW hAIAZs gyVwsS bViSNY iwaAAv dgoloc jaJIqd" data-styled-version="4.4.1">
+/* sc-component-id: Subline-sc-1j7ecob-0 */
+.KMFWk{font-size:1rem;color:rgba(255,255,255,0.7);}.hPuMhU{font-size:1rem;}
+/* sc-component-id: Header__HeaderWrapper-sc-hx5adu-0 */
+.djgdom{position:relative;background:linear-gradient( -185deg,rgba(0,0,0,1),rgba(26,26,26,0.8) ),no-repeat;background-size:cover;padding:8rem 2rem 10rem;text-align:center;} .djgdom::after{background:transparent url(/assets/mask.svg) no-repeat bottom left;background-size:101%;bottom:-2px;content:'';display:block;height:100%;left:0;position:absolute;width:100%;} .djgdom canvas{height:30rem;} @media (max-width:1200px){.djgdom{padding:4rem 2rem 6rem;}.djgdom canvas{height:20rem;}} @media (max-width:600px){.djgdom{padding:1rem 0.5rem 2rem;}.djgdom canvas{height:20rem;}}
+/* sc-component-id: Header__Content-sc-hx5adu-1 */
+.ftpFlP{position:relative;z-index:999;} .ftpFlP a{color:white;font-size:1.5rem;} .ftpFlP a:hover{opacity:0.85;color:white;}
+/* sc-component-id: sc-global-2499766704 */
+@font-face{font-family:"huninn";src:url("../../static/assets/font/jf-openhuninn-1.0.ttf") format("ttf");} ::selection{color:#fff;background:#000;} body{background:#fff;color:rgba(0,0,0,0.7);} @media (max-width:600px){body{font-size:16px;}} a{color:rgba(0,0,0,0.9);-webkit-text-decoration:none;text-decoration:none;-webkit-transition:all 0.5s;transition:all 0.5s;} a:hover{color:#000;} h1,h2,h3,h4{color:rgba(0,0,0,0.9);} blockquote{font-style:italic;position:relative;} blockquote:before{content:"";position:absolute;background:#000;height:100%;width:6px;margin-left:-1.6rem;} label{margin-bottom:.5rem;color:rgba(0,0,0,0.9);} input,textarea{border-radius:.5rem;border:none;background:rgba(0,0,0,0.05);padding:.25rem 1rem;} input:focus,textarea:focus{outline:none;} .textRight{text-align:right;}
+/* sc-component-id: Layout__Footer-sc-usm79k-0 */
+.jaJIqd{text-align:center;padding:3rem 0;} .jaJIqd span{font-size:0.75rem;}
+/* sc-component-id: PrevNext__Wrapper-sc-ye374r-0 */
+.gyVwsS{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:6rem auto 0 auto;justify-items:center;} .gyVwsS a{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: PrevNext__Prev-sc-ye374r-1 */
+.bViSNY span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: PrevNext__Next-sc-ye374r-2 */
+.iwaAAv{margin-left:auto;text-align:right;} .iwaAAv span{text-transform:uppercase;font-size:0.8rem;color:rgba(0,0,0,0.5);}
+/* sc-component-id: SectionTitle-sc-nmmvjh-0 */
+.fKPmXx{font-size:3rem;text-transform:normal;text-align:center;color:#fff;position:relative;padding:2rem 0 0;margin-bottom:2rem;} .fKPmXx:after{content:'';height:1px;width:50px;position:absolute;bottom:0;left:50%;margin-left:-25px;background:#fff;} @media (max-width:600px){.fKPmXx{font-size:2rem;}}
+/* sc-component-id: Content-sc-4nu7xv-0 */
+.gkQvdW{position:relative;box-shadow:silver -1px 1px 10px;padding:2rem 4rem;background-color:#fff;z-index:1;margin-top:-4rem;max-width:900px;} .gkQvdW form p label,.gkQvdW form p input{display:block;} .gkQvdW form p input{min-width:275px;} .gkQvdW form p textarea{resize:vertical;min-height:150px;width:100%;} @media (max-width:1200px){.gkQvdW{padding:3rem 3rem;margin-top:-1rem;}} @media (max-width:600px){.gkQvdW{padding:2rem 1.5rem;margin-top:-1rem;}}
+/* sc-component-id: ClapsButton__ClapsBtn-sc-umvb76-0 */
+.dgoloc{-webkit-transition:0.3s ease-in -webkit-transform;-webkit-transition:0.3s ease-in transform;transition:0.3s ease-in transform;position:-webkit-sticky;position:sticky;margin-left:30px;z-index:2;top:200px;height:100px;display:'flex';-webkit-box-pack:'center';-webkit-justify-content:'center';-ms-flex-pack:'center';justify-content:'center';} @media (max-width:1200px){.dgoloc{display:none;}} @media (max-width:600px){.dgoloc{display:none;}} .dgoloc:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+/* sc-component-id: Post__PostContent-sc-18q9ljn-0 */
+.hAIAZs{margin-top:2rem;} .hAIAZs p > a{border-bottom:1px dotted #000;}
+/* sc-component-id: Post__PostWrapper-sc-18q9ljn-1 */
+.hxtxEj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:0 auto;max-width:60rem;padding:0 6rem;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;} @media (max-width:1200px){.hxtxEj{padding:0 3rem;display:block;}} @media (max-width:600px){.hxtxEj{padding:0 1rem;display:block;}}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PHF66B5');</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="/favicon-32x32.png?v=152af834ef7f57ae512dcb4837612e3b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3498DB"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=152af834ef7f57ae512dcb4837612e3b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=152af834ef7f57ae512dcb4837612e3b"/><link as="script" rel="preload" href="/webpack-runtime-f5383e67068afc3e3873.js"/><link as="script" rel="preload" href="/framework-acd7498685eeb36e39da.js"/><link as="script" rel="preload" href="/app-f8fd8dc92836b9c3a057.js"/><link as="script" rel="preload" href="/styles-7d4153d260c0197f0043.js"/><link as="script" rel="preload" href="/1bfc9850-46b0913cb4ebd5a5c7fe.js"/><link as="script" rel="preload" href="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js"/><link as="script" rel="preload" href="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"/><link as="fetch" rel="preload" href="/page-data/tech/css-houdini-custom-properties/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2123680655.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHF66B5" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="Header__HeaderWrapper-sc-hx5adu-0 djgdom"><div class="Header__Content-sc-hx5adu-1 ftpFlP"><a href="/">Well in Time</a><div class="SectionTitle-sc-nmmvjh-0 fKPmXx">CSS 魔術師 Houdini API 介紹</div><div class="Subline-sc-1j7ecob-0 KMFWk">05-23-2017<!-- --> — <!-- -->13<!-- --> Min Read</div></div><div><canvas style="position:absolute;top:0;left:0;width:100%;height:100%"></canvas></div></header><div class="Wrapper-sc-dpgioq-0 Post__PostWrapper-sc-18q9ljn-1 hxtxEj"><div class="Content-sc-4nu7xv-0 gkQvdW"><div class="Post__PostContent-sc-18q9ljn-0 hAIAZs"><blockquote>
+<p>"I stopped checking email for entire week and it change my life!"
+Oh, really?
+"I got fired."</p>
+</blockquote>
+<!-- more -->
+<h2 id="前言" style="position:relative;"><a href="#%E5%89%8D%E8%A8%80" aria-label="前言 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h2>
+<p>今天想繼續 CSS 的議題，常常會覺得學 CSS 的新發展不太划算，因為每次看到新的 Feature 出現，都只能當下興奮個幾分鐘，然後就會認命接受可能還要再等個五年才能真正使用的可能性...如果你有跟我一樣的感受，那今天這篇文章或許可以帶給你一絲絲希望。</p>
+<p>在現今的 Web 開發中，JavaScript 幾乎佔據所有版面，除了控制頁面邏輯與操作 DOM 物件以外，連 CSS 都直接寫在 JavaScript 裡面了，就算瀏覽器都還沒有實作的規格，總會有人做出對應的 Polyfills，讓你快速的將新 Feature 應用到 Production 環境中，更別提我們還有 Babel 等工具幫忙轉譯。</p>
+<p>而 CSS 就不同了，除了制定 CSS 標準規格所需的時間外，各家瀏覽器的版本、實作進度差異更是曠日費時，再加上 CSS 並非 Javascript 這樣的動態語言，我們無法簡單的提供 Polyfills，頂多利用 PostCSS、SASS 等工具來幫我們轉譯出瀏覽器能接受的 CSS，而剩下的就是瀏覽器的事了。</p>
+<p>這邊讓我們回想一下，瀏覽器在網頁的渲染過程中，做了哪些事情？</p>
+<p><img src="/image/render_pipeline.png" alt="Render Pipeline (source from google)"></p>
+<p>瀏覽器的 Render Pipeline 中，<strong>JavaScript</strong> 與 <strong>Style</strong> 兩個階段會解析 HTML 並為載入的 JS 與 CSS 建立 Render Tree，也就是所謂的 DOM 與 CSSOM：（對於 Render Pipeline 與 Render Tree 若不了解，可以先看看我先前的文章 <a href="https://blog.arvinh.info/2016/03/26/Front-end%20kata%2060fps%E7%9A%84%E5%BF%AB%E6%84%9F/" target="_blank" rel="nofollow noopener noreferrer">Front-end kata 60fps的快感</a>）</p>
+<p><img src="/image/RenderTree.png" alt="Render Tree (source from google)"></p>
+<p>而就現階段的 Web 技術來看，開發者們能操作的就是透過 JS 去控制 DOM 與 CSSOM，來影響畫面的變化，但是對於接下來的 <strong>Layout</strong>、<strong>Paint</strong> 與 <strong>Composite</strong> 就幾乎沒有控制權了。</p>
+<p>既無法讓各家瀏覽器快速並統一實作規格，亦不能輕易產生 Polyfills，所以到現在我們依然無法大膽使用 Flexbox，即便它早在 2009 年就被提出了...</p>
+<p>但 CSS 並非就此駐足不前。</p>
+<p>為了解決上述問題，為了讓 CSS 的魔力不再被瀏覽器把持，Houdini 就誕生了！（ Houdini 是美國的偉大魔術師，擅長逃脫術，很適合想將 CSS 從瀏覽器中解放的概念）</p>
+<h2 id="css-houdini" style="position:relative;"><a href="#css-houdini" aria-label="css houdini permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Houdini</h2>
+<p>CSS Houdini 是由一群來自 Mozilla, Apple, Opera, Microsoft, HP, Intel, IBM, Adobe 與 Google 的工程師所組成的工作小組，志在建立一系列的 API，讓開發者能夠介入瀏覽器的 CSS engine 運作，帶給開發者更多的解決方案，用來解決 CSS 長久以來的問題：</p>
+<ul>
+<li>Cross-Browser isse</li>
+<li>CSS Polyfill 的製作困難</li>
+</ul>
+<p>Houdini task force 目前起草了一些 API 規範，並逐步努力讓其通過 W3C，成為真正的 Web standards。
+由於都是草稿階段，有些甚至只有規劃，還未被真正寫入規範，所以變動很大，有些我也不是很了解，所以就大致介紹一下，若有錯誤拜託務必告知！
+另外，有興趣的讀者可以直接從這裡 <a href="http://dev.w3.org/houdini/" target="_blank" rel="nofollow noopener noreferrer">CSS Houdini Drafts</a> 看詳細內容（ Drafts 的更新時間都非常近期，活躍中的草稿！）。</p>
+<p>下面這張圖我將 Google 提供的 Render pipeline 與 <a href="https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/" target="_blank" rel="nofollow noopener noreferrer">Houdini: Maybe The Most Exciting Development In CSS You’ve Never Heard Of</a> 中提到的 pipeline 做個結合對比，顯示出 Houdini 試圖在瀏覽器的 Render pipeline 中提供哪些 API 給開發者使用：</p>
+<p><img src="/image/huodini-apis.png" alt="Houdini API on render pipeline"></p>
+<p>其中灰色部分就是只在規劃階段，而黃色部份就是已經寫入規範正在推行中。</p>
+<h2 id="houdini-api-介紹" style="position:relative;"><a href="#houdini-api-%E4%BB%8B%E7%B4%B9" aria-label="houdini api 介紹 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Houdini API 介紹</h2>
+<h3 id="css-properties-and-values-api" style="position:relative;"><a href="#css-properties-and-values-api" aria-label="css properties and values api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Properties and Values API</h3>
+<p>先介紹一個最能夠使用的 API，除了 IE family 以外，Chrome、Firefox 與 Safari 都已經能夠直接使用了！ <a href="http://caniuse.com/#search=custom%20properties" target="_blank" rel="nofollow noopener noreferrer">caniuse</a></p>
+<p>相信很多人都使用過 CSS Preprocessors，他給予開發者在 CSS 中使用變數的能力：</p>
+<div class="gatsby-highlight" data-language="scss"><pre class="language-scss"><code class="language-scss"><span class="token property"><span class="token variable">$font-size</span></span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$brightBlue</span></span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+
+<span class="token selector">.mark</span><span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 1.5 <span class="token operator">*</span> <span class="token variable">$font-size</span><span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">$brightBlue</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>但其實使用 Preprocessors 還是有其缺點，像是不同的 Preprocessors 就有不同的 Syntax，需要額外 setup 與 compile，
+而現在 CSS 已經有原生的變數可以使用了！就是 CSS Properties and Values API！</p>
+<p>SCSS 與 Native CSS Custom Properties 的一個主要差別可以看<a href="http://slides.com/malyw/houdini-codemotion#/18" target="_blank" rel="nofollow noopener noreferrer">下圖</a>：</p>
+<p><img src="/image/scss-vs-css.png" alt="source from http://slides.com/malyw/houdini-codemotion#/18"></p>
+<p>原生的 CSS variable syntax：</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token comment">/* declaration */</span>
+<span class="token property">--VAR_NAME</span><span class="token punctuation">:</span> &lt;declaration-value><span class="token punctuation">;</span>
+<span class="token comment">/* usage */</span>
+<span class="token function">var</span><span class="token punctuation">(</span>--VAR_NAME<span class="token punctuation">)</span></code></pre></div>
+<p>變數可以定義在 root element selector 內，也能在一般 selector 內，甚至是給別的變數 reuse：</p>
+<div class="gatsby-highlight" data-language="scss"><pre class="language-scss"><code class="language-scss"><span class="token comment">/* root element selector (全域) */</span>
+<span class="token selector">:root </span><span class="token punctuation">{</span>
+  <span class="token property">--main-color</span><span class="token punctuation">:</span> #ff00ff<span class="token punctuation">;</span>
+  <span class="token property">--main-bg</span><span class="token punctuation">:</span> <span class="token function">rgb</span><span class="token punctuation">(</span>200<span class="token punctuation">,</span> 255<span class="token punctuation">,</span> 255<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">--block-font-size</span><span class="token punctuation">:</span> 1rem<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.btn__active::after</span><span class="token punctuation">{</span>
+  <span class="token property">--btn-text</span><span class="token punctuation">:</span> <span class="token string">'This is btn'</span><span class="token punctuation">;</span>
+
+  <span class="token comment">/* 相等於 --box-highlight-text:'This is btn been actived'; */</span>
+  <span class="token property">--btn-highlight-text</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--btn-text<span class="token punctuation">)</span><span class="token string">' been actived'</span><span class="token punctuation">;</span>
+
+  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--btn-highlight-text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">/* 也能使用 calc 來做運算 */</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--block-font-size<span class="token punctuation">)</span>*1.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">body </span><span class="token punctuation">{</span>
+  <span class="token comment">/* variable usage */</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--main-color<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>而有了變數以後，會為 CSS 帶來什麼好處應該很明顯，他的 Use case 可以多寫一篇文章來介紹了，<a href="https://blog.hospodarets.com/css_properties_in_depth" target="_blank" rel="nofollow noopener noreferrer">或是可以直接看這篇的詳細介紹</a>，我這邊介紹幾個我覺得比較有趣的：</p>
+<ol>
+<li>
+<p>模擬一個特殊的 CSS rule:</p>
+<p>單純透過更改變數來達到改變 box-shadow 顏色</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.textBox</span> <span class="token punctuation">{</span>
+<span class="token property">--box-shadow-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+<span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 0 30px <span class="token function">var</span><span class="token punctuation">(</span>--box-shadow-color<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.textBox:hover</span> <span class="token punctuation">{</span>
+<span class="token comment">/* box-shadow: 0 0 30px green; */</span>
+<span class="token property">--box-shadow-color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>動態調整某個 CSS rule 內的各別屬性：</p>
+<p data-height="300" data-theme-id="29194" data-slug-hash="ZKKyer" data-default-tab="html,result" data-user="malyw" data-embed-version="2" data-pen-title="Generated colors from CSS custom properties" class="codepen">See the Pen <a href="https://codepen.io/malyw/pen/ZKKyer/">Generated colors from CSS custom properties</a> by Serg Hospodarets (<a href="https://codepen.io/malyw">@malyw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</li>
+</ol>
+<p>此外，我們也可以用 JavaScript 來控制：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> textBox <span class="token operator">=</span> 
+  document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.textBox'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// GET</span>
+<span class="token keyword">const</span> Bxshc <span class="token operator">=</span> <span class="token function">getComputedStyle</span><span class="token punctuation">(</span>textBox<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">getPropertyValue</span><span class="token punctuation">(</span><span class="token string">'--box-shadow-color'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// SET</span>
+textBox<span class="token punctuation">.</span>style
+    <span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'--box-shadow-color'</span><span class="token punctuation">,</span> <span class="token string">'new color'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>非常好用的特性，幾乎所有主流瀏覽器都已經支援了，大家快來使用吧！</p>
+<h3 id="box-tree-api" style="position:relative;"><a href="#box-tree-api" aria-label="box tree api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Box Tree API</h3>
+<p>Box tree API 並沒有出現在上圖中，但在 Paintin API 中會用到其概念。
+大家都知道在 DOM tree 中的每個元素都有一個 Box Modal，而在瀏覽器解析過程中，還會將其拆分成 fragments，至於什麼是 fragments？以 drafts 中的例子來解釋：</p>
+<p data-height="300" data-theme-id="29194" data-slug-hash="wdZvOm" data-default-tab="css,result" data-user="arvin0731" data-embed-version="2" data-pen-title="fragments-sample" class="codepen">See the Pen <a href="https://codepen.io/arvin0731/pen/wdZvOm/">fragments-sample</a> by Arvin (<a href="https://codepen.io/arvin0731">@arvin0731</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p>上面的 HTML 總共就會拆出七個 fragments：</p>
+<ul>
+<li>最外層的 div</li>
+<li>第一行的 box (包含 foo bar)</li>
+<li>第二行的 box (包含 baz)</li>
+<li>吃到 <code class="language-text">::first-line</code> 與 <code class="language-text">::first-letter</code> 的 f 也會被拆出來成獨立的 fragments</li>
+<li>只吃到 <code class="language-text">::first-line</code> 的 oo 只好也獨立出來</li>
+<li>吃到 <code class="language-text">::first-line</code> 與 包在 <code class="language-text">&lt;i></code> 內的 bar 當然也是</li>
+<li>在第二行底下且為 italic 的 <code class="language-text">baz</code></li>
+</ul>
+<p>而 Box tree API 目的就是希望讓開發者能夠取得這些 fragments 的資訊，至於取得後要如何使用，基本上應該會跟後面會介紹的 Parser API、Layout API 與 Paint API 有關聯，當我們能取得詳細的 Box Modal 資訊時，要客製化 Layout Module 才更為方便。</p>
+<h3 id="css-layout-api" style="position:relative;"><a href="#css-layout-api" aria-label="css layout api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Layout API</h3>
+<p>Layout API 顧名思義就是提供開發者撰寫自己的 Layout module，Layout module 也就是用來 assign 給 <code class="language-text">display</code> 屬性的值，像是 <code class="language-text">display: grid</code> 或 <code class="language-text">display: flex</code>。
+你只要透過 <code class="language-text">registerLayout</code> 的 function，傳入 Layout 名稱與 JS class 來定義 Layout 的邏輯即可，例如我們實作一個 <code class="language-text">block-like</code> 的 Layout：</p>
+<div class="gatsby-highlight" data-language="jsblocklike.js"><pre class="language-jsblocklike.js"><code class="language-jsblocklike.js">registerLayout(&#39;block-like&#39;, class extends Layout {
+    static blockifyChildren = true;
+    static inputProperties = super.inputProperties;
+
+    *layout(space, children, styleMap) {
+        const inlineSize = resolveInlineSize(space, styleMap);
+
+        const bordersAndPadding = resolveBordersAndPadding(constraintSpace, styleMap);
+        const scrollbarSize = resolveScrollbarSize(constraintSpace, styleMap);
+        const availableInlineSize = inlineSize -
+                                    bordersAndPadding.inlineStart -
+                                    bordersAndPadding.inlineEnd -
+                                    scrollbarSize.inline;
+
+        const availableBlockSize = resolveBlockSize(constraintSpace, styleMap) -
+                                   bordersAndPadding.blockStart -
+                                   bordersAndPadding.blockEnd -
+                                   scrollbarSize.block;
+
+        const childFragments = [];
+        const childConstraintSpace = new ConstraintSpace({
+            inlineSize: availableInlineSize,
+            blockSize: availableBlockSize,
+        });
+
+        let maxChildInlineSize = 0;
+        let blockOffset = bordersAndPadding.blockStart;
+
+        for (let child of children) {
+            const fragment = yield child.layoutNextFragment(childConstraintSpace);
+
+            // 這段控制 Layout 下的 children 要 inline 排列
+            // fragment 應該就是前述的 Box Tree API 內提到的 fragment
+            fragment.blockOffset = blockOffset;
+            fragment.inlineOffset = Math.max(
+                bordersAndPadding.inlineStart,
+                (availableInlineSize - fragment.inlineSize) / 2);
+
+            maxChildInlineSize =
+                Math.max(maxChildInlineSize, childFragments.inlineSize);
+            blockOffset += fragment.blockSize;
+        }
+
+        const inlineOverflowSize = maxChildInlineSize + bordersAndPadding.inlineEnd;
+        const blockOverflowSize = blockOffset + bordersAndPadding.blockEnd;
+        const blockSize = resolveBlockSize(
+            constraintSpace, styleMap, blockOverflowSize);
+
+        return {
+            inlineSize: inlineSize,
+            blockSize: blockSize,
+            inlineOverflowSize: inlineOverflowSize,
+            blockOverflowSize: blockOverflowSize,
+            childFragments: childFragments,
+        };
+    }
+});</code></pre></div>
+<p>上面這段 code 是來自 <a href="https://drafts.css-houdini.org/css-layout-api/" target="_blank" rel="nofollow noopener noreferrer">houdini draft 的範例</a>，完整放上來是想給大家看一下實作一個 Layout 需要注意的細節有多少，其實並不是如想像中的輕鬆，
+相信未來會出現更多方便的 API 輔助開發。（放心接下來不會再有這麼多 code 了 XD）</p>
+<p>有了 Layout API，不管是自己實作或是拿別人寫好的 Layout，你都可以直接如下方式使用：</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.wrapper</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> <span class="token function">layout</span><span class="token punctuation">(</span><span class="token string">'block-like'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="css-painting-api" style="position:relative;"><a href="#css-painting-api" aria-label="css painting api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Painting API</h3>
+<p>Painting API 與 Layout 類似，提供一個叫做 <code class="language-text">registerPaint</code> 的方法：</p>
+<p>定義 Paint Method，這邊偷偷用到了待會要介紹的 CSS Properties：</p>
+<div class="gatsby-highlight" data-language="jssimplerect.js"><pre class="language-jssimplerect.js"><code class="language-jssimplerect.js">registerPaint(&#39;simpleRect&#39;, class {
+    static get inputProperties() { return [&#39;--rect-color&#39;]; }
+    paint(ctx, size, properties) {
+        // 依據 properties 改變顏色
+        const color = properties.get(&#39;--rect-color&#39;);
+        ctx.fillStyle = color.cssText;
+        ctx.fillRect(0, 0, size.width, size.height);
+    }
+});</code></pre></div>
+<p>宣告使用：</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.div-1</span> <span class="token punctuation">{</span>
+    <span class="token property">--rect-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">paint</span><span class="token punctuation">(</span>simpleRect<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.div-2</span> <span class="token punctuation">{</span>
+    <span class="token property">--rect-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">background-size</span><span class="token punctuation">:</span> 50% 50%<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">paint</span><span class="token punctuation">(</span>simpleRect<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">.div-1</code> 與 <code class="language-text">.div-2</code> 就可以擁有各自定義寬高顏色的方形 background-image</p>
+<h3 id="worklets" style="position:relative;"><a href="#worklets" aria-label="worklets permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Worklets</h3>
+<p>在上述的 Layout API 與 Paint API 中，我們都有撰寫一支 js 檔案，用來定義新的屬性，然後在 css 檔案中呼叫取用，你可能會覺得那支 js 檔案就直接像一般 web 嵌入 js 的方式一樣即可，
+但實際上並非如此，我們需要透過 <strong>Worklets</strong> 來幫我們載入。以上面的 Paint API 為例：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// add a Worklet</span>
+paintWorklet<span class="token punctuation">.</span><span class="token function">addModule</span><span class="token punctuation">(</span><span class="token string">'simpleRect.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// WORKLET "simpleRect.js"</span>
+<span class="token function">registerPaint</span><span class="token punctuation">(</span><span class="token string">'simpleRect'</span><span class="token punctuation">,</span> <span class="token keyword">class</span> <span class="token punctuation">{</span>
+    <span class="token keyword">static</span> <span class="token keyword">get</span> <span class="token function">inputProperties</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token string">'--rect-color'</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    <span class="token function">paint</span><span class="token punctuation">(</span><span class="token parameter">ctx<span class="token punctuation">,</span> size<span class="token punctuation">,</span> properties</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 依據 properties 改變顏色</span>
+        <span class="token keyword">const</span> color <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'--rect-color'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        ctx<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> color<span class="token punctuation">.</span>cssText<span class="token punctuation">;</span>
+        ctx<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> size<span class="token punctuation">.</span>width<span class="token punctuation">,</span> size<span class="token punctuation">.</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>同理，Layout API 則是 <code class="language-text">layoutWorklet.addModule('blockLike.js')</code>。</p>
+<p><strong>Worklets</strong> 光名字就有點像 Web Worker 了，都是獨立於主要執行緒之外，並且不直接與 DOM 互動。你可能會想那為何還需要有一個 Worklets？</p>
+<p>因為 Houdini 是希望將開發者的程式碼 hook 到 CSS engine 中運作，而根據規範內的敘述，web worker 相對笨重，不適合用來處理 CSS engine 這種可能會牽扯到數百萬畫素圖片的工作。
+所以可以推斷，Worklets 的特點就是輕量以及生命週期較短。</p>
+<p>其實除了 Layout Worklets 與 Paint Worklets 外，還有所謂的 Animation Worklet，雖然還沒有放入規範，但已經有在著手進行中，也有 <a href="https://github.com/GoogleChrome/houdini-samples/tree/master/animation-worklet" target="_blank" rel="nofollow noopener noreferrer">Polyfills</a> 了，Chrome 的 Sticky Header 就是採用 Houdini 的 Animation Worklet。Twitter 的 <a href="https://blog.hospodarets.com/demos/houdini-anim-twitter/" target="_blank" rel="nofollow noopener noreferrer">Header Effect</a> 也是採用 Animation Worklet
+Animation Worklet 是想介入 Render Pipeline 中的 Composite 步驟，也就是原本利用 js 與 css 控制動畫時，瀏覽器會重新執行的部分。
+關於 Animation Worklet 的詳細實作介紹可以看這份投影片 <a href="http://slides.com/malyw/houdini-codemotion#/48" target="_blank" rel="nofollow noopener noreferrer">houdini-codemotion</a></p>
+<h3 id="css-parser-api" style="position:relative;"><a href="#css-parser-api" aria-label="css parser api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Parser API</h3>
+<p>Parser API 目前還是處在 Unofficial draft，但我相信如果這個 API 確認的話，對前端開發有絕對的幫助，她的概念是想讓開發者能擴充瀏覽器解析 HTML、CSS 的功能，
+也就是說，你可以想辦法讓他看得懂最新定義的 pseudo-classes 或甚至是 element-queries 等等，這樣就能正確解析出 CSSOM，從此不用再等瀏覽器更新。</p>
+<h3 id="css-typed-om" style="position:relative;"><a href="#css-typed-om" aria-label="css typed om permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS Typed OM</h3>
+<p>CSS Typed OM 就是 CSSOM 的強化版，最主要的功能在於將 CSSOM 所使用的字串值轉換成具有型別意義的 JavaScript 表示形態，像是所有的 CSS Values 都有一個 base class interface：</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">interface</span> <span class="token class-name">CSSStyleValue</span> <span class="token punctuation">{</span>
+    stringifier<span class="token punctuation">;</span>
+    <span class="token keyword">static</span> CSSStyleValue<span class="token operator">?</span> <span class="token function">parse</span><span class="token punctuation">(</span>DOMString property<span class="token punctuation">,</span> DOMString cssText<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">static</span> sequence<span class="token operator">&lt;</span>CSSStyleValue<span class="token operator">></span><span class="token operator">?</span> <span class="token function">parseAll</span><span class="token punctuation">(</span>DOMString property<span class="token punctuation">,</span> DOMString cssText<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>你可以如下操作 CSS style: (source from <a href="http://slides.com/malyw/houdini-codemotion#/27" target="_blank" rel="nofollow noopener noreferrer">CSS Houdini- the bridge between CSS, JavaScript and the browser</a>)</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// CSS -> JS</span>
+<span class="token keyword">const</span> map <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.example'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>styleMap<span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> map<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'font-size'</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// CSSSimpleLength {value: 12, type: "px", cssText: "12px"}</span>
+
+<span class="token comment">// JS -> JS</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> <span class="token keyword">new</span> <span class="token class-name">CSSUnitValue</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">"px"</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// CSSUnitValue{value:5,unit:"px",type:"length",cssText:"5px"}</span>
+
+<span class="token comment">// JS -> CSS</span>
+<span class="token comment">// set style "transform: translate3d(0px, -72.0588%, 0px);"</span>
+elem<span class="token punctuation">.</span>outputStyleMap<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">'transform'</span><span class="token punctuation">,</span>
+    <span class="token keyword">new</span> <span class="token class-name">CSSTransformValue</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+        <span class="token keyword">new</span> <span class="token class-name">CSSTranslation</span><span class="token punctuation">(</span>
+          <span class="token number">0</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">CSSSimpleLength</span><span class="token punctuation">(</span><span class="token number">100</span> <span class="token operator">-</span> currentPercent<span class="token punctuation">,</span> <span class="token string">'%'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0</span>
+        <span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p>根據 <a href="https://drafts.css-houdini.org/css-typed-om/" target="_blank" rel="nofollow noopener noreferrer">Drafts 的內容</a>，有了型別定義，在 JavaScript 的操作上據說會有效能上的顯著提升。此外，CSS Typed OM 也應用在 Parser API 與 CSS Properties API 上。</p>
+<h3 id="font-metrics-api" style="position:relative;"><a href="#font-metrics-api" aria-label="font metrics api permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Font Metrics API</h3>
+<p>Font Metrics 也沒有出現在上方的 <strong>Houdini API on render pipeline</strong> 中，但它其實已經被寫入 <a href="https://drafts.css-houdini.org/font-metrics-api/" target="_blank" rel="nofollow noopener noreferrer">Draft 規範</a> 中了。
+老實說看不是很懂他的 spec 寫的內容，但我猜測這東西的用途應該跟這篇文章 <a href="http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align" target="_blank" rel="nofollow noopener noreferrer">Deep dive CSS: font metrics, line-height and vertical-align</a> 其中提到一個問題有關，（裡面非常詳細的介紹了 font metrics、line-height 與 vertical-align 在網頁上如何互相影響，推薦大家有空的話耐心閱讀一番。）：</p>
+<p>不同 font-family 在相同 font-size 下，所產生的 span 高度會不同。</p>
+<p><img src="/image/font-size.png" alt="source from http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align"></p>
+<p>要想控制 Font metrics，也就是控制字所佔的寬高的話，目前可以先用 CSS Properties 來處理，根據已知字體的 font-metrics 動態算出我們要 apply 多少的 font-size：</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">p</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 定義好我們已知字型的 Font metrics */</span>
+    <span class="token comment">/* font metrics */</span>
+    <span class="token property">--font</span><span class="token punctuation">:</span> Catamaran<span class="token punctuation">;</span>
+    <span class="token property">--fm-capitalHeight</span><span class="token punctuation">:</span> 0.68<span class="token punctuation">;</span>
+    <span class="token property">--fm-descender</span><span class="token punctuation">:</span> 0.54<span class="token punctuation">;</span>
+    <span class="token property">--fm-ascender</span><span class="token punctuation">:</span> 1.1<span class="token punctuation">;</span>
+    <span class="token property">--fm-linegap</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 定義想要的高度 */</span>
+    <span class="token property">--capital-height</span><span class="token punctuation">:</span> 100<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 設定 font-family */</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--font<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/* 利用 Font metrics 的資訊與想定義的高度來計算出 font-size */</span>
+    <span class="token property">--computedFontSize</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--capital-height<span class="token punctuation">)</span> / <span class="token function">var</span><span class="token punctuation">(</span>--fm-capitalHeight<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--computedFontSize<span class="token punctuation">)</span> * 1px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>而想必 Font Metrics API 就是希望能 expose 出更方便的 API 來達成上述的事情。</p>
+<h2 id="結論" style="position:relative;"><a href="#%E7%B5%90%E8%AB%96" aria-label="結論 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>結論</h2>
+<!-- JS 與 CSS 的發展速度剛好相反 -->
+<p>Web 開發基本上就是由 HTML、JS、CSS 三大要素構成，然而 JS 與 CSS 的發展差異卻極其龐大，一個速度快到讓人跟不上，一個則是等半天還是無法放心使用新規格，實在非常有趣...
+但透過這次了解 Houdini API 的過程，理解到了 CSS 算是朝向好的方向前進，雖然很多離實際採用還有段距離，但至少我們已經能夠在最新的瀏覽器上使用 Custom Properties 了！CSS 的未來還是充滿希望的！</p>
+<h2 id="資料來源" style="position:relative;"><a href="#%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90" aria-label="資料來源 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>資料來源</h2>
+<ol>
+<li><a href="http://slides.com/malyw/houdini-codemotion" target="_blank" rel="nofollow noopener noreferrer">CSS Houdini- the bridge between CSS, JavaScript and the browser</a>)</li>
+<li><a href="https://drafts.css-houdini.org" target="_blank" rel="nofollow noopener noreferrer">Houdini Draft</a></li>
+<li><a href="http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align" target="_blank" rel="nofollow noopener noreferrer">Deep dive CSS: font metrics, line-height and vertical-align</a></li>
+<li><a href="https://www.smashingmagazine.com/2016/03/houdini-maybe-the-most-exciting-development-in-css-youve-never-heard-of/" target="_blank" rel="nofollow noopener noreferrer">Houdini: Maybe The Most Exciting Development In CSS You’ve Never Heard Of</a></li>
+<li><a href="https://github.com/GoogleChrome/houdini-samples" target="_blank" rel="nofollow noopener noreferrer">houdini-samples</a></li>
+<li><a href="https://github.com/w3c/css-houdini-drafts" target="_blank" rel="nofollow noopener noreferrer">Houdini API Draft</a></li>
+</ol></div><div class="Subline-sc-1j7ecob-0 hPuMhU">Tags:  <a href="/tags/css"><strong>css</strong> <!-- -->, </a><a href="/tags/houdini"><strong>houdini</strong> </a></div><div class="PrevNext__Wrapper-sc-ye374r-0 gyVwsS"><div class="PrevNext__Prev-sc-ye374r-1 bViSNY"><span>Previous</span><a href="/tech/css-methodology">淺談 CSS 方法論與 Atomic CSS</a></div><div class="PrevNext__Next-sc-ye374r-2 iwaAAv"><span>Next</span><a href="/tech/webassembly-js-future">[筆記] 了解 WebAssembly 的基礎使用方法</a></div></div></div><div class="ClapsButton__ClapsBtn-sc-umvb76-0 dgoloc"><claps-button size="2rem" color="#4caf50" defaultcount="0" innercount="0"></claps-button></div></div><footer class="Layout__Footer-sc-usm79k-0 jaJIqd">© <!-- --> by Arvin Huang. All rights reserved. <br/>theme inspired by <a href="https://github.com/mhadaily/gatsby-starter-typescirpt-power-blog">@mhadaily</a> <br/><span>Last build: <!-- -->09-08-2024</span></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tech/css-houdini-custom-properties";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-2297ee5be43fd5eb1286.js"],"app":["/app-f8fd8dc92836b9c3a057.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-d9ab2af5c27fd7a5fd2d.js"],"component---src-pages-about-tsx":["/component---src-pages-about-tsx-579b575027f0f6d52e19.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-5f7bbdbfe96fcee336ea.js"],"component---src-pages-now-tsx":["/component---src-pages-now-tsx-a7634cfa007275822093.js"],"component---src-templates-all-tag-tsx":["/component---src-templates-all-tag-tsx-1feb941e039298715c2a.js"],"component---src-templates-blog-tsx":["/component---src-templates-blog-tsx-09e989348f1456957b84.js"],"component---src-templates-post-tsx":["/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js"],"component---src-templates-tag-tsx":["/component---src-templates-tag-tsx-065baefe03712bf9a7d1.js"]};/*]]>*/</script><script src="/polyfill-2297ee5be43fd5eb1286.js" nomodule=""></script><script src="/component---src-templates-post-tsx-d3b3b36c7ce92797c901.js" async=""></script><script src="/36d7db980dae7a541009672672754f083003e725-c56e28a1a27777e490e1.js" async=""></script><script src="/1bfc9850-46b0913cb4ebd5a5c7fe.js" async=""></script><script src="/styles-7d4153d260c0197f0043.js" async=""></script><script src="/app-f8fd8dc92836b9c3a057.js" async=""></script><script src="/framework-acd7498685eeb36e39da.js" async=""></script><script src="/webpack-runtime-f5383e67068afc3e3873.js" async=""></script></body></html>
